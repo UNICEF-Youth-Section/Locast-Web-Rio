@@ -1,6 +1,8 @@
 import sys
 import traceback
 import json
+import os
+import tempfile
 
 from django.contrib.gis.db import models as gismodels
 
@@ -20,6 +22,10 @@ import travels.social_networks as socials
 
 from travels.tasks import post_to_facebook
 from travels.tasks import post_to_twitter
+
+from PIL import Image
+
+from django.core.files import File
 
 @csrf_exempt
 class SyncAPI(rest.ResourceView):
@@ -75,13 +81,32 @@ def sync_media(author, cast, request):
 
     #Media content
     filename, files = request.FILES.popitem()            
+    uploaded_file = files[0]
 
-    media.content.file.save(files[0].name, files[0], save=True)
-    mime_type = media.path_to_mimetype(files[0].name, media.content.MIME_TYPES)
+    rotation_condition = filename.split('-', 1)[0]
+
+    if rotation_condition == "rotated":
+        print >> sys.stdout, "Image", filename, "came already rotated"
+    elif rotation_condition == "rotate0":
+        print >> sys.stdout, "Image", filename, " is correctly oriented"
+    elif rotation_condition == "rotate90":
+        uploaded_file = rotate_image(uploaded_file, -90)
+    elif rotation_condition == "rotate180":
+        uploaded_file = rotate_image(uploaded_file, -180)
+    elif rotation_condition == "rotate270":
+        uploaded_file = rotate_image(uploaded_file, -270)
+
+    media.content.file.save(uploaded_file.name, uploaded_file, save=True)
+    mime_type = media.path_to_mimetype(uploaded_file.name, media.content.MIME_TYPES)
     
     media.content.mime_type = mime_type
     media.content.content_state = models.Media.STATE_COMPLETE
     media.content.save()
+
+def rotate_image(image_file, degrees_to_rotate):
+    rotated_file = tempfile.NamedTemporaryFile(suffix = image_file.name)
+    Image.open(image_file).rotate(degrees_to_rotate).save(rotated_file.name)
+    return File(rotated_file)
 
 def add_to_itinerary(cast, itinerary):
     #Itinerary             
