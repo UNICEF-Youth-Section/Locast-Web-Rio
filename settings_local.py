@@ -29,7 +29,8 @@ DATABASES = {
 LANGUAGE_CODE = 'en-us'
 LANGUAGES = (
      ('en', 'English'),
-     ('fr', 'Francais')
+     ('fr', 'Francais'),
+     ('sq', 'Shqip')
  )
 
 #SITE_ID = 1

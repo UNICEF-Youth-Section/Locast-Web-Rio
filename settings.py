@@ -156,7 +156,7 @@ TEMPLATE_DIRS = (
 )
 
 LOCALE_PATHS = (
-    '%s/locale' % BASE_PATH,
+    '%s/locale/' % BASE_PATH,
 )
 
 INSTALLED_APPS = (
