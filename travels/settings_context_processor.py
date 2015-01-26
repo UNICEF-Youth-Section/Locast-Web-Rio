@@ -1,5 +1,6 @@
 from django.conf import settings
 from travels import models
+from django.utils.html import escapejs
 
 def project_settings(request):
   project_settings = models.Settings.objects.all()[0]
@@ -11,8 +12,8 @@ def settings_variables(request):
 	project_settings = models.Settings.objects.all()[0]
 
 	d = {
-    	'APP_NAME': settings.APP_NAME,
-    	'PROJECT_DESCRIPTION': project_settings.project_description,
+    	'APP_NAME': escapejs(settings.APP_NAME),
+    	'PROJECT_DESCRIPTION': escapejs(project_settings.project_description),
 	}
 
 	# Allows settings to define which variables
