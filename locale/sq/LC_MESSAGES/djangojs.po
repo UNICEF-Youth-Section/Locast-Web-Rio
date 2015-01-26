@@ -3,25 +3,25 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-24 18:27-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2015-01-23 06:42+0200\n"
+"Last-Translator:  <islamilander@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: sq\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.1\n"
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:45
 #, c-format
 msgid "Available %s"
-msgstr ""
+msgstr "Të disponueshëm %s"
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:46
 #, c-format
@@ -29,37 +29,40 @@ msgid ""
 "This is the list of available %s. You may choose some by selecting them in "
 "the box below and then clicking the \"Choose\" arrow between the two boxes."
 msgstr ""
+"Kjo është listë e %s të disponueshme. Ju mund të zgjedhni disa duke i "
+"mbledhur në katrorin më poshtë dhe duke klikuar shigjetën \"Zgjedh\" në mes dy "
+"katrorëve."
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:53
 #, c-format
 msgid "Type into this box to filter down the list of available %s."
-msgstr ""
+msgstr "Shtyp në këtë katror për të filtruar listën e %s të disponeshme."
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:57
 msgid "Filter"
-msgstr ""
+msgstr "Filtër"
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:61
 msgid "Choose all"
-msgstr ""
+msgstr "Zgjedh të gjitha"
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:61
 #, c-format
 msgid "Click to choose all %s at once."
-msgstr ""
+msgstr "Kliko për të zgjedhë të gjitha %s menjëherë."
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:67
 msgid "Choose"
-msgstr ""
+msgstr "Zgjedh"
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:69
 msgid "Remove"
-msgstr ""
+msgstr "Mënjano"
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:75
 #, c-format
 msgid "Chosen %s"
-msgstr ""
+msgstr "Të zgjedhura %s"
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:76
 #, c-format
@@ -67,22 +70,25 @@ msgid ""
 "This is the list of chosen %s. You may remove some by selecting them in the "
 "box below and then clicking the \"Remove\" arrow between the two boxes."
 msgstr ""
+"Kjo është lista e %s të zgjedhura. Ju mund të mënjanoni ato që dëshironi "
+"duke i mbledhur në katrorin më poshtë dhe pastaj duke klikuar shigjetën "
+"\"Mënjano\" në mes dy katrorëve.  "
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:80
 msgid "Remove all"
-msgstr ""
+msgstr "Mënjano të gjitha"
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:80
 #, c-format
 msgid "Click to remove all chosen %s at once."
-msgstr ""
+msgstr "Klik për të mënjanuar të gjitha %s të zgjedhura menjëherë."
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/actions.js:18
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/actions.min.js:1
 msgid "%(sel)s of %(cnt)s selected"
 msgid_plural "%(sel)s of %(cnt)s selected"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(sel)s of %(cnt)s të zgjedhura"
+msgstr[1] "%(sel)s of %(cnt)s të zgjedhura"
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/actions.js:109
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/actions.min.js:5
@@ -90,6 +96,8 @@ msgid ""
 "You have unsaved changes on individual editable fields. If you run an "
 "action, your unsaved changes will be lost."
 msgstr ""
+"Ju keni ndryshime të pa ruajtuara në fusha individuale të editueshme. Nëse e "
+"bëni ndonjë veprim, ndryshimet e paruajtura do të humben."
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/actions.js:121
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/actions.min.js:5
@@ -98,6 +106,9 @@ msgid ""
 "individual fields yet. Please click OK to save. You'll need to re-run the "
 "action."
 msgstr ""
+"Ju e keni zgjedhur një veprim, por nuk i keni ruajtur ndryshimet në fushat "
+"individuale ende. Ju lutemi klikoni OK për të bërë ruajtjen e tyre. Ju duhet "
+"të ripërsëritni veprimin që e filluat më parë."
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/actions.js:123
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/actions.min.js:6
@@ -106,198 +117,206 @@ msgid ""
 "fields. You're probably looking for the Go button rather than the Save "
 "button."
 msgstr ""
+"Ju keni zgjedhur një veprim, dhe ju nuk keni bërë asnjë ndryshim në fushat "
+"individuale. Ju mbase po e kërkoni butonin Hec në vend të butonit Ruaj."
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/calendar.js:26
 msgid ""
 "January February March April May June July August September October November "
 "December"
 msgstr ""
+"Janar Shkurt Mars Prill Maj Qershor Korrik Gusht Shtator Tetor Nëntor "
+"Dhjetor "
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/calendar.js:27
 msgid "S M T W T F S"
-msgstr ""
+msgstr "H M M E P S D"
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/collapse.js:8
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/collapse.js:19
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/collapse.min.js:1
 msgid "Show"
-msgstr ""
+msgstr "Shfaq"
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/collapse.js:15
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/collapse.min.js:1
 msgid "Hide"
-msgstr ""
+msgstr "Fshih"
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:49
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:85
 msgid "Now"
-msgstr ""
+msgstr "Tash"
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:53
 msgid "Clock"
-msgstr ""
+msgstr "Ora"
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:81
 msgid "Choose a time"
-msgstr ""
+msgstr "Zgjedh kohën"
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:86
 msgid "Midnight"
-msgstr ""
+msgstr "Mesnatë"
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:87
 msgid "6 a.m."
-msgstr ""
+msgstr "6 para dite"
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:88
 msgid "Noon"
-msgstr ""
+msgstr "Mesditë"
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:92
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:204
 #: static/js/frontpage_views.js:470
 msgid "Cancel"
-msgstr ""
+msgstr "Anullo"
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:144
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:197
 msgid "Today"
-msgstr ""
+msgstr "Sot"
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:148
 msgid "Calendar"
-msgstr ""
+msgstr "Kalendar"
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:195
 #: static/js/prettyDate.js:26
 msgid "Yesterday"
-msgstr ""
+msgstr "Dje"
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:199
 msgid "Tomorrow"
-msgstr ""
+msgstr "Nesër"
 
 #: static/js/frontpage.js:336 static/js/frontpage.js.c:708
 msgid "No Casts on Map"
-msgstr ""
+msgstr "Nuk ka Raporte në Hartë"
 
 #: static/js/frontpage.js:539
 msgid "search for maps, casts or people"
-msgstr ""
+msgstr "kërko harta, raporte ose njerëz"
 
 #: static/js/frontpage.js:807
 msgid ""
 "The Location you Selected is Outside Abruzzo! Select a Location in Abruzzo."
 msgstr ""
+"Lokacioni që ju e keni zgjedhur është jashtë Vendit të ngjarjes! Zgjedh "
+"lokacionin në Vendin e ngjarjes."
 
 #: static/js/frontpage.js:810
 msgid "Enter a Title for Your Cast"
-msgstr ""
+msgstr "Shkruani Titullin e Raportit Suaj"
 
 #: static/js/frontpage.js:822
 msgid "Click the Map to Select a Location for Your Cast"
-msgstr ""
+msgstr "Klikoni Hartën për të zgjedhur Lokacionin për Raportit Tuaj"
 
 #: static/js/frontpage.js:941
 msgid "Invalid file type!"
-msgstr ""
+msgstr "Tipi i fajllit është i pavlefshëm!"
 
 #: static/js/frontpage.js:955
 msgid "Uploading: "
-msgstr ""
+msgstr "Duke Ngarkuar:  "
 
 #: static/js/frontpage.js:962
 msgid "Done!"
-msgstr ""
+msgstr "Përfundoi!"
 
 #: static/js/frontpage.js:972
 msgid "File too large."
-msgstr ""
+msgstr "Fajlli i gjatë."
 
 #: static/js/frontpage_views.js:51
 msgid "All Casts"
-msgstr ""
+msgstr "Të gjitha Raportet"
 
 #: static/js/frontpage_views.js:182
 msgid "flagged"
-msgstr ""
+msgstr "të shenjuara"
 
 #: static/js/frontpage_views.js:221
 msgid "Show Comments"
-msgstr ""
+msgstr "Shfaq Komentet"
 
 #: static/js/frontpage_views.js:221
 msgid "Hide Comments"
-msgstr ""
+msgstr "Fshih Komentet"
 
 #: static/js/frontpage_views.js:257
 msgid "Are you sure you want to flag this cast as inappropriate ?"
 msgstr ""
+"A jeni të sigurtë se dëshironi të shenjëzoni këtë dërgesë si jo të "
+"përshtatshme ?"
 
 #: static/js/frontpage_views.js:468
 msgid "Choose a New Location for This Cast by Clicking the Map"
-msgstr ""
+msgstr "Zgjedh Lokacion të ri për këtë Raport duke klikuar në Hartë"
 
 #: static/js/frontpage_views.js:471
 msgid "Save New Location"
-msgstr ""
+msgstr "Ruaj Lokacionin e Ri"
 
 #: static/js/frontpage_views.js:1006
 msgid "Casts Created by"
-msgstr ""
+msgstr "Raporti i Krijuara nga"
 
 #: static/js/frontpage_views.js:1011
 msgid "Casts Favorited by"
-msgstr ""
+msgstr "Raportet e Favorizuara nga"
 
 #: static/js/frontpage_views.js:1097
 msgid "Casts Tagged"
-msgstr ""
+msgstr "Raportet me Tag"
 
 #: static/js/prettyDate.js:21
 msgid "just now"
-msgstr ""
+msgstr "këtë moment"
 
 #: static/js/prettyDate.js:22
 msgid "1 minute ago"
-msgstr ""
+msgstr "1 minutë më përpara"
 
 #: static/js/prettyDate.js:23
 msgid " minutes ago"
-msgstr ""
+msgstr "  minuta përpara"
 
 #: static/js/prettyDate.js:25
 msgid " hours ago"
-msgstr ""
+msgstr "  orë përpara"
 
 #: static/js/prettyDate.js:27
 msgid " days ago"
-msgstr ""
+msgstr "  ditë përpara"
 
 #: static/js/prettyDate.js:28
 msgid " weeks ago"
-msgstr ""
+msgstr "  javë përpara"
 
 #: travels/templates/admin/map_admin.django.js:31
 msgid "Move Map"
-msgstr ""
+msgstr "Lëviz Hartën"
 
 #: travels/templates/admin/map_admin.django.js:40
 msgid "Create New Path"
-msgstr ""
+msgstr "Krijo Shteg të Ri"
 
 #: travels/templates/admin/map_admin.django.js:49
 msgid "Set Location"
-msgstr ""
+msgstr "Cakto Lokacionin"
 
 #: travels/templates/admin/map_admin.django.js:58
 msgid "Edit Existing Points"
-msgstr ""
+msgstr "Edito Pikat Ekzistuese"
 
 #: travels/templates/admin/map_admin.django.js:96
 msgid "Title:"
-msgstr ""
+msgstr "Titulli:"
 
 #: travels/templates/admin/map_admin.django.js:97
 msgid "Description:"
-msgstr ""
+msgstr "Përshkrimi:"
