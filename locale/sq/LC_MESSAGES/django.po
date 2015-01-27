@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-24 18:18-0300\n"
+"POT-Creation-Date: 2015-01-26 14:26-0300\n"
 "PO-Revision-Date: 2015-01-26 17:17+0200\n"
 "Last-Translator: Matias <mgarcia@manas.com.ar>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,698 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.0.1\n"
-
-#: lib/python2.7/site-packages/allauth/account/adapter.py:168
-msgid "Usernames can only contain letters, digits and @/./+/-/_."
-msgstr ""
-"Emrat e Përdoruesve mund të përmbajnë vetëm shkronja, numra dhe @ /. /+ /- "
-"/_."
-
-#: lib/python2.7/site-packages/allauth/account/adapter.py:173
-msgid "Username can not be used. Please use other username."
-msgstr ""
-"Ky emër përdoruesi nuk mund të përdoret. Ju lutemi përdorni tjetër emër "
-"përdoruesi."
-
-#: lib/python2.7/site-packages/allauth/account/forms.py:33
-#: lib/python2.7/site-packages/allauth/account/forms.py:51
-#: lib/python2.7/site-packages/allauth/account/forms.py:245
-#: lib/python2.7/site-packages/allauth/account/forms.py:351
-#: lib/python2.7/site-packages/django/contrib/admin/templates/admin/auth/user/change_password.html:38
-#: lib/python2.7/site-packages/django/contrib/auth/forms.py:77
-#: lib/python2.7/site-packages/django/contrib/auth/forms.py:121
-#: lib/python2.7/site-packages/django/contrib/auth/forms.py:148
-#: lib/python2.7/site-packages/django/contrib/auth/forms.py:332
-#: travels/forms.py:87 travels/forms.py:144
-msgid "Password"
-msgstr "Fjalëkalimi"
-
-#: lib/python2.7/site-packages/allauth/account/forms.py:43
-#, python-brace-format
-msgid "Password must be a minimum of {0} characters."
-msgstr "Fjalëkalimi duhet të përmbajë së paku {0} shkronja."
-
-#: lib/python2.7/site-packages/allauth/account/forms.py:53
-msgid "Remember Me"
-msgstr "Më mbaj mend"
-
-#: lib/python2.7/site-packages/allauth/account/forms.py:64
-#: lib/python2.7/site-packages/allauth/account/forms.py:178
-msgid "E-mail address"
-msgstr "E-maili"
-
-#: lib/python2.7/site-packages/allauth/account/forms.py:65
-#: lib/python2.7/site-packages/allauth/account/forms.py:189
-#: lib/python2.7/site-packages/allauth/account/forms.py:300
-#: lib/python2.7/site-packages/allauth/account/forms.py:368
-msgid "E-mail"
-msgstr "Emaili"
-
-#: lib/python2.7/site-packages/allauth/account/forms.py:70
-#: lib/python2.7/site-packages/allauth/account/forms.py:71
-#: lib/python2.7/site-packages/allauth/account/forms.py:171
-#: lib/python2.7/site-packages/allauth/account/forms.py:175
-#: lib/python2.7/site-packages/django/contrib/auth/forms.py:70
-#: lib/python2.7/site-packages/django/contrib/auth/forms.py:115
-msgid "Username"
-msgstr "Përdoruesi"
-
-#: lib/python2.7/site-packages/allauth/account/forms.py:78
-msgid "Username or e-mail"
-msgstr "Përdoruesi ose e-maili"
-
-#: lib/python2.7/site-packages/allauth/account/forms.py:79
-msgctxt "field label"
-msgid "Login"
-msgstr "Kyçuni"
-
-#: lib/python2.7/site-packages/allauth/account/forms.py:111
-msgid "This account is currently inactive."
-msgstr "Llogaria nuk është aktive momentalisht."
-
-#: lib/python2.7/site-packages/allauth/account/forms.py:115
-msgid "The e-mail address and/or password you specified are not correct."
-msgstr "Emaili dhe/ose fjalëkalimi nuk është i saktë."
-
-#: lib/python2.7/site-packages/allauth/account/forms.py:119
-msgid "The username and/or password you specified are not correct."
-msgstr "Përdoruesi dhe/ose fjalëkalimi nuk është i saktë."
-
-#: lib/python2.7/site-packages/allauth/account/forms.py:122
-msgid "The login and/or password you specified are not correct."
-msgstr "Përdoruesi dhe/ose fjalëkalimi nuk është i saktë."
-
-#: lib/python2.7/site-packages/allauth/account/forms.py:192
-msgid "E-mail (optional)"
-msgstr "Emaili (opcional)"
-
-#: lib/python2.7/site-packages/allauth/account/forms.py:215
-msgid "This username is already taken. Please choose another."
-msgstr "Ky emër përdoruesi nuk është në disponim. Ju lutem zgjedhni një tjetër."
-
-#: lib/python2.7/site-packages/allauth/account/forms.py:224
-msgid "A user is already registered with this e-mail address."
-msgstr "Një përdoruesi është i regjistruar me këtë email adresë."
-
-#: lib/python2.7/site-packages/allauth/account/forms.py:246
-#: lib/python2.7/site-packages/allauth/account/forms.py:352
-#: lib/python2.7/site-packages/django/contrib/admin/templates/admin/auth/user/change_password.html:44
-#: lib/python2.7/site-packages/django/contrib/admin/templates/registration/password_change_form.html:42
-#: lib/python2.7/site-packages/django/contrib/auth/forms.py:334
-msgid "Password (again)"
-msgstr "Fjalëkalimi (përsëri)"
-
-#: lib/python2.7/site-packages/allauth/account/forms.py:264
-#: lib/python2.7/site-packages/allauth/account/forms.py:341
-#: lib/python2.7/site-packages/allauth/account/forms.py:357
-#: lib/python2.7/site-packages/allauth/account/forms.py:426
-msgid "You must type the same password each time."
-msgstr "Duhesh ta përdorësh fjalëkalimin e njejt secilën her."
-
-#: lib/python2.7/site-packages/allauth/account/forms.py:309
-msgid "This e-mail address is already associated with this account."
-msgstr "Një përdoruesi është i regjistruar me këtë llogari."
-
-#: lib/python2.7/site-packages/allauth/account/forms.py:310
-msgid "This e-mail address is already associated with another account."
-msgstr "Kjo e-mail adresë është e lidhur me një përdorues tjetër"
-
-#: lib/python2.7/site-packages/allauth/account/forms.py:329
-msgid "Current Password"
-msgstr "Fjalëkalimi aktual"
-
-#: lib/python2.7/site-packages/allauth/account/forms.py:330
-#: lib/python2.7/site-packages/allauth/account/forms.py:414
-msgid "New Password"
-msgstr "Fjalkalimi i ri"
-
-#: lib/python2.7/site-packages/allauth/account/forms.py:331
-#: lib/python2.7/site-packages/allauth/account/forms.py:415
-msgid "New Password (again)"
-msgstr "Fjalëkalimi i ri (përsëri)"
-
-#: lib/python2.7/site-packages/allauth/account/forms.py:335
-msgid "Please type your current password."
-msgstr "Ju lutemi shtypni fjalëkalimin tuaj aktual."
-
-#: lib/python2.7/site-packages/allauth/account/forms.py:379
-msgid "The e-mail address is not assigned to any user account"
-msgstr "Kjo adresë e-maili nuk i është dhënë asnjë përdoruesi"
-
-#: lib/python2.7/site-packages/allauth/account/models.py:31
-#: lib/python2.7/site-packages/django/contrib/auth/models.py:385
-msgid "email address"
-msgstr "adresa email"
-
-#: lib/python2.7/site-packages/allauth/account/models.py:32
-msgid "email addresses"
-msgstr "adresat email"
-
-#: lib/python2.7/site-packages/allauth/account/models.py:82
-msgid "email confirmation"
-msgstr "konfirmimi i emailit"
-
-#: lib/python2.7/site-packages/allauth/account/models.py:83
-msgid "email confirmations"
-msgstr "konfirmimet e emailit"
-
-# Misplaced % sign
-#: lib/python2.7/site-packages/allauth/account/utils.py:290
-#, python-format
-msgid "Confirmation e-mail sent to %(email)s"
-msgstr "emaili konfirmues i është dërguar të %(email)s ave"
-
-#: lib/python2.7/site-packages/allauth/socialaccount/adapter.py:74
-msgid "Your account has no password set up."
-msgstr "xhirollogaria juaj nuk ka fjalëkalim të vendosur"
-
-#: lib/python2.7/site-packages/allauth/socialaccount/adapter.py:79
-msgid "Your account has no verified e-mail address."
-msgstr "Llogaria juaj nuk ka adresë të verifikuar emaili."
-
-#: lib/python2.7/site-packages/allauth/socialaccount/providers/oauth/client.py:78
-#, python-format
-msgid "Invalid response while obtaining request token from \"%s\"."
-msgstr "Përgjigje e pavlefshme duke e marrë kërkesën token nga \"%s\". "
-
-#: lib/python2.7/site-packages/allauth/socialaccount/providers/oauth/client.py:102
-#, python-format
-msgid "Invalid response while obtaining access token from \"%s\"."
-msgstr "Përgjigje e pavlefshme duke e marrë qasjen nga \"%s\"."
-
-#: lib/python2.7/site-packages/allauth/socialaccount/providers/oauth/client.py:115
-#, python-format
-msgid "No request token saved for \"%s\"."
-msgstr "Nuk ka kërkesë të ruajtur për \"%s\"."
-
-#: lib/python2.7/site-packages/allauth/socialaccount/providers/oauth/client.py:159
-#, python-format
-msgid "No access token saved for \"%s\"."
-msgstr "Nuk ka qasje të ruajtur për \"%s\"."
-
-#: lib/python2.7/site-packages/allauth/socialaccount/providers/oauth/client.py:177
-#, python-format
-msgid "No access to private resources at \"%s\"."
-msgstr "Nuk ka qasje në resurset private në \"%s\"."
-
-#: lib/python2.7/site-packages/allauth/templates/account/email.html:6
-msgid "Account"
-msgstr "Llogaria"
-
-#: lib/python2.7/site-packages/allauth/templates/account/email.html:9
-msgid "E-mail Addresses"
-msgstr "Adresat e-mail"
-
-#: lib/python2.7/site-packages/allauth/templates/account/email.html:11
-msgid "The following e-mail addresses are associated with your account:"
-msgstr "Adresat e-mail në vijim nuk janë të bashkëlidhura me llogarinë tuaj: "
-
-#: lib/python2.7/site-packages/allauth/templates/account/email.html:25
-msgid "Verified"
-msgstr "E verifikuar"
-
-#: lib/python2.7/site-packages/allauth/templates/account/email.html:27
-msgid "Unverified"
-msgstr "E joverifikuar"
-
-#: lib/python2.7/site-packages/allauth/templates/account/email.html:29
-msgid "Primary"
-msgstr "Primar(e)"
-
-#: lib/python2.7/site-packages/allauth/templates/account/email.html:35
-msgid "Make Primary"
-msgstr "Bëre primar(e)"
-
-#: lib/python2.7/site-packages/allauth/templates/account/email.html:36
-msgid "Re-send Verification"
-msgstr "dërgo përsëri Verifikimin"
-
-#: lib/python2.7/site-packages/allauth/templates/account/email.html:37
-#: lib/python2.7/site-packages/allauth/templates/socialaccount/connections.html:35
-#: lib/python2.7/site-packages/django/contrib/admin/templates/admin/edit_inline/stacked.html:26
-#: lib/python2.7/site-packages/django/contrib/admin/templates/admin/edit_inline/tabular.html:76
-#: lib/python2.7/site-packages/django/contrib/comments/templates/comments/delete.html:12
-msgid "Remove"
-msgstr "Largo"
-
-#: lib/python2.7/site-packages/allauth/templates/account/email.html:44
-msgid "Warning:"
-msgstr "Vërejtje:"
-
-#: lib/python2.7/site-packages/allauth/templates/account/email.html:44
-msgid ""
-"You currently do not have any e-mail address set up. You should really add "
-"an e-mail address so you can receive notifications, reset your password, etc."
-msgstr ""
-"Ju aktualisht nuk keni një adresë emaili të krijuar. Ju duhet vërtetë të "
-"shtoni një adresë e-maili, ashtu që të mund të merrni njoftime, të resetoni "
-"fjalëkalimin etj."
-
-#: lib/python2.7/site-packages/allauth/templates/account/email.html:49
-msgid "Add E-mail Address"
-msgstr "Shto një adresë E-maili"
-
-#: lib/python2.7/site-packages/allauth/templates/account/email.html:54
-msgid "Add E-mail"
-msgstr "Shto një E-mail"
-
-#: lib/python2.7/site-packages/allauth/templates/account/email.html:63
-msgid "Do you really want to remove the selected e-mail address?"
-msgstr "Dëshironi ta largoni adresën e zgjedhur të e-mailit?"
-
-#: lib/python2.7/site-packages/allauth/templates/account/email_confirm.html:7
-#: lib/python2.7/site-packages/allauth/templates/account/email_confirm.html:11
-#: lib/python2.7/site-packages/allauth/templates/account/email_confirmed.html:6
-#: lib/python2.7/site-packages/allauth/templates/account/email_confirmed.html:11
-#: lib/python2.7/site-packages/allauth/templates/account/email/email_confirmation_subject.txt:3
-msgid "Confirm E-mail Address"
-msgstr "Konfirmo Adresën E-mail"
-
-#: lib/python2.7/site-packages/allauth/templates/account/email_confirm.html:17
-#, python-format
-msgid ""
-"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
-"address for user %(user_display)s."
-msgstr ""
-"Ju lutemi konfirmoni se  <a href=\"mailto:%(email)s\">%(email)s</a> është "
-"adresa e-mail e përdoruesit %(user_display)s."
-
-#: lib/python2.7/site-packages/allauth/templates/account/email_confirm.html:21
-msgid "Confirm"
-msgstr "Konfirmo"
-
-#: lib/python2.7/site-packages/allauth/templates/account/email_confirm.html:28
-#, python-format
-msgid ""
-"This e-mail confirmation link expired or is invalid. Please <a href="
-"\"%(email_url)s\">issue a new e-mail confirmation request</a>."
-msgstr ""
-"Ky link për konfirmim e-maili është i skaduar apo i pavlefshëm. Ju lutemi <a "
-"href=\"%(email_url)s\">procesojeni një kërkesë të re për email "
-"konfirmues</a>."
-
-#: lib/python2.7/site-packages/allauth/templates/account/email_confirmed.html:15
-#, python-format
-msgid ""
-"You have confirmed that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-"
-"mail address for user %(user_display)s."
-msgstr ""
-"Ju keni konfirmuar se <a href=\"mailto:%(email)s\">%(email)s</a> është adresë "
-"e-maili për përdoruesin %(user_display)s."
-
-#: lib/python2.7/site-packages/allauth/templates/account/login.html:7
-#: lib/python2.7/site-packages/allauth/templates/account/login.html:11
-#: lib/python2.7/site-packages/allauth/templates/account/login.html:39
-msgid "Sign In"
-msgstr "Kyçu"
-
-#: lib/python2.7/site-packages/allauth/templates/account/login.html:14
-#, python-format
-msgid ""
-"Please sign in with one\n"
-"of your existing third party accounts. Or, <a href=\"%(signup_url)s\">sign "
-"up</a> \n"
-"for a %(site_name)s account and sign in below:"
-msgstr ""
-"Ju lutemi hyni me njërën/n prej llogarive tuaja ekzistuese të përsonit të "
-"tretë. Ose, <a href=\"%(signup_url)s\">sign up</a>  për llogarinë e %"
-"(site_name)s dhe hyrjen në vijim: "
-
-#: lib/python2.7/site-packages/allauth/templates/account/login.html:24
-#: lib/python2.7/site-packages/django/utils/text.py:239
-msgid "or"
-msgstr " ose"
-
-#: lib/python2.7/site-packages/allauth/templates/account/login.html:38
-msgid "Forgot Password?"
-msgstr "Keni harruar Fjalëkalimin?"
-
-#: lib/python2.7/site-packages/allauth/templates/account/logout.html:6
-#: lib/python2.7/site-packages/allauth/templates/account/logout.html:9
-#: lib/python2.7/site-packages/allauth/templates/account/logout.html:18
-msgid "Sign Out"
-msgstr "Dil"
-
-#: lib/python2.7/site-packages/allauth/templates/account/logout.html:11
-msgid "Are you sure you want to sign out?"
-msgstr "Jeni të sigurtë se dëshironi të dilni?"
-
-#: lib/python2.7/site-packages/allauth/templates/account/password_change.html:4
-#: lib/python2.7/site-packages/allauth/templates/account/password_change.html:7
-#: lib/python2.7/site-packages/allauth/templates/account/password_change.html:12
-#: lib/python2.7/site-packages/allauth/templates/account/password_reset_from_key.html:5
-#: lib/python2.7/site-packages/allauth/templates/account/password_reset_from_key.html:8
-#: lib/python2.7/site-packages/allauth/templates/account/password_reset_from_key_done.html:5
-#: lib/python2.7/site-packages/allauth/templates/account/password_reset_from_key_done.html:8
-msgid "Change Password"
-msgstr "Ndërro Fjalëkalimin"
-
-#: lib/python2.7/site-packages/allauth/templates/account/password_delete.html:5
-#: lib/python2.7/site-packages/allauth/templates/account/password_delete.html:8
-msgid "Delete Password"
-msgstr "Fshijë Fjalëkalimin"
-
-#: lib/python2.7/site-packages/allauth/templates/account/password_delete.html:9
-msgid ""
-"You may delete your password since you are currently logged in using OpenID."
-msgstr ""
-"Ju mund ta fshini fjalëkalimin tuaj meqë ju aktualisht jeni të kyçur duke "
-"përdorur OpenID (identitet të hapur)"
-
-#: lib/python2.7/site-packages/allauth/templates/account/password_delete.html:12
-msgid "delete my password"
-msgstr "fshijë fjalëkalimin tim"
-
-#: lib/python2.7/site-packages/allauth/templates/account/password_delete_done.html:5
-#: lib/python2.7/site-packages/allauth/templates/account/password_delete_done.html:8
-msgid "Password Deleted"
-msgstr "Fjalëkalimi i fshirë"
-
-#: lib/python2.7/site-packages/allauth/templates/account/password_delete_done.html:9
-msgid "Your password has been deleted."
-msgstr "Fjalëkalimi juaj është fshirë"
-
-#: lib/python2.7/site-packages/allauth/templates/account/password_reset.html:6
-#: lib/python2.7/site-packages/allauth/templates/account/password_reset.html:10
-#: lib/python2.7/site-packages/allauth/templates/account/password_reset_done.html:6
-#: lib/python2.7/site-packages/allauth/templates/account/password_reset_done.html:9
-msgid "Password Reset"
-msgstr "Resetim Fjalëkalimi"
-
-#: lib/python2.7/site-packages/allauth/templates/account/password_reset.html:15
-msgid ""
-"Forgotten your password? Enter your e-mail address below, and we'll send you "
-"an e-mail allowing you to reset it."
-msgstr ""
-"Keni harruar fjalëkalimin tuaj? Shtypni adresën tuaj të e-mailit këtu "
-"poshtë, dhe ne do të ju dërgojmë një e-mail që do të ju mundësojë të "
-"resetoni atë."
-
-#: lib/python2.7/site-packages/allauth/templates/account/password_reset.html:20
-msgid "Reset My Password"
-msgstr "Reseto Fjalëkalimin tim"
-
-#: lib/python2.7/site-packages/allauth/templates/account/password_reset.html:23
-msgid "Please contact us if you have any trouble resetting your password."
-msgstr ""
-"Ju lutemi na kontaktoni nëse keni ndonjë paqartësi rreth resetimit të "
-"fjalëkalimit tuaj."
-
-#: lib/python2.7/site-packages/allauth/templates/account/password_reset_done.html:15
-msgid ""
-"We have sent you an e-mail. Please contact us if you do not receive it "
-"within a few minutes."
-msgstr ""
-"Ne ju kemi dërguar një email. Ju lutemi na kontaktoni nëse nuk e keni "
-"pranuar brenda disa minutash."
-
-#: lib/python2.7/site-packages/allauth/templates/account/password_reset_from_key.html:8
-msgid "Bad Token"
-msgstr "Token e pavlerë"
-
-#: lib/python2.7/site-packages/allauth/templates/account/password_reset_from_key.html:12
-#, python-format
-msgid ""
-"The password reset link was invalid, possibly because it has already been "
-"used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</"
-"a>."
-msgstr ""
-"Linku për resetimin e fjalëkalimit është i pavlefshëm, mbase për shkak se "
-"tashmë është përdorur. Ju lutemi kërkoni <a href=\"%"
-"(passwd_reset_url)s\">resetim i ri i fjalëkalimit</a>"
-
-#: lib/python2.7/site-packages/allauth/templates/account/password_reset_from_key.html:18
-msgid "change password"
-msgstr "ndërro fjalëkalimin"
-
-#: lib/python2.7/site-packages/allauth/templates/account/password_reset_from_key.html:21
-#: lib/python2.7/site-packages/allauth/templates/account/password_reset_from_key_done.html:9
-msgid "Your password is now changed."
-msgstr "Fjalëkalimi juaj u ndërrua."
-
-#: lib/python2.7/site-packages/allauth/templates/account/password_set.html:5
-#: lib/python2.7/site-packages/allauth/templates/account/password_set.html:8
-#: lib/python2.7/site-packages/allauth/templates/account/password_set.html:13
-msgid "Set Password"
-msgstr "Vendos Fjalëkalimin"
-
-#: lib/python2.7/site-packages/allauth/templates/account/signup.html:6
-#: lib/python2.7/site-packages/allauth/templates/socialaccount/signup.html:5
-msgid "Signup"
-msgstr "Regjistrohu"
-
-#: lib/python2.7/site-packages/allauth/templates/account/signup.html:9
-#: lib/python2.7/site-packages/allauth/templates/account/signup.html:19
-#: lib/python2.7/site-packages/allauth/templates/socialaccount/signup.html:8
-#: lib/python2.7/site-packages/allauth/templates/socialaccount/signup.html:19
-msgid "Sign Up"
-msgstr "Regjistrohu"
-
-#: lib/python2.7/site-packages/allauth/templates/account/signup.html:11
-#, python-format
-msgid ""
-"Already have an account? Then please <a href=\"%(login_url)s\">sign in</a>."
-msgstr ""
-"Tashmë e keni Llogarinë? Atëherë ju lutemi <a href=\"%"
-"(login_url)s\">kyçuni</a>."
-
-#: lib/python2.7/site-packages/allauth/templates/account/signup_closed.html:6
-#: lib/python2.7/site-packages/allauth/templates/account/signup_closed.html:9
-msgid "Sign Up Closed"
-msgstr "Regjistrimi është mbyllur"
-
-#: lib/python2.7/site-packages/allauth/templates/account/signup_closed.html:11
-msgid "We are sorry, but the sign up is currently closed."
-msgstr "Na vjen keq, por regjistrimi aktualisht është mbyllur."
-
-#: lib/python2.7/site-packages/allauth/templates/account/verification_sent.html:5
-#: lib/python2.7/site-packages/allauth/templates/account/verification_sent.html:8
-#: lib/python2.7/site-packages/allauth/templates/account/verified_email_required.html:6
-#: lib/python2.7/site-packages/allauth/templates/account/verified_email_required.html:9
-msgid "Verify Your E-mail Address"
-msgstr "Verifikoni Adresën tuaj të E-mailit"
-
-#: lib/python2.7/site-packages/allauth/templates/account/verification_sent.html:10
-#, python-format
-msgid ""
-"We have sent an e-mail to <a href=\"mailto:%(email)s\">%(email)s</a> for "
-"verification. Follow the link provided to finalize the signup process. "
-"Please contact us if you do not receive it within a few minutes."
-msgstr ""
-"Ne e kemi dërguar një email në <a href=\"mailto:%(email)s\">%(email)s</a> për "
-"verifikim. Përcillni linkun e sugjeruar për të finalizuar procesin e "
-"regjistrimit. Ju lutemi na kontaktoni nëse nuk ju ka ardhur brenda disa "
-"minutash."
-
-#: lib/python2.7/site-packages/allauth/templates/account/verified_email_required.html:13
-msgid ""
-"This part of the site requires us to verify that\n"
-"you are who you claim to be. For this purpose, we require that you\n"
-"verify ownership of your e-mail address. "
-msgstr ""
-"Kjo pjesë e sajtit kërkon që ne të verifikojmë seju jeni ai/ajo që "
-"pretendoni se jeni. Për këtë qëllim, ne kërkojmë që ju të verifikoni "
-"pronësinë tuaj mbi adresën tuaj të e-mailit."
-
-#: lib/python2.7/site-packages/allauth/templates/account/verified_email_required.html:17
-msgid ""
-"We have sent an e-mail to you for\n"
-"verification. Please click on the link inside this e-mail. Please\n"
-"contact us if you do not receive it within a few minutes."
-msgstr ""
-"Ne ju kemi dërguar një e-mail për verifikim. Ju lutemi klikoni në linkun që "
-"është në atë e-mail. Ju lutemi na kontaktoni nëse nuk e keni marrë brenda "
-"disa minutash. "
-
-#: lib/python2.7/site-packages/allauth/templates/account/verified_email_required.html:21
-#, python-format
-msgid ""
-"<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your e-"
-"mail address</a>."
-msgstr ""
-"<strong>Note:</strong>ju ende<a href=\"%(email_url)s\">mund ta ndërroni "
-"adresën tuaj të e-mailit</a>."
-
-#: lib/python2.7/site-packages/allauth/templates/account/email/email_confirmation_message.txt:1
-#, python-format
-msgid ""
-"User %(user_display)s at %(site_name)s has given this as an email address.\n"
-"\n"
-"To confirm this is correct, go to %(activate_url)s\n"
-msgstr "Përdoruesi %(user_display)s at %(site_name)s e ka dhënë këtë si adresë "
-"e-maili.Për ta konfirmuar se kjo është korrekte, vijo në %(activate_url)s\n"
-
-# Missing newlines
-#: lib/python2.7/site-packages/allauth/templates/account/email/password_reset_key_message.txt:1
-#, python-format
-msgid ""
-"You're receiving this e-mail because you or someone else has requested a "
-"password for your user account at %(site_domain)s.\n"
-"It can be safely ignored if you did not request a password reset. Click the "
-"link below to reset your password.\n"
-"\n"
-"%(password_reset_url)s\n"
-"\n"
-"In case you forgot, your username is %(username)s.\n"
-"\n"
-"Thanks for using our site!\n"
-msgstr ""
-"Ju e keni marrë këtë e-mail sepse ju ose dikush tjetër ka kërkuar një "
-"fjalëkalim për llogarinë tuaj të përdoruesit në %(site_domain)s.\n"
-"Ju mund ta injoroni këtë kërkesë pa problem nëse ju nuk keni kërkuar resetim "
-"fjalëkalimi. Klikoni në linkun këtu poshtë për ta resetuar fjlëkalimin "
-"tuaj.\n"
-"\n"
-"%(password_reset_url)s\n"
-"\n"
-"Në rast se e keni harruar, emri juaj i përdoruesit është %(username)s.\n"
-"\n"
-"Faleminderit që po e përdorni sajtin tonë!\n"
-
-#: lib/python2.7/site-packages/allauth/templates/account/email/password_reset_key_subject.txt:3
-msgid "Password Reset E-mail"
-msgstr "E-maili për Resetim të Fjalëkalimit"
-
-#: lib/python2.7/site-packages/allauth/templates/account/messages/cannot_delete_primary_email.txt:2
-#, python-format
-msgid "You cannot remove your primary e-mail address (%(email)s)."
-msgstr "Ju nuk mund ta ndërroni adresën tuaj primare të e-mailit (%(email)s)."
-
-#: lib/python2.7/site-packages/allauth/templates/account/messages/email_confirmation_sent.txt:2
-#, python-format
-msgid "Confirmation e-mail sent to %(email)s."
-msgstr "E-maili i konfirmimit i dërguar në %(email)s."
-
-#: lib/python2.7/site-packages/allauth/templates/account/messages/email_confirmed.txt:2
-#, python-format
-msgid "You have confirmed %(email)s."
-msgstr "Ju keni konfirmuar %(email)s. "
-
-#: lib/python2.7/site-packages/allauth/templates/account/messages/email_deleted.txt:2
-#, python-format
-msgid "Removed e-mail address %(email)s."
-msgstr "Adresa e-mail e mënjanuar %(email)s."
-
-#: lib/python2.7/site-packages/allauth/templates/account/messages/logged_in.txt:4
-#, python-format
-msgid "Successfully signed in as %(name)s."
-msgstr "Hyrje me sukses si %(name)s."
-
-#: lib/python2.7/site-packages/allauth/templates/account/messages/logged_out.txt:2
-msgid "You have signed out."
-msgstr "Ju keni dalë."
-
-#: lib/python2.7/site-packages/allauth/templates/account/messages/password_changed.txt:2
-msgid "Password successfully changed."
-msgstr "Fjalëkalimi i ndërruar me sukses."
-
-#: lib/python2.7/site-packages/allauth/templates/account/messages/password_set.txt:2
-msgid "Password successfully set."
-msgstr "Fjalëkalimi i vendosur me sukses."
-
-#: lib/python2.7/site-packages/allauth/templates/account/messages/primary_email_set.txt:2
-msgid "Primary e-mail address set."
-msgstr "Adresa primare e e-mailit e vendosur."
-
-#: lib/python2.7/site-packages/allauth/templates/account/messages/unverified_primary_email.txt:2
-msgid "Your primary e-mail address must be verified."
-msgstr "Adresa juaj primare e e-mailit duhet të verifikohet."
-
-#: lib/python2.7/site-packages/allauth/templates/account/snippets/already_logged_in.html:5
-msgid "Note"
-msgstr "Vërejtje"
-
-#: lib/python2.7/site-packages/allauth/templates/account/snippets/already_logged_in.html:5
-#, python-format
-msgid "you are already logged in as %(user_display)s."
-msgstr "ju jeni tashmë i kyçur si %(user_display)s."
-
-#: lib/python2.7/site-packages/allauth/templates/openid/login.html:10
-msgid "OpenID Sign In"
-msgstr "Hyrje me OpenID"
-
-#: lib/python2.7/site-packages/allauth/templates/socialaccount/account_inactive.html:5
-#: lib/python2.7/site-packages/allauth/templates/socialaccount/account_inactive.html:8
-msgid "Account Inactive"
-msgstr "Llogaria joaktive"
-
-#: lib/python2.7/site-packages/allauth/templates/socialaccount/account_inactive.html:10
-#: lib/python2.7/site-packages/django/contrib/auth/forms.py:155
-msgid "This account is inactive."
-msgstr "Kjo llogari është joaktive."
-
-#: lib/python2.7/site-packages/allauth/templates/socialaccount/authentication_error.html:5
-#: lib/python2.7/site-packages/allauth/templates/socialaccount/authentication_error.html:8
-msgid "Social Network Login Failure"
-msgstr "Dështim i Kyçjes në Rrjetin Social"
-
-#: lib/python2.7/site-packages/allauth/templates/socialaccount/authentication_error.html:10
-msgid ""
-"An error occurred while attempting to login via your social network account."
-msgstr ""
-"U shfaq një gabim gjatë përpjekjes së kyçjes suaj përmes llogarisë suaj të "
-"rrjetit social."
-
-#: lib/python2.7/site-packages/allauth/templates/socialaccount/connections.html:5
-#: lib/python2.7/site-packages/allauth/templates/socialaccount/connections.html:8
-msgid "Account Connections"
-msgstr "Lidhjet e Llogarisë"
-
-#: lib/python2.7/site-packages/allauth/templates/socialaccount/connections.html:11
-msgid ""
-"You can sign in to your account using any of the following third party "
-"accounts:"
-msgstr ""
-"Ju mund të hyni në llogarinë tuaj duke përdorur cilëndo prej llogarive të "
-"palës së tretë në vijim: "
-
-#: lib/python2.7/site-packages/allauth/templates/socialaccount/connections.html:43
-msgid ""
-"You currently have no social network accounts connected to this account."
-msgstr ""
-"Ju aktualisht nuk keni llogari të rrjetit social që janë të lidhura me këtë "
-"llogari."
-
-#: lib/python2.7/site-packages/allauth/templates/socialaccount/connections.html:46
-msgid "Add a 3rd Party Account"
-msgstr "Shto një Llogari të palës së tretë"
-
-#: lib/python2.7/site-packages/allauth/templates/socialaccount/login_cancelled.html:6
-#: lib/python2.7/site-packages/allauth/templates/socialaccount/login_cancelled.html:10
-msgid "Login Cancelled"
-msgstr "Hyrja e Anuluar"
-
-#: lib/python2.7/site-packages/allauth/templates/socialaccount/login_cancelled.html:14
-#, python-format
-msgid ""
-"You decided to cancel logging in to our site using one of your existing "
-"accounts. If this was a mistake, please proceed to <a href=\"%(login_url)s"
-"\">sign in</a>."
-msgstr ""
-"Ju vendosët të anuloni hyrjen në sajtin tonë duke përdorur njerën prej "
-"llogarive tuaja ekzistuese. Nëse kjo ishte bërë gabimisht, ju lutemi vijoni "
-"në <a href=\"%(login_url)s\">hyr</a>."
-
-#: lib/python2.7/site-packages/allauth/templates/socialaccount/signup.html:10
-#, python-format
-msgid ""
-"You are about to use your %(provider_name)s account to login to \n"
-"%(site_name)s. As a final step, please complete the following form:"
-msgstr ""
-"Ju jeni duke dashur të përdorni llogarinë tuaj %(provider_name)s për të hyrë "
-" %(site_name)s. Si hap të fundit, ju lutemi plotësoni formularin në vijim:"
-
-#: lib/python2.7/site-packages/allauth/templates/socialaccount/messages/account_connected.txt:2
-msgid "The social account has been connected."
-msgstr "Kjo llogari sociale është e lidhur."
-
-#: lib/python2.7/site-packages/allauth/templates/socialaccount/messages/account_connected_other.txt:2
-msgid "The social account is already connected to a different account."
-msgstr "Llogaria sociale tashmë është e lidhur në një llogari tjetër."
-
-#: lib/python2.7/site-packages/allauth/templates/socialaccount/messages/account_disconnected.txt:2
-msgid "The social account has been disconnected."
-msgstr "Llogaria sociale është ndërprerë."
 
 #: lib/python2.7/site-packages/django/conf/global_settings.py:52
 msgid "Afrikaans"
@@ -1028,13 +336,13 @@ msgid "Successfully deleted %(count)d %(items)s."
 msgstr "Të fshira me sukses %(count)d %(items)s."
 
 #: lib/python2.7/site-packages/django/contrib/admin/actions.py:60
-#: lib/python2.7/site-packages/django/contrib/admin/options.py:1347
+#: lib/python2.7/site-packages/django/contrib/admin/options.py:1381
 #, python-format
 msgid "Cannot delete %(name)s"
 msgstr "Nuk mund të fshijë %(name)s"
 
 #: lib/python2.7/site-packages/django/contrib/admin/actions.py:62
-#: lib/python2.7/site-packages/django/contrib/admin/options.py:1349
+#: lib/python2.7/site-packages/django/contrib/admin/options.py:1383
 msgid "Are you sure?"
 msgstr "A jeni të sigurtë?"
 
@@ -1155,13 +463,13 @@ msgstr "Objekti LogEntry"
 msgid "None"
 msgstr "Asnjë"
 
-#: lib/python2.7/site-packages/django/contrib/admin/options.py:684
+#: lib/python2.7/site-packages/django/contrib/admin/options.py:718
 #, python-format
 msgid "Changed %s."
 msgstr "Të ndërruara %s."
 
-#: lib/python2.7/site-packages/django/contrib/admin/options.py:684
-#: lib/python2.7/site-packages/django/contrib/admin/options.py:694
+#: lib/python2.7/site-packages/django/contrib/admin/options.py:718
+#: lib/python2.7/site-packages/django/contrib/admin/options.py:728
 #: lib/python2.7/site-packages/django/contrib/comments/forms.py:181
 #: lib/python2.7/site-packages/django/contrib/comments/templates/comments/preview.html:16
 #: lib/python2.7/site-packages/django/db/models/base.py:889
@@ -1169,73 +477,73 @@ msgstr "Të ndërruara %s."
 msgid "and"
 msgstr " dhe "
 
-#: lib/python2.7/site-packages/django/contrib/admin/options.py:689
+#: lib/python2.7/site-packages/django/contrib/admin/options.py:723
 #, python-format
 msgid "Added %(name)s \"%(object)s\"."
 msgstr "%(name)s \"%(object)s\" të shtuara."
 
-#: lib/python2.7/site-packages/django/contrib/admin/options.py:693
+#: lib/python2.7/site-packages/django/contrib/admin/options.py:727
 #, python-format
 msgid "Changed %(list)s for %(name)s \"%(object)s\"."
 msgstr "%(list)s for %(name)s \"%(object)s\" të ndërruara."
 
-#: lib/python2.7/site-packages/django/contrib/admin/options.py:698
+#: lib/python2.7/site-packages/django/contrib/admin/options.py:732
 #, python-format
 msgid "Deleted %(name)s \"%(object)s\"."
 msgstr "%(name)s \"%(object)s\" të fshira."
 
-#: lib/python2.7/site-packages/django/contrib/admin/options.py:702
+#: lib/python2.7/site-packages/django/contrib/admin/options.py:736
 msgid "No fields changed."
 msgstr "Asnjë fushë nuk është ndërruar."
 
-#: lib/python2.7/site-packages/django/contrib/admin/options.py:807
-#: lib/python2.7/site-packages/django/contrib/admin/options.py:860
+#: lib/python2.7/site-packages/django/contrib/admin/options.py:841
+#: lib/python2.7/site-packages/django/contrib/admin/options.py:894
 #, python-format
 msgid ""
 "The %(name)s \"%(obj)s\" was added successfully. You may edit it again below."
 msgstr ""
-"%(name)s \"%(obj)s\" u shtua(n) me sukses. Ju mund ta ndryshoni atë përsëri më "
-"poshtë."
+"%(name)s \"%(obj)s\" u shtua(n) me sukses. Ju mund ta ndryshoni atë përsëri "
+"më poshtë."
 
-#: lib/python2.7/site-packages/django/contrib/admin/options.py:835
+#: lib/python2.7/site-packages/django/contrib/admin/options.py:869
 #, python-format
 msgid ""
 "The %(name)s \"%(obj)s\" was added successfully. You may add another "
 "%(name)s below."
 msgstr ""
-"%(name)s \"%(obj)s\" u shtuan me sukses. Ju mund të shtoni një tjetër %(name)s "
-"më poshtë."
+"%(name)s \"%(obj)s\" u shtuan me sukses. Ju mund të shtoni një tjetër "
+"%(name)s më poshtë."
 
-#: lib/python2.7/site-packages/django/contrib/admin/options.py:839
+#: lib/python2.7/site-packages/django/contrib/admin/options.py:873
 #, python-format
 msgid "The %(name)s \"%(obj)s\" was added successfully."
 msgstr "%(name)s \"%(obj)s\" u shtuan me sukses."
 
-#: lib/python2.7/site-packages/django/contrib/admin/options.py:853
+#: lib/python2.7/site-packages/django/contrib/admin/options.py:887
 #, python-format
 msgid ""
 "The %(name)s \"%(obj)s\" was changed successfully. You may edit it again "
 "below."
 msgstr ""
-"%(name)s \"%(obj)s\" u ndërruan me sukses. Ju mund të ndryshoni atë përsëri më "
-"poshtë."
+"%(name)s \"%(obj)s\" u ndërruan me sukses. Ju mund të ndryshoni atë përsëri "
+"më poshtë."
 
-#: lib/python2.7/site-packages/django/contrib/admin/options.py:867
+#: lib/python2.7/site-packages/django/contrib/admin/options.py:901
 #, python-format
 msgid ""
 "The %(name)s \"%(obj)s\" was changed successfully. You may add another "
 "%(name)s below."
 msgstr ""
-"%(name)s \"%(obj)s\" u ndërruan me sukses. Ju mund të shtoni një tjetër %"
-"(name)s më poshtë."
+"%(name)s \"%(obj)s\" u ndërruan me sukses. Ju mund të shtoni një tjetër "
+"%(name)s më poshtë."
 
-#: lib/python2.7/site-packages/django/contrib/admin/options.py:873
+#: lib/python2.7/site-packages/django/contrib/admin/options.py:907
 #, python-format
 msgid "The %(name)s \"%(obj)s\" was changed successfully."
 msgstr "%(name)s \"%(obj)s\" u ndërruan me sukses."
 
-#: lib/python2.7/site-packages/django/contrib/admin/options.py:951
-#: lib/python2.7/site-packages/django/contrib/admin/options.py:1211
+#: lib/python2.7/site-packages/django/contrib/admin/options.py:985
+#: lib/python2.7/site-packages/django/contrib/admin/options.py:1245
 msgid ""
 "Items must be selected in order to perform actions on them. No items have "
 "been changed."
@@ -1243,61 +551,61 @@ msgstr ""
 "Njësitë/entitetet duhen zgjedhur në mënyrë që të kryhen veprime me to. Asnjë "
 "njësi/entitet nuk është ndryshuar."
 
-#: lib/python2.7/site-packages/django/contrib/admin/options.py:970
+#: lib/python2.7/site-packages/django/contrib/admin/options.py:1004
 msgid "No action selected."
 msgstr "Asnjë veprim nuk u zgjodh."
 
-#: lib/python2.7/site-packages/django/contrib/admin/options.py:1050
+#: lib/python2.7/site-packages/django/contrib/admin/options.py:1084
 #, python-format
 msgid "Add %s"
 msgstr "Shto %s"
 
-#: lib/python2.7/site-packages/django/contrib/admin/options.py:1074
-#: lib/python2.7/site-packages/django/contrib/admin/options.py:1319
+#: lib/python2.7/site-packages/django/contrib/admin/options.py:1108
+#: lib/python2.7/site-packages/django/contrib/admin/options.py:1353
 #, python-format
 msgid "%(name)s object with primary key %(key)r does not exist."
 msgstr "Objekti %(name)s me çelësin primar %(key)r nuk ekziston."
 
-#: lib/python2.7/site-packages/django/contrib/admin/options.py:1140
+#: lib/python2.7/site-packages/django/contrib/admin/options.py:1174
 #, python-format
 msgid "Change %s"
 msgstr "Ndërro %s"
 
-#: lib/python2.7/site-packages/django/contrib/admin/options.py:1190
+#: lib/python2.7/site-packages/django/contrib/admin/options.py:1224
 msgid "Database error"
 msgstr "Gabim në databazë"
 
-#: lib/python2.7/site-packages/django/contrib/admin/options.py:1253
+#: lib/python2.7/site-packages/django/contrib/admin/options.py:1287
 #, python-format
 msgid "%(count)s %(name)s was changed successfully."
 msgid_plural "%(count)s %(name)s were changed successfully."
 msgstr[0] "%(count)s %(name)s u ndërrua me sukses."
 msgstr[1] "%(count)s %(name)s u ndërruan me sukses."
 
-#: lib/python2.7/site-packages/django/contrib/admin/options.py:1280
+#: lib/python2.7/site-packages/django/contrib/admin/options.py:1314
 #, python-format
 msgid "%(total_count)s selected"
 msgid_plural "All %(total_count)s selected"
 msgstr[0] "%(total_count)s i zgjedhur"
 msgstr[1] "%(total_count)s të zgjedhura"
 
-#: lib/python2.7/site-packages/django/contrib/admin/options.py:1285
+#: lib/python2.7/site-packages/django/contrib/admin/options.py:1319
 #, python-format
 msgid "0 of %(cnt)s selected"
 msgstr "0 nga %(cnt)s të zgjedhura"
 
-#: lib/python2.7/site-packages/django/contrib/admin/options.py:1335
+#: lib/python2.7/site-packages/django/contrib/admin/options.py:1369
 #, python-format
 msgid "The %(name)s \"%(obj)s\" was deleted successfully."
 msgstr "%(name)s \"%(obj)s\" u fshi me sukses."
 
-#: lib/python2.7/site-packages/django/contrib/admin/options.py:1388
+#: lib/python2.7/site-packages/django/contrib/admin/options.py:1422
 #, python-format
 msgid "Change history: %s"
 msgstr "Historia e ndërrimeve: %s"
 
 #: lib/python2.7/site-packages/django/contrib/admin/sites.py:322
-#: lib/python2.7/site-packages/django/contrib/admin/tests.py:71
+#: lib/python2.7/site-packages/django/contrib/admin/tests.py:72
 #: lib/python2.7/site-packages/django/contrib/admin/templates/admin/login.html:48
 #: lib/python2.7/site-packages/django/contrib/admin/templates/registration/password_reset_complete.html:19
 #: lib/python2.7/site-packages/django/contrib/admin/views/decorators.py:24
@@ -1373,8 +681,6 @@ msgstr "Kërkojmë falje, por faqja e kërkuar nuk mund të gjendjet."
 #: lib/python2.7/site-packages/django/contrib/admindocs/templates/admin_doc/template_tag_index.html:7
 #: lib/python2.7/site-packages/django/contrib/admindocs/templates/admin_doc/view_detail.html:6
 #: lib/python2.7/site-packages/django/contrib/admindocs/templates/admin_doc/view_index.html:7
-#: lib/python2.7/site-packages/djcelery/templates/admin/djcelery/change_list.html:7
-#: lib/python2.7/site-packages/djcelery/templates/djcelery/confirm_rate_limit.html:6
 #: travels/templates/base.django.html:70
 msgid "Home"
 msgstr "Fillimi"
@@ -1396,8 +702,8 @@ msgid ""
 "There's been an error. It's been reported to the site administrators via "
 "email and should be fixed shortly. Thanks for your patience."
 msgstr ""
-"Ka ndodhur një gabim. Është raportuar te administratori i sajtit përmes "
-"e-mailit dhe do të korrigjohet shpejt. Faleminderit për durimin"
+"Ka ndodhur një gabim. Është raportuar te administratori i sajtit përmes e-"
+"mailit dhe do të korrigjohet shpejt. Faleminderit për durimin"
 
 #: lib/python2.7/site-packages/django/contrib/admin/templates/admin/actions.html:4
 msgid "Run the selected action"
@@ -1550,8 +856,8 @@ msgid ""
 "Are you sure you want to delete the %(object_name)s \"%(escaped_object)s\"? "
 "All of the following related items will be deleted:"
 msgstr ""
-"A jeni të sigurtë se dëshironi të fshini %(object_name)s \"%"
-"(escaped_object)s\"? Të gjitha njësitë e ndërlidhura në vijim do të fshihen:"
+"A jeni të sigurtë se dëshironi të fshini %(object_name)s \"%(escaped_object)s"
+"\"? Të gjitha njësitë e ndërlidhura në vijim do të fshihen:"
 
 #: lib/python2.7/site-packages/django/contrib/admin/templates/admin/delete_confirmation.html:39
 #: lib/python2.7/site-packages/django/contrib/admin/templates/admin/delete_selected_confirmation.html:44
@@ -1719,10 +1025,31 @@ msgid "Enter a new password for the user <strong>%(username)s</strong>."
 msgstr ""
 "Shkruani fjalëkalimin e ri për përdoruesin <strong>%(username)s</strong>."
 
+#: lib/python2.7/site-packages/django/contrib/admin/templates/admin/auth/user/change_password.html:38
+#: lib/python2.7/site-packages/django/contrib/auth/forms.py:77
+#: lib/python2.7/site-packages/django/contrib/auth/forms.py:121
+#: lib/python2.7/site-packages/django/contrib/auth/forms.py:148
+#: lib/python2.7/site-packages/django/contrib/auth/forms.py:332
+#: travels/forms.py:87 travels/forms.py:144
+msgid "Password"
+msgstr "Fjalëkalimi"
+
+#: lib/python2.7/site-packages/django/contrib/admin/templates/admin/auth/user/change_password.html:44
+#: lib/python2.7/site-packages/django/contrib/admin/templates/registration/password_change_form.html:42
+#: lib/python2.7/site-packages/django/contrib/auth/forms.py:334
+msgid "Password (again)"
+msgstr "Fjalëkalimi (përsëri)"
+
 #: lib/python2.7/site-packages/django/contrib/admin/templates/admin/auth/user/change_password.html:45
 #: lib/python2.7/site-packages/django/contrib/auth/forms.py:81
 msgid "Enter the same password as above, for verification."
 msgstr "Shkruaj fjalëkalimin e njëjtë si më sipër, për verifikim."
+
+#: lib/python2.7/site-packages/django/contrib/admin/templates/admin/edit_inline/stacked.html:26
+#: lib/python2.7/site-packages/django/contrib/admin/templates/admin/edit_inline/tabular.html:76
+#: lib/python2.7/site-packages/django/contrib/comments/templates/comments/delete.html:12
+msgid "Remove"
+msgstr "Largo"
 
 #: lib/python2.7/site-packages/django/contrib/admin/templates/admin/edit_inline/stacked.html:27
 #: lib/python2.7/site-packages/django/contrib/admin/templates/admin/edit_inline/tabular.html:75
@@ -1896,16 +1223,16 @@ msgstr "Reseto fjalëkalimin tim"
 msgid "All dates"
 msgstr "Të gjitha datat"
 
-#: lib/python2.7/site-packages/django/contrib/admin/views/main.py:33
+#: lib/python2.7/site-packages/django/contrib/admin/views/main.py:34
 msgid "(None)"
 msgstr "(Asnjë)"
 
-#: lib/python2.7/site-packages/django/contrib/admin/views/main.py:76
+#: lib/python2.7/site-packages/django/contrib/admin/views/main.py:80
 #, python-format
 msgid "Select %s"
 msgstr "Zgjedh %s"
 
-#: lib/python2.7/site-packages/django/contrib/admin/views/main.py:78
+#: lib/python2.7/site-packages/django/contrib/admin/views/main.py:82
 #, python-format
 msgid "Select %s to change"
 msgstr "Zgjedh %s për ta ndërruar"
@@ -1999,12 +1326,13 @@ msgid ""
 "your computer is \"internal\").</p>\n"
 msgstr ""
 "\n"
-"<p class=\"help\">Për të instaluar bookmarklets, barteni linkun në toolbr-in e "
-"juaj të bookmarks ose klik-djathtas linkun dhe shto atë në bookmarks-at "
+"<p class=\"help\">Për të instaluar bookmarklets, barteni linkun në toolbr-in "
+"e juaj të bookmarks ose klik-djathtas linkun dhe shto atë në bookmarks-at "
 "tuaj. Tash jumund të zgjedhni bookmarklet nga cilido sajt.     Keni "
 "vëmendjen se ndonjëri nga bookmarklets kërkon që të keni kompjuterin e "
-"destinuar për shikim \"inernal\"(kërkni sqarime nga administratori i sistemit "
-"nëse nuk jeni të sigurtë se kompjuteri juaj është \"internal\").</p>\n"
+"destinuar për shikim \"inernal\"(kërkni sqarime nga administratori i "
+"sistemit nëse nuk jeni të sigurtë se kompjuteri juaj është \"internal\").</"
+"p>\n"
 
 #: lib/python2.7/site-packages/django/contrib/admindocs/templates/admin_doc/bookmarklets.html:25
 msgid "Documentation for this page"
@@ -2080,23 +1408,23 @@ msgstr "Boolean (True or False)"
 msgid "Field of type: %(field_type)s"
 msgstr "Tipi i fushës: %(field_type)s"
 
-#: lib/python2.7/site-packages/django/contrib/auth/admin.py:41
+#: lib/python2.7/site-packages/django/contrib/auth/admin.py:42
 msgid "Personal info"
 msgstr "Informata personale"
 
-#: lib/python2.7/site-packages/django/contrib/auth/admin.py:42
+#: lib/python2.7/site-packages/django/contrib/auth/admin.py:43
 msgid "Permissions"
 msgstr "Lejet"
 
-#: lib/python2.7/site-packages/django/contrib/auth/admin.py:44
+#: lib/python2.7/site-packages/django/contrib/auth/admin.py:45
 msgid "Important dates"
 msgstr "Datat e rëndësishme"
 
-#: lib/python2.7/site-packages/django/contrib/auth/admin.py:132
+#: lib/python2.7/site-packages/django/contrib/auth/admin.py:133
 msgid "Password changed successfully."
 msgstr "Fjalëkalimi u ndërrua me sukses."
 
-#: lib/python2.7/site-packages/django/contrib/auth/admin.py:142
+#: lib/python2.7/site-packages/django/contrib/auth/admin.py:143
 #, python-format
 msgid "Change password: %s"
 msgstr "Ndërro fjalëkalimin: %s"
@@ -2112,7 +1440,8 @@ msgstr "Nuk ka fjalëkalim të përcaktuar."
 #: lib/python2.7/site-packages/django/contrib/auth/tests/forms.py:271
 #: lib/python2.7/site-packages/django/contrib/auth/tests/forms.py:277
 msgid "Invalid password format or unknown hashing algorithm."
-msgstr "Fjalëkalimi me format të pavlefshëm ose algoritmi \"hashing\" i panjohur."
+msgstr ""
+"Fjalëkalimi me format të pavlefshëm ose algoritmi \"hashing\" i panjohur."
 
 #: lib/python2.7/site-packages/django/contrib/auth/forms.py:67
 msgid "A user with that username already exists."
@@ -2123,6 +1452,11 @@ msgstr "Përdoruesi me këtë emër të përdoruesit tashmë ekziston."
 #: lib/python2.7/site-packages/django/contrib/auth/forms.py:330
 msgid "The two password fields didn't match."
 msgstr "Dy fushat e fjalëkalimit nuk përputhen."
+
+#: lib/python2.7/site-packages/django/contrib/auth/forms.py:70
+#: lib/python2.7/site-packages/django/contrib/auth/forms.py:115
+msgid "Username"
+msgstr "Përdoruesi"
 
 #: lib/python2.7/site-packages/django/contrib/auth/forms.py:72
 #: lib/python2.7/site-packages/django/contrib/auth/forms.py:116
@@ -2147,8 +1481,8 @@ msgid ""
 "form</a>."
 msgstr ""
 "Fjalëkalimet e papërpunuar nuk deponohen, andaj nuk ka mundsi të shihen këto "
-"fjalëkalime, por ju mund të ndërroni fjalëkalimin duke përdorur <a "
-"href=\"password/\">këtë formë</a>."
+"fjalëkalime, por ju mund të ndërroni fjalëkalimin duke përdorur <a href="
+"\"password/\">këtë formë</a>."
 
 #: lib/python2.7/site-packages/django/contrib/auth/forms.py:151
 #, python-format
@@ -2166,6 +1500,10 @@ msgid ""
 msgstr ""
 "Browseri juaj i Web nuk i ka të mundësuara cookie-t. Cookie-t janë të "
 "domosdoshme për tu kyçur."
+
+#: lib/python2.7/site-packages/django/contrib/auth/forms.py:155
+msgid "This account is inactive."
+msgstr "Kjo llogari është joaktive."
 
 #: lib/python2.7/site-packages/django/contrib/auth/forms.py:207
 msgid ""
@@ -2241,9 +1579,6 @@ msgstr "checksum"
 
 #: lib/python2.7/site-packages/django/contrib/auth/models.py:72
 #: lib/python2.7/site-packages/django/contrib/auth/models.py:121
-#: lib/python2.7/site-packages/djcelery/admin.py:76
-#: lib/python2.7/site-packages/djcelery/models.py:197
-#: lib/python2.7/site-packages/djcelery/models.py:323
 #: lib/python2.7/site-packages/kombu/transport/django/models.py:10
 msgid "name"
 msgstr "emri"
@@ -2310,8 +1645,8 @@ msgstr "Përdoruesi"
 msgid ""
 "Required. 30 characters or fewer. Letters, numbers and @/./+/-/_ characters"
 msgstr ""
-"E domosdoshme. 30 karaktera ose më pak. Shkronja, numra dhe karaktera @ /. "
-"/+ /- /_"
+"E domosdoshme. 30 karaktera ose më pak. Shkronja, numra dhe karaktera @ /. /"
+"+ /- /_"
 
 #: lib/python2.7/site-packages/django/contrib/auth/models.py:381
 msgid "Enter a valid username."
@@ -2324,6 +1659,10 @@ msgstr "emri"
 #: lib/python2.7/site-packages/django/contrib/auth/models.py:384
 msgid "last name"
 msgstr "mbiemri"
+
+#: lib/python2.7/site-packages/django/contrib/auth/models.py:385
+msgid "email address"
+msgstr "adresa email"
 
 #: lib/python2.7/site-packages/django/contrib/auth/models.py:386
 msgid "staff status"
@@ -2437,7 +1776,7 @@ msgstr "Adresa e emailt"
 #: lib/python2.7/site-packages/django/contrib/comments/forms.py:98
 #: lib/python2.7/site-packages/django/contrib/flatpages/forms.py:7
 #: lib/python2.7/site-packages/django/contrib/flatpages/models.py:11
-#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:1273
+#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:1287
 msgid "URL"
 msgstr "URL"
 
@@ -2456,7 +1795,8 @@ msgstr[1] "Kujdes me fjalorin! Fjalët %s nuk lejohet të përdoren këtu."
 #: lib/python2.7/site-packages/django/contrib/comments/forms.py:186
 msgid ""
 "If you enter anything in this field your comment will be treated as spam"
-msgstr "Nëse shkruani çkado në këtë fushë, komenti juaj do të trajtohet si spam"
+msgstr ""
+"Nëse shkruani çkado në këtë fushë, komenti juaj do të trajtohet si spam"
 
 #: lib/python2.7/site-packages/django/contrib/comments/models.py:23
 #: lib/python2.7/site-packages/django/contrib/contenttypes/models.py:134
@@ -2490,7 +1830,7 @@ msgid "date/time submitted"
 msgstr "data/koha e dorëzimit"
 
 #: lib/python2.7/site-packages/django/contrib/comments/models.py:63
-#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:1048
+#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:1060
 msgid "IP address"
 msgstr "Adresa IP"
 
@@ -2859,7 +2199,6 @@ msgstr "sot"
 
 #: lib/python2.7/site-packages/django/contrib/humanize/tests.py:132
 #: lib/python2.7/site-packages/django/contrib/humanize/templatetags/humanize.py:171
-#: lib/python2.7/site-packages/tornado/locale.py:331
 msgid "yesterday"
 msgstr "dje"
 
@@ -3206,8 +2545,7 @@ msgstr "Shkruaj zip kodin në formatin XXXX."
 #: lib/python2.7/site-packages/django/contrib/localflavor/at/forms.py:50
 msgid "Enter a valid Austrian Social Security Number in XXXX XXXXXX format."
 msgstr ""
-"Shkruaj Numrin valid të Sigurimit Social të Austrisë në formatin XXXX "
-"XXXXXX."
+"Shkruaj Numrin valid të Sigurimit Social të Austrisë në formatin XXXX XXXXXX."
 
 #: lib/python2.7/site-packages/django/contrib/localflavor/au/forms.py:26
 msgid "Enter a 4 digit postcode."
@@ -3293,8 +2631,8 @@ msgid ""
 "xx.xx.xx, 04xx.xx.xx.xx, 0xxxxxxxx or 04xxxxxxxx."
 msgstr ""
 "Shkruaj numrin valid telefonik në njërin prej formateve 0x xxx xx xx, 0xx xx "
-"xx xx, 04xx xx xx xx, 0x/xxx.xx.xx, 0xx/xx.xx.xx, 04xx/xx.xx.xx, "
-"0x.xxx.xx.xx, 0xx.xx.xx.xx, 04xx.xx.xx.xx, 0xxxxxxxx or 04xxxxxxxx."
+"xx xx, 04xx xx xx xx, 0x/xxx.xx.xx, 0xx/xx.xx.xx, 04xx/xx.xx.xx, 0x.xxx.xx."
+"xx, 0xx.xx.xx.xx, 04xx.xx.xx.xx, 0xxxxxxxx or 04xxxxxxxx."
 
 #: lib/python2.7/site-packages/django/contrib/localflavor/br/forms.py:22
 msgid "Enter a zip code in the format XXXXX-XXX."
@@ -4269,7 +3607,8 @@ msgstr "Numri telefonik duhet të jetë në njërin prej formateve në vijim: %s
 #: lib/python2.7/site-packages/django/contrib/localflavor/hk/forms.py:42
 #, python-format
 msgid "Phone number should start with one of the followings: %s."
-msgstr "Numri telefonik duhet të fillojë me njerën prej shkronjave në vijim: %s"
+msgstr ""
+"Numri telefonik duhet të fillojë me njerën prej shkronjave në vijim: %s"
 
 #: lib/python2.7/site-packages/django/contrib/localflavor/hr/forms.py:76
 msgid "Enter a valid 13 digit JMBG"
@@ -5686,8 +5025,8 @@ msgid ""
 "Enter a tax number field (NIP) in the format XXX-XXX-XX-XX, XXX-XX-XX-XXX or "
 "XXXXXXXXXX."
 msgstr ""
-"Shkruaj në fushën e numrit të taksës (NIP) në formatin XXX-XXX-XX-XX, XXX-"
-"XX-XX-XXX ose XXXXXXXXXX."
+"Shkruaj në fushën e numrit të taksës (NIP) në formatin XXX-XXX-XX-XX, XXX-XX-"
+"XX-XXX ose XXXXXXXXXX."
 
 #: lib/python2.7/site-packages/django/contrib/localflavor/pl/forms.py:132
 msgid "Wrong checksum for the Tax Number (NIP)."
@@ -6291,7 +5630,8 @@ msgstr "Shkruaj numrin valid të taksës në formatin SIXXXXXXXX"
 
 #: lib/python2.7/site-packages/django/contrib/localflavor/si/forms.py:151
 msgid "Enter phone number in form +386XXXXXXXX or 0XXXXXXXX."
-msgstr "Shkruaj numrin valid të telefonit në formën +386XXXXXXXX ose 0XXXXXXXX."
+msgstr ""
+"Shkruaj numrin valid të telefonit në formën +386XXXXXXXX ose 0XXXXXXXX."
 
 #: lib/python2.7/site-packages/django/contrib/localflavor/sk/sk_districts.py:8
 msgid "Banska Bystrica"
@@ -6684,7 +6024,8 @@ msgstr "Numri i telefonit"
 
 #: lib/python2.7/site-packages/django/contrib/localflavor/uy/forms.py:29
 msgid "Enter a valid CI number in X.XXX.XXX-X,XXXXXXX-X or XXXXXXXX format."
-msgstr "Shkruaj numrin valid CI në formatin X.XXX.XXX-X,XXXXXXX-X ose XXXXXXXX."
+msgstr ""
+"Shkruaj numrin valid CI në formatin X.XXX.XXX-X,XXXXXXX-X ose XXXXXXXX."
 
 #: lib/python2.7/site-packages/django/contrib/localflavor/uy/forms.py:31
 msgid "Enter a valid CI number."
@@ -6734,7 +6075,7 @@ msgstr "North West"
 msgid "Western Cape"
 msgstr "Western Cape"
 
-#: lib/python2.7/site-packages/django/contrib/messages/tests/base.py:101
+#: lib/python2.7/site-packages/django/contrib/messages/tests/base.py:102
 msgid "lazy message"
 msgstr "mesazh i ngadaltë"
 
@@ -6747,8 +6088,8 @@ msgid ""
 "This should be an absolute path, excluding the domain name. Example: '/"
 "events/search/'."
 msgstr ""
-"Ky duhet të jetë shteg absolut, përjashtuar emrin e domenit. Shembull: "
-"'/events/search/'."
+"Ky duhet të jetë shteg absolut, përjashtuar emrin e domenit. Shembull: '/"
+"events/search/'."
 
 #: lib/python2.7/site-packages/django/contrib/redirects/models.py:11
 msgid "redirect to"
@@ -6821,8 +6162,8 @@ msgstr "Shkruaj email adresë valide."
 msgid ""
 "Enter a valid 'slug' consisting of letters, numbers, underscores or hyphens."
 msgstr ""
-"Shkriaj 'slug' valid që përmbanë shkronja, numra, nënviza, nënshkronja ose - "
-"."
+"Shkriaj 'slug' valid që përmbanë shkronja, numra, nënviza, nënshkronja ose "
+"- ."
 
 #: lib/python2.7/site-packages/django/core/validators.py:110
 #: lib/python2.7/site-packages/django/core/validators.py:129
@@ -6872,8 +6213,8 @@ msgid ""
 "Ensure this value has at least %(limit_value)d characters (it has "
 "%(show_value)d)."
 msgstr ""
-"Siguro që kjo vlerë ka së pakut %(limit_value)d karaktera (ndërsa i ka %"
-"(show_value)d)."
+"Siguro që kjo vlerë ka së pakut %(limit_value)d karaktera (ndërsa i ka "
+"%(show_value)d)."
 
 #: lib/python2.7/site-packages/django/core/validators.py:196
 #, python-format
@@ -6881,8 +6222,8 @@ msgid ""
 "Ensure this value has at most %(limit_value)d characters (it has "
 "%(show_value)d)."
 msgstr ""
-"Siguro që kjo vlerë ka më së shumti %(limit_value)d karaktera (ndërsa i ka %"
-"(show_value)d)."
+"Siguro që kjo vlerë ka më së shumti %(limit_value)d karaktera (ndërsa i ka "
+"%(show_value)d)."
 
 #: lib/python2.7/site-packages/django/db/models/base.py:866
 #, python-format
@@ -6909,12 +6250,12 @@ msgid "This field cannot be blank."
 msgstr "Kjo fushë nuk mund të jetë e zbrazët."
 
 #: lib/python2.7/site-packages/django/db/models/fields/__init__.py:518
-#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:986
+#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:992
 msgid "Integer"
 msgstr "Integer"
 
 #: lib/python2.7/site-packages/django/db/models/fields/__init__.py:522
-#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:984
+#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:990
 #, python-format
 msgid "'%s' value must be an integer."
 msgstr "Vlera '%s' duhet të jetë integer."
@@ -6956,8 +6297,8 @@ msgid ""
 "'%s' value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
 "uuuuuu]][TZ] format."
 msgstr ""
-"Vlera '%s' ka format të pavlefshëm. Duhet të jetë në formatin  YYYY-MM-DD "
-"HH:MM[:ss[.uuuuuu]][TZ] ."
+"Vlera '%s' ka format të pavlefshëm. Duhet të jetë në formatin  YYYY-MM-DD HH:"
+"MM[:ss[.uuuuuu]][TZ] ."
 
 #: lib/python2.7/site-packages/django/db/models/fields/__init__.py:757
 #, python-format
@@ -6985,62 +6326,62 @@ msgstr "Numër decimal"
 msgid "File path"
 msgstr "Shtegu i fajllit"
 
-#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:955
+#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:961
 #, python-format
 msgid "'%s' value must be a float."
 msgstr "Vlera '%s' duhet të jetë float."
 
-#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:957
+#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:963
 msgid "Floating point number"
 msgstr "Numër Floating point"
 
-#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:1018
+#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:1024
 msgid "Big (8 byte) integer"
 msgstr "Integer i madh (8 byte)"
 
-#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:1032
+#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:1038
 msgid "IPv4 address"
 msgstr "Adresa IPv4"
 
-#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:1091
+#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:1105
 #, python-format
 msgid "'%s' value must be either None, True or False."
 msgstr "Vlera '%s' duhet të jetë ose None, ose True ose False."
 
-#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:1093
+#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:1107
 msgid "Boolean (Either True, False or None)"
 msgstr "Boolean (Ose True, ose False ose None)"
 
-#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:1142
+#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:1156
 msgid "Positive integer"
 msgstr "Integer pozitiv"
 
-#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:1153
+#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:1167
 msgid "Positive small integer"
 msgstr "Integer i vogël pozitiv"
 
-#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:1164
+#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:1178
 #, python-format
 msgid "Slug (up to %(max_length)s)"
 msgstr "Slug (deri në %(max_length)s)"
 
-#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:1182
+#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:1196
 msgid "Small integer"
 msgstr "Integer i vogël"
 
-#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:1188
+#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:1202
 msgid "Text"
 msgstr "Tekst"
 
-#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:1206
+#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:1220
 #, python-format
 msgid ""
 "'%s' value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] format."
 msgstr ""
-"Vlera '%s' ka format të pavlefshëm. Formati duhet të jetë "
-"HH:MM[:ss[.uuuuuu]]."
+"Vlera '%s' ka format të pavlefshëm. Formati duhet të jetë HH:MM[:ss[."
+"uuuuuu]]."
 
-#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:1208
+#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:1222
 #, python-format
 msgid ""
 "'%s' value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an invalid "
@@ -7049,7 +6390,7 @@ msgstr ""
 "Vlera '%s' ka format korrekt (HH:MM[:ss[.uuuuuu]]) por është kohë e "
 "pavlefshme."
 
-#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:1211
+#: lib/python2.7/site-packages/django/db/models/fields/__init__.py:1225
 msgid "Time"
 msgstr "Koha"
 
@@ -7082,8 +6423,8 @@ msgstr "Marrëdhëniet disa-me-disa"
 msgid ""
 "Hold down \"Control\", or \"Command\" on a Mac, to select more than one."
 msgstr ""
-"Mbajë të shtypur \"Control\", ose \"Command\" në Mac, për të zgjedhur më shumë "
-"se një."
+"Mbajë të shtypur \"Control\", ose \"Command\" në Mac, për të zgjedhur më "
+"shumë se një."
 
 #: lib/python2.7/site-packages/django/forms/fields.py:209
 msgid "Enter a whole number."
@@ -7140,8 +6481,8 @@ msgstr "Fajlli i dorëzuar është i zbrazët."
 msgid ""
 "Ensure this filename has at most %(max)d characters (it has %(length)d)."
 msgstr ""
-"Siguro që emri i fajllit ka më së shumti %(max)d karaktera (ndërsa i ka %"
-"(length)d)."
+"Siguro që emri i fajllit ka më së shumti %(max)d karaktera (ndërsa i ka "
+"%(length)d)."
 
 #: lib/python2.7/site-packages/django/forms/fields.py:479
 msgid "Please either submit a file or check the clear checkbox, not both."
@@ -7306,37 +6647,30 @@ msgid "noon"
 msgstr "mesditë"
 
 #: lib/python2.7/site-packages/django/utils/dates.py:6
-#: lib/python2.7/site-packages/tornado/locale.py:263
 msgid "Monday"
 msgstr "E hënë"
 
 #: lib/python2.7/site-packages/django/utils/dates.py:6
-#: lib/python2.7/site-packages/tornado/locale.py:263
 msgid "Tuesday"
 msgstr "E martë"
 
 #: lib/python2.7/site-packages/django/utils/dates.py:6
-#: lib/python2.7/site-packages/tornado/locale.py:263
 msgid "Wednesday"
 msgstr "E mërkurë"
 
 #: lib/python2.7/site-packages/django/utils/dates.py:6
-#: lib/python2.7/site-packages/tornado/locale.py:263
 msgid "Thursday"
 msgstr "E ejte"
 
 #: lib/python2.7/site-packages/django/utils/dates.py:6
-#: lib/python2.7/site-packages/tornado/locale.py:264
 msgid "Friday"
 msgstr "E premte"
 
 #: lib/python2.7/site-packages/django/utils/dates.py:7
-#: lib/python2.7/site-packages/tornado/locale.py:264
 msgid "Saturday"
 msgstr "E shtunë"
 
 #: lib/python2.7/site-packages/django/utils/dates.py:7
-#: lib/python2.7/site-packages/tornado/locale.py:264
 msgid "Sunday"
 msgstr "E diel"
 
@@ -7369,62 +6703,50 @@ msgid "Sun"
 msgstr "Dielle"
 
 #: lib/python2.7/site-packages/django/utils/dates.py:18
-#: lib/python2.7/site-packages/tornado/locale.py:259
 msgid "January"
 msgstr "Janar"
 
 #: lib/python2.7/site-packages/django/utils/dates.py:18
-#: lib/python2.7/site-packages/tornado/locale.py:259
 msgid "February"
 msgstr "Shkurt"
 
 #: lib/python2.7/site-packages/django/utils/dates.py:18
-#: lib/python2.7/site-packages/tornado/locale.py:259
 msgid "March"
 msgstr "Mars"
 
 #: lib/python2.7/site-packages/django/utils/dates.py:18
-#: lib/python2.7/site-packages/tornado/locale.py:259
 msgid "April"
 msgstr "Prill"
 
 #: lib/python2.7/site-packages/django/utils/dates.py:18
-#: lib/python2.7/site-packages/tornado/locale.py:260
 msgid "May"
 msgstr "Maj"
 
 #: lib/python2.7/site-packages/django/utils/dates.py:18
-#: lib/python2.7/site-packages/tornado/locale.py:260
 msgid "June"
 msgstr "Qershor"
 
 #: lib/python2.7/site-packages/django/utils/dates.py:19
-#: lib/python2.7/site-packages/tornado/locale.py:260
 msgid "July"
 msgstr "Korrik"
 
 #: lib/python2.7/site-packages/django/utils/dates.py:19
-#: lib/python2.7/site-packages/tornado/locale.py:260
 msgid "August"
 msgstr "Gusht"
 
 #: lib/python2.7/site-packages/django/utils/dates.py:19
-#: lib/python2.7/site-packages/tornado/locale.py:261
 msgid "September"
 msgstr "Shtator"
 
 #: lib/python2.7/site-packages/django/utils/dates.py:19
-#: lib/python2.7/site-packages/tornado/locale.py:261
 msgid "October"
 msgstr "Tetor"
 
 #: lib/python2.7/site-packages/django/utils/dates.py:19
-#: lib/python2.7/site-packages/tornado/locale.py:261
 msgid "November"
 msgstr "Nëntor"
 
 #: lib/python2.7/site-packages/django/utils/dates.py:20
-#: lib/python2.7/site-packages/tornado/locale.py:261
 msgid "December"
 msgstr "Dhjetor"
 
@@ -7602,63 +6924,61 @@ msgctxt "String to return when truncating text"
 msgid "%(truncated_text)s..."
 msgstr "%(truncated_text)s..."
 
+#: lib/python2.7/site-packages/django/utils/text.py:239
+msgid "or"
+msgstr " ose"
+
 #. Translators: This string is used as a separator between list elements
 #: lib/python2.7/site-packages/django/utils/text.py:256
 msgid ", "
 msgstr ","
 
-#: lib/python2.7/site-packages/django/utils/timesince.py:22
-#: lib/python2.7/site-packages/djcelery/humanize.py:13
+#: lib/python2.7/site-packages/django/utils/timesince.py:23
 msgid "year"
 msgid_plural "years"
 msgstr[0] "Viti"
 msgstr[1] "Vitet"
 
-#: lib/python2.7/site-packages/django/utils/timesince.py:23
-#: lib/python2.7/site-packages/djcelery/humanize.py:14
+#: lib/python2.7/site-packages/django/utils/timesince.py:24
 msgid "month"
 msgid_plural "months"
 msgstr[0] "Muaji"
 msgstr[1] "Muaj"
 
-#: lib/python2.7/site-packages/django/utils/timesince.py:24
-#: lib/python2.7/site-packages/djcelery/humanize.py:15
+#: lib/python2.7/site-packages/django/utils/timesince.py:25
 msgid "week"
 msgid_plural "weeks"
 msgstr[0] "javë"
 msgstr[1] "javët"
 
-#: lib/python2.7/site-packages/django/utils/timesince.py:25
-#: lib/python2.7/site-packages/djcelery/humanize.py:16
+#: lib/python2.7/site-packages/django/utils/timesince.py:26
 msgid "day"
 msgid_plural "days"
 msgstr[0] "ditë"
 msgstr[1] "ditët"
 
-#: lib/python2.7/site-packages/django/utils/timesince.py:26
-#: lib/python2.7/site-packages/djcelery/models.py:126
+#: lib/python2.7/site-packages/django/utils/timesince.py:27
 msgid "hour"
 msgid_plural "hours"
 msgstr[0] "orë"
 msgstr[1] "orët"
 
-#: lib/python2.7/site-packages/django/utils/timesince.py:27
-#: lib/python2.7/site-packages/djcelery/models.py:123
+#: lib/python2.7/site-packages/django/utils/timesince.py:28
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] "min"
 msgstr[1] "min"
 
-#: lib/python2.7/site-packages/django/utils/timesince.py:43
+#: lib/python2.7/site-packages/django/utils/timesince.py:44
 msgid "minutes"
 msgstr "minuta"
 
-#: lib/python2.7/site-packages/django/utils/timesince.py:48
+#: lib/python2.7/site-packages/django/utils/timesince.py:49
 #, python-format
 msgid "%(number)d %(type)s"
 msgstr "%(number)d %(type)s"
 
-#: lib/python2.7/site-packages/django/utils/timesince.py:54
+#: lib/python2.7/site-packages/django/utils/timesince.py:55
 #, python-format
 msgid ", %(number)d %(type)s"
 msgstr ", %(number)d %(type)s"
@@ -7705,8 +7025,8 @@ msgid ""
 "Future %(verbose_name_plural)s not available because %(class_name)s."
 "allow_future is False."
 msgstr ""
-"%(verbose_name_plural)s i ardhshëm nuk është në dispozicion sepse %"
-"(class_name)s.allow_future është False."
+"%(verbose_name_plural)s i ardhshëm nuk është në dispozicion sepse "
+"%(class_name)s.allow_future është False."
 
 #: lib/python2.7/site-packages/django/views/generic/dates.py:678
 #, python-format
@@ -7733,393 +7053,23 @@ msgstr "Faqe e pavlefshme (%(page_number)s): %(message)s"
 msgid "Empty list and '%(class_name)s.allow_empty' is False."
 msgstr "Lista e zbrazët dhe '%(class_name)s.allow_empty' është False."
 
-#: lib/python2.7/site-packages/djcelery/admin.py:49
-#: lib/python2.7/site-packages/djcelery/admin.py:56
-#: lib/python2.7/site-packages/djcelery/models.py:27
-#: lib/python2.7/site-packages/djcelery/models.py:317
-msgid "state"
-msgstr "state"
-
-#: lib/python2.7/site-packages/djcelery/admin.py:63
-#: lib/python2.7/site-packages/djcelery/models.py:331
-msgid "ETA"
-msgstr "ETA"
-
-#: lib/python2.7/site-packages/djcelery/admin.py:70
-msgid "when"
-msgstr "kur"
-
-#: lib/python2.7/site-packages/djcelery/admin.py:109
-msgid "Task detail"
-msgstr "Hollësi e punës"
-
-#: lib/python2.7/site-packages/djcelery/admin.py:110
-msgid "Tasks"
-msgstr "Punët"
-
-#: lib/python2.7/site-packages/djcelery/admin.py:125
-#: lib/python2.7/site-packages/djcelery/models.py:320
-msgid "UUID"
-msgstr "UUID"
-
-#: lib/python2.7/site-packages/djcelery/admin.py:151
-msgid "Revoke selected tasks"
-msgstr "Revoko punët e zgjedhura"
-
-#: lib/python2.7/site-packages/djcelery/admin.py:157
-msgid "Terminate selected tasks"
-msgstr "Ndërprejë punët e zgjedhura"
-
-#: lib/python2.7/site-packages/djcelery/admin.py:163
-msgid "Kill selected tasks"
-msgstr "Pusho punët e zgjedhura"
-
-#: lib/python2.7/site-packages/djcelery/admin.py:170
-#: lib/python2.7/site-packages/djcelery/templates/djcelery/confirm_rate_limit.html:9
-msgid "Rate limit selected tasks"
-msgstr "Vlerëso kufizimin e punëve të zgjedhura"
-
-#: lib/python2.7/site-packages/djcelery/admin.py:183
-msgid "Rate limit selection"
-msgstr "Vlerëso kufizimin e zgjedhjes"
-
-#: lib/python2.7/site-packages/djcelery/admin.py:208
-msgid "Node detail"
-msgstr "Hollësi e nyjes"
-
-#: lib/python2.7/site-packages/djcelery/admin.py:209
-msgid "Worker Nodes"
-msgstr "Nyjet e punëtorëve"
-
-#: lib/python2.7/site-packages/djcelery/admin.py:216
-msgid "Shutdown selected worker nodes"
-msgstr "Ndal nyjet e zgjedhura të punëtorëve"
-
-#: lib/python2.7/site-packages/djcelery/admin.py:220
-msgid "Enable event mode for selected nodes."
-msgstr "Mundëso modin e ngjarjes për nyjet e zgjedhura"
-
-#: lib/python2.7/site-packages/djcelery/admin.py:225
-msgid "Disable event mode for selected nodes."
-msgstr "Pa-mundëso modin e ngjarjes për nyjet e zgjedhura"
-
-#: lib/python2.7/site-packages/djcelery/admin.py:255
-msgid "Task (registered)"
-msgstr "Punë (e regjistruar)"
-
-#: lib/python2.7/site-packages/djcelery/admin.py:257
-msgid "Task (custom)"
-msgstr "Punë (e veçantë)"
-
-#: lib/python2.7/site-packages/djcelery/admin.py:269
-msgid "Need name of task"
-msgstr "Kërkohet emri i punës"
-
-#: lib/python2.7/site-packages/djcelery/admin.py:280
-#, python-format
-msgid "Unable to parse JSON: %s"
-msgstr "Pa-mundëso pars me JSON: %s"
-
-#: lib/python2.7/site-packages/djcelery/humanize.py:8
-msgid "just now"
-msgstr "mu tash"
-
-#: lib/python2.7/site-packages/djcelery/humanize.py:9
-#, python-format
-msgid "%(seconds)d second ago"
-msgstr "%(seconds)d sekonda parpara"
-
-#: lib/python2.7/site-packages/djcelery/humanize.py:9
-#, python-format
-msgid "%(seconds)d seconds ago"
-msgstr "%(seconds)d sekonda përpara"
-
-#: lib/python2.7/site-packages/djcelery/humanize.py:10
-#, python-format
-msgid "%(minutes)d minute ago"
-msgstr "%(minutes)d minuta përpara"
-
-#: lib/python2.7/site-packages/djcelery/humanize.py:10
-#, python-format
-msgid "%(minutes)d minutes ago"
-msgstr "%(minutes)d minuta përpara"
-
-#: lib/python2.7/site-packages/djcelery/humanize.py:11
-#, python-format
-msgid "%(hours)d hour ago"
-msgstr "%(hours)d orë përpara"
-
-#: lib/python2.7/site-packages/djcelery/humanize.py:11
-#, python-format
-msgid "%(hours)d hours ago"
-msgstr "%(hours)d orë përpara"
-
-#: lib/python2.7/site-packages/djcelery/humanize.py:12
-#: lib/python2.7/site-packages/tornado/locale.py:332
-#, python-format
-msgid "yesterday at %(time)s"
-msgstr " dje në %(time)s"
-
-#: lib/python2.7/site-packages/djcelery/humanize.py:13
-msgid "years"
-msgstr "vjet"
-
-#: lib/python2.7/site-packages/djcelery/humanize.py:14
-msgid "months"
-msgstr "muaj"
-
-#: lib/python2.7/site-packages/djcelery/humanize.py:15
-msgid "weeks"
-msgstr "javë"
-
-#: lib/python2.7/site-packages/djcelery/humanize.py:16
-msgid "days"
-msgstr "ditë"
-
-#: lib/python2.7/site-packages/djcelery/humanize.py:23
-#, python-format
-msgid "%(number)d %(type)s ago"
-msgstr "%(number)d %(type)s përpara"
-
-#: lib/python2.7/site-packages/djcelery/models.py:25
-msgid "task id"
-msgstr "id e punës"
-
-#: lib/python2.7/site-packages/djcelery/models.py:31
-msgid "done at"
-msgstr "e kryer në"
-
-#: lib/python2.7/site-packages/djcelery/models.py:32
-#: lib/python2.7/site-packages/djcelery/models.py:336
-msgid "traceback"
-msgstr "rishikim"
-
-#: lib/python2.7/site-packages/djcelery/models.py:35
-msgid "meta"
-msgstr "meta"
-
-#: lib/python2.7/site-packages/djcelery/models.py:41
-msgid "task state"
-msgstr "gjendja e punës"
-
-#: lib/python2.7/site-packages/djcelery/models.py:42
-msgid "task states"
-msgstr "gjendjet e punës"
-
-#: lib/python2.7/site-packages/djcelery/models.py:59
-msgid "group id"
-msgstr "id i grupit"
-
-#: lib/python2.7/site-packages/djcelery/models.py:61
-msgid "created at"
-msgstr "krijuar në"
-
-#: lib/python2.7/site-packages/djcelery/models.py:68
-msgid "saved group result"
-msgstr "rezultati i ruajtur i grupit"
-
-#: lib/python2.7/site-packages/djcelery/models.py:69
-msgid "saved group results"
-msgstr "rezultatet e ruajtura të grupit"
-
-#: lib/python2.7/site-packages/djcelery/models.py:81
-msgid "Days"
-msgstr "Ditë"
-
-#: lib/python2.7/site-packages/djcelery/models.py:82
-msgid "Hours"
-msgstr "Orë"
-
-#: lib/python2.7/site-packages/djcelery/models.py:83
-msgid "Minutes"
-msgstr "Minuta"
-
-#: lib/python2.7/site-packages/djcelery/models.py:84
-msgid "Seconds"
-msgstr "Sekonda"
-
-#: lib/python2.7/site-packages/djcelery/models.py:85
-msgid "Microseconds"
-msgstr "Mikrosekonda"
-
-#: lib/python2.7/site-packages/djcelery/models.py:89
-msgid "every"
-msgstr "çdo"
-
-#: lib/python2.7/site-packages/djcelery/models.py:91
-msgid "period"
-msgstr "periodë"
-
-#: lib/python2.7/site-packages/djcelery/models.py:95
-#: lib/python2.7/site-packages/djcelery/models.py:202
-msgid "interval"
-msgstr "interval"
-
-#: lib/python2.7/site-packages/djcelery/models.py:96
-msgid "intervals"
-msgstr "intervale"
-
-#: lib/python2.7/site-packages/djcelery/models.py:116
-#, python-format
-msgid "every %(period)s"
-msgstr "çdo %(period)s"
-
-#: lib/python2.7/site-packages/djcelery/models.py:117
-#, python-format
-msgid "every %(every)s %(period)s"
-msgstr "çdo %(every)s %(period)s"
-
-#: lib/python2.7/site-packages/djcelery/models.py:129
-msgid "day of week"
-msgstr "ditë e javës"
-
-#: lib/python2.7/site-packages/djcelery/models.py:132
-msgid "day of month"
-msgstr "ditë e muajit"
-
-#: lib/python2.7/site-packages/djcelery/models.py:135
-msgid "month of year"
-msgstr "muaji i vitit"
-
-#: lib/python2.7/site-packages/djcelery/models.py:139
-#: lib/python2.7/site-packages/djcelery/models.py:206
-msgid "crontab"
-msgstr "crontab"
-
-#: lib/python2.7/site-packages/djcelery/models.py:140
-msgid "crontabs"
-msgstr "crontabs"
-
-#: lib/python2.7/site-packages/djcelery/models.py:198
-msgid "Useful description"
-msgstr "Përshkrim i përdorueshëm"
-
-#: lib/python2.7/site-packages/djcelery/models.py:199
-msgid "task name"
-msgstr "emri i punës"
-
-#: lib/python2.7/site-packages/djcelery/models.py:207
-msgid "Use one of interval/crontab"
-msgstr "Përdor njerën nga interval/crontab"
-
-#: lib/python2.7/site-packages/djcelery/models.py:210
-#: lib/python2.7/site-packages/djcelery/models.py:328
-msgid "Arguments"
-msgstr "Argumente"
-
-#: lib/python2.7/site-packages/djcelery/models.py:211
-msgid "JSON encoded positional arguments"
-msgstr "Argumente pozicionale të koduara JSON"
-
-#: lib/python2.7/site-packages/djcelery/models.py:214
-#: lib/python2.7/site-packages/djcelery/models.py:329
-msgid "Keyword arguments"
-msgstr "Argumentet e fjalëve kyçe"
-
-#: lib/python2.7/site-packages/djcelery/models.py:215
-msgid "JSON encoded keyword arguments"
-msgstr "Argumente të fjalëve kyçe të koduara JSON"
-
-#: lib/python2.7/site-packages/djcelery/models.py:218
-#: lib/python2.7/site-packages/kombu/transport/django/models.py:16
+#: lib/python2.7/site-packages/kombu/transport/django/models.py:17
 msgid "queue"
 msgstr "queue"
 
-#: lib/python2.7/site-packages/djcelery/models.py:219
-msgid "Queue defined in CELERY_QUEUES"
-msgstr "Queue i përcaktuar në CELERY_QUEUES"
-
-#: lib/python2.7/site-packages/djcelery/models.py:222
-msgid "exchange"
-msgstr "këmbim"
-
-#: lib/python2.7/site-packages/djcelery/models.py:225
-msgid "routing key"
-msgstr "routing key"
-
-#: lib/python2.7/site-packages/djcelery/models.py:228
-#: lib/python2.7/site-packages/djcelery/models.py:334
-msgid "expires"
-msgstr "skadon"
-
-#: lib/python2.7/site-packages/djcelery/models.py:231
-msgid "enabled"
-msgstr "i mundësuar"
-
-#: lib/python2.7/site-packages/djcelery/models.py:241
-msgid "description"
-msgstr "përshkrim"
-
-#: lib/python2.7/site-packages/djcelery/models.py:247
-msgid "periodic task"
-msgstr "punë periodike"
-
-#: lib/python2.7/site-packages/djcelery/models.py:248
-msgid "periodic tasks"
-msgstr "punë periodike"
-
-#: lib/python2.7/site-packages/djcelery/models.py:286
-msgid "hostname"
-msgstr "hostname"
-
-#: lib/python2.7/site-packages/djcelery/models.py:287
-msgid "last heartbeat"
-msgstr "e rrahura e fundit e zemrës"
-
-#: lib/python2.7/site-packages/djcelery/models.py:294
-#: lib/python2.7/site-packages/djcelery/models.py:343
-msgid "worker"
-msgstr "punëtor"
-
-#: lib/python2.7/site-packages/djcelery/models.py:295
-msgid "workers"
-msgstr "punëtorë"
-
-#: lib/python2.7/site-packages/djcelery/models.py:326
-msgid "event received at"
-msgstr "ngjarje e pranuar në"
-
-#: lib/python2.7/site-packages/djcelery/models.py:335
-msgid "result"
-msgstr "rezultat"
-
-#: lib/python2.7/site-packages/djcelery/models.py:338
-msgid "execution time"
-msgstr "koha e ekzekutimit"
-
-#: lib/python2.7/site-packages/djcelery/models.py:339
-msgid "in seconds if task successful"
-msgstr "në sekonda nëse puna e suksesshme"
-
-#: lib/python2.7/site-packages/djcelery/models.py:341
-msgid "number of retries"
-msgstr "numri i orvatjeve"
-
-#: lib/python2.7/site-packages/djcelery/models.py:351
-msgid "task"
-msgstr "punë"
-
-#: lib/python2.7/site-packages/djcelery/models.py:352
-msgid "tasks"
-msgstr "punë"
-
-#: lib/python2.7/site-packages/djcelery/templates/djcelery/confirm_rate_limit.html:22
-msgid "Rate limit"
-msgstr "Kufiri i vlerësimit"
-
-#: lib/python2.7/site-packages/kombu/transport/django/models.py:17
+#: lib/python2.7/site-packages/kombu/transport/django/models.py:18
 msgid "queues"
 msgstr "queues"
 
-#: lib/python2.7/site-packages/kombu/transport/django/models.py:24
+#: lib/python2.7/site-packages/kombu/transport/django/models.py:25
 msgid "payload"
 msgstr "payload"
 
-#: lib/python2.7/site-packages/kombu/transport/django/models.py:31
+#: lib/python2.7/site-packages/kombu/transport/django/models.py:33
 msgid "message"
 msgstr "mesazh"
 
-#: lib/python2.7/site-packages/kombu/transport/django/models.py:32
+#: lib/python2.7/site-packages/kombu/transport/django/models.py:34
 msgid "messages"
 msgstr "mesazhe"
 
@@ -8195,67 +7145,699 @@ msgstr "titulli c"
 msgid "title d"
 msgstr "titulli d"
 
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:11
+msgid "Null character in input stream, replaced with U+FFFD."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:13
+#, fuzzy
+msgid "Invalid codepoint in stream."
+msgstr "Tip i pavlefshëm gjeometrik."
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:15
+msgid "Solidus (/) incorrectly placed in tag."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:17
+msgid "Incorrect CR newline entity, replaced with LF."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:19
+msgid "Entity used with illegal number (windows-1252 reference)."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:21
+#, python-format
+msgid ""
+"Numeric entity couldn't be converted to character (codepoint U+"
+"%(charAsInt)08x)."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:24
+#, python-format
+msgid "Numeric entity represents an illegal codepoint: U+%(charAsInt)08x."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:27
+msgid "Numeric entity didn't end with ';'."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:29
+msgid "Numeric entity expected. Got end of file instead."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:31
+msgid "Numeric entity expected but none found."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:33
+msgid "Named entity didn't end with ';'."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:35
+msgid "Named entity expected. Got none."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:37
+msgid "End tag contains unexpected attributes."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:39
+msgid "End tag contains unexpected self-closing flag."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:41
+msgid "Expected tag name. Got '>' instead."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:43
+msgid ""
+"Expected tag name. Got '?' instead. (HTML doesn't support processing "
+"instructions.)"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:46
+msgid "Expected tag name. Got something else instead"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:48
+msgid "Expected closing tag. Got '>' instead. Ignoring '</>'."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:50
+msgid "Expected closing tag. Unexpected end of file."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:52
+#, python-format
+msgid "Expected closing tag. Unexpected character '%(data)s' found."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:54
+msgid "Unexpected end of file in the tag name."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:56
+msgid "Unexpected end of file. Expected attribute name instead."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:58
+msgid "Unexpected end of file in attribute name."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:60
+msgid "Invalid character in attribute name"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:62
+msgid "Dropped duplicate attribute on tag."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:64
+msgid "Unexpected end of file. Expected = or end of tag."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:66
+msgid "Unexpected end of file. Expected attribute value."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:68
+msgid "Expected attribute value. Got '>' instead."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:70
+msgid "Unexpected = in unquoted attribute"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:72
+msgid "Unexpected character in unquoted attribute"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:74
+msgid "Unexpected character after attribute name."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:76
+msgid "Unexpected character after attribute value."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:78
+msgid "Unexpected end of file in attribute value (\")."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:80
+msgid "Unexpected end of file in attribute value (')."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:82
+msgid "Unexpected end of file in attribute value."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:84
+msgid "Unexpected end of file in tag. Expected >"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:86
+msgid "Unexpected character after / in tag. Expected >"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:88
+msgid "Expected '--' or 'DOCTYPE'. Not found."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:90
+msgid "Unexpected ! after -- in comment"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:92
+msgid "Unexpected space after -- in comment"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:94
+#, fuzzy
+msgid "Incorrect comment."
+msgstr "Mundëso komentet"
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:96
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:104
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:106
+msgid "Unexpected end of file in comment."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:98
+msgid "Unexpected end of file in comment (-)"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:100
+msgid "Unexpected '-' after '--' found in comment."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:102
+msgid "Unexpected end of file in comment (--)."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:108
+msgid "Unexpected character in comment found."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:110
+msgid "No space after literal string 'DOCTYPE'."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:112
+msgid "Unexpected > character. Expected DOCTYPE name."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:114
+msgid "Unexpected end of file. Expected DOCTYPE name."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:116
+msgid "Unexpected end of file in DOCTYPE name."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:118
+msgid "Unexpected end of file in DOCTYPE."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:120
+#, python-format
+msgid "Expected space or '>'. Got '%(data)s'"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:122
+msgid "Unexpected end of DOCTYPE."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:124
+msgid "Unexpected character in DOCTYPE."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:126
+msgid "XXX innerHTML EOF"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:128
+msgid "Unexpected DOCTYPE. Ignored."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:130
+msgid "html needs to be the first start tag."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:132
+msgid "Unexpected End of file. Expected DOCTYPE."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:134
+msgid "Erroneous DOCTYPE."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:136
+msgid "Unexpected non-space characters. Expected DOCTYPE."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:138
+#, python-format
+msgid "Unexpected start tag (%(name)s). Expected DOCTYPE."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:140
+#, python-format
+msgid "Unexpected end tag (%(name)s). Expected DOCTYPE."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:142
+#, python-format
+msgid "Unexpected end tag (%(name)s) after the (implied) root element."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:144
+#, python-format
+msgid "Unexpected end of file. Expected end tag (%(name)s)."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:146
+msgid "Unexpected start tag head in existing head. Ignored."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:148
+#, python-format
+msgid "Unexpected end tag (%(name)s). Ignored."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:150
+#, python-format
+msgid "Unexpected start tag (%(name)s) that can be in head. Moved."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:152
+#, python-format
+msgid "Unexpected start tag (%(name)s)."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:154
+#, python-format
+msgid "Missing end tag (%(name)s)."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:156
+#, fuzzy, python-format
+msgid "Missing end tags (%(name)s)."
+msgstr "Hyrje me sukses si %(name)s."
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:158
+#, python-format
+msgid "Unexpected start tag (%(startName)s) implies end tag (%(endName)s)."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:161
+#, python-format
+msgid "Unexpected start tag (%(originalName)s). Treated as %(newName)s."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:163
+#, python-format
+msgid "Unexpected start tag %(name)s. Don't use it!"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:165
+#, python-format
+msgid "Unexpected start tag %(name)s. Ignored."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:167
+#, python-format
+msgid "Unexpected end tag (%(gotName)s). Missing end tag (%(expectedName)s)."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:170
+#, python-format
+msgid "End tag (%(name)s) seen too early. Expected other end tag."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:172
+#, python-format
+msgid "Unexpected end tag (%(gotName)s). Expected end tag (%(expectedName)s)."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:174
+#, python-format
+msgid "End tag (%(name)s) seen too early. Ignored."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:176
+#, python-format
+msgid ""
+"End tag (%(name)s) violates step 1, paragraph 1 of the adoption agency "
+"algorithm."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:179
+#, python-format
+msgid ""
+"End tag (%(name)s) violates step 1, paragraph 2 of the adoption agency "
+"algorithm."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:182
+#, python-format
+msgid ""
+"End tag (%(name)s) violates step 1, paragraph 3 of the adoption agency "
+"algorithm."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:185
+#, python-format
+msgid ""
+"End tag (%(name)s) violates step 4, paragraph 4 of the adoption agency "
+"algorithm."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:188
+#, python-format
+msgid "Unexpected end tag (%(originalName)s). Treated as %(newName)s."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:190
+#, python-format
+msgid "This element (%(name)s) has no end tag."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:192
+#, python-format
+msgid "Unexpected implied end tag (%(name)s) in the table phase."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:194
+#, python-format
+msgid "Unexpected implied end tag (%(name)s) in the table body phase."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:196
+msgid "Unexpected non-space characters in table context caused voodoo mode."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:199
+msgid "Unexpected input with type hidden in table context."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:201
+msgid "Unexpected form in table context."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:203
+#, python-format
+msgid "Unexpected start tag (%(name)s) in table context caused voodoo mode."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:206
+#, python-format
+msgid "Unexpected end tag (%(name)s) in table context caused voodoo mode."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:209
+#, python-format
+msgid "Unexpected table cell start tag (%(name)s) in the table body phase."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:212
+#, python-format
+msgid "Got table cell end tag (%(name)s) while required end tags are missing."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:215
+#, python-format
+msgid "Unexpected end tag (%(name)s) in the table body phase. Ignored."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:217
+#, python-format
+msgid "Unexpected implied end tag (%(name)s) in the table row phase."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:219
+#, python-format
+msgid "Unexpected end tag (%(name)s) in the table row phase. Ignored."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:221
+msgid ""
+"Unexpected select start tag in the select phase treated as select end tag."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:224
+msgid "Unexpected input start tag in the select phase."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:226
+#, python-format
+msgid "Unexpected start tag token (%(name)s in the select phase. Ignored."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:229
+#, python-format
+msgid "Unexpected end tag (%(name)s) in the select phase. Ignored."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:231
+#, python-format
+msgid ""
+"Unexpected table element start tag (%(name)s) in the select in table phase."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:233
+#, python-format
+msgid ""
+"Unexpected table element end tag (%(name)s) in the select in table phase."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:235
+msgid "Unexpected non-space characters in the after body phase."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:237
+#, python-format
+msgid "Unexpected start tag token (%(name)s) in the after body phase."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:240
+#, python-format
+msgid "Unexpected end tag token (%(name)s) in the after body phase."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:243
+msgid "Unexpected characters in the frameset phase. Characters ignored."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:245
+#, python-format
+msgid "Unexpected start tag token (%(name)s) in the frameset phase. Ignored."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:248
+msgid "Unexpected end tag token (frameset) in the frameset phase (innerHTML)."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:251
+#, python-format
+msgid "Unexpected end tag token (%(name)s) in the frameset phase. Ignored."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:254
+msgid "Unexpected non-space characters in the after frameset phase. Ignored."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:257
+#, python-format
+msgid "Unexpected start tag (%(name)s) in the after frameset phase. Ignored."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:260
+#, python-format
+msgid "Unexpected end tag (%(name)s) in the after frameset phase. Ignored."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:263
+msgid "Unexpected end tag after body(innerHtml)"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:265
+msgid "Unexpected non-space characters. Expected end of file."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:267
+#, python-format
+msgid "Unexpected start tag (%(name)s). Expected end of file."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:270
+#, python-format
+msgid "Unexpected end tag (%(name)s). Expected end of file."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:273
+msgid "Unexpected end of file. Expected table content."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:275
+msgid "Unexpected end of file. Expected select content."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:277
+msgid "Unexpected end of file. Expected frameset content."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:279
+msgid "Unexpected end of file. Expected script content."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:281
+msgid "Unexpected end of file. Expected foreign content"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:283
+#, python-format
+msgid "Trailing solidus not allowed on element %(name)s"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:285
+#, python-format
+msgid "Element %(name)s not allowed in a non-html context"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:287
+#, python-format
+msgid "Unexpected end tag (%(name)s) before html."
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py:289
+msgid "Undefined error (this sucks and should be fixed)"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/filters/lint.py:26
+#, python-format
+msgid "StartTag not in PCDATA content model flag: %(tag)s"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/filters/lint.py:28
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/filters/lint.py:54
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/filters/lint.py:84
+#, python-format
+msgid "Tag name is not a string: %(tag)r"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/filters/lint.py:30
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/filters/lint.py:56
+#, fuzzy
+msgid "Empty tag name"
+msgstr "emri i punës"
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/filters/lint.py:32
+#, python-format
+msgid "Void element reported as StartTag token: %(tag)s"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/filters/lint.py:34
+#, python-format
+msgid "Non-void element reported as EmptyTag token: %(tag)s"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/filters/lint.py:39
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/filters/lint.py:71
+#, python-format
+msgid "Attribute name is not a string: %(name)r"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/filters/lint.py:41
+#, fuzzy
+msgid "Empty attribute name"
+msgstr "emri i template"
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/filters/lint.py:43
+#, python-format
+msgid "Attribute value is not a string: %(value)r"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/filters/lint.py:58
+#, python-format
+msgid "Void element reported as EndTag token: %(tag)s"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/filters/lint.py:61
+#, python-format
+msgid "EndTag (%(end)s) does not match StartTag (%(start)s)"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/filters/lint.py:66
+msgid "Comment not in PCDATA content model flag"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/filters/lint.py:73
+#, python-format
+msgid "%(type)s token with empty data"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/filters/lint.py:77
+#, python-format
+msgid "Non-space character(s) found in SpaceCharacters token: %(token)r"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/filters/lint.py:82
+#, python-format
+msgid "Doctype not in PCDATA content model flag: %(name)s"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/filters/lint.py:91
+#, fuzzy, python-format
+msgid "Unknown token type: %(type)s"
+msgstr "Përmbajtje e panjohur"
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/serializer/htmlserializer.py:211
+msgid "System identifer contains both single and double quote characters"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/serializer/htmlserializer.py:223
+msgid "Unexpected </ in CDATA"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/serializer/htmlserializer.py:234
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/serializer/htmlserializer.py:282
+msgid "Unexpected child element of a CDATA element"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/serializer/htmlserializer.py:288
+msgid "Comment contains --"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/serializer/htmlserializer.py:295
+#, python-format
+msgid "Entity %s not recognized"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/_base.py:61
+msgid "Void element has children"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/_base.py:125
+#, fuzzy
+msgid "Unknown node type: "
+msgstr "Përmbajtje e panjohur"
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/lxmletree.py:137
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/lxmletree.py:187
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/lxmletree.py:203
+#, python-format
+msgid "Text nodes are text or tail, found %s"
+msgstr ""
+
+#: lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/lxmletree.py:176
+msgid "Text nodes have no children"
+msgstr ""
+
 #: lib/python2.7/site-packages/sorl/thumbnail/admin/compat.py:56
 msgid "Clear image"
 msgstr "Fshij imazhin"
-
-#: lib/python2.7/site-packages/tornado/locale.py:315
-msgid "1 second ago"
-msgstr "1 sekondë përpara"
-
-#: lib/python2.7/site-packages/tornado/locale.py:320
-msgid "1 minute ago"
-msgstr "1 minutë përpara"
-
-#: lib/python2.7/site-packages/tornado/locale.py:324
-msgid "1 hour ago"
-msgstr "1 orë përpara"
-
-#: lib/python2.7/site-packages/tornado/locale.py:328
-#, python-format
-msgid "%(time)s"
-msgstr "%(time)s"
-
-#: lib/python2.7/site-packages/tornado/locale.py:334
-#, python-format
-msgid "%(weekday)s"
-msgstr "%(weekday)s"
-
-#: lib/python2.7/site-packages/tornado/locale.py:335
-#, python-format
-msgid "%(weekday)s at %(time)s"
-msgstr "%(weekday)s në %(time)s"
-
-#: lib/python2.7/site-packages/tornado/locale.py:337
-#: lib/python2.7/site-packages/tornado/locale.py:379
-#, python-format
-msgid "%(month_name)s %(day)s"
-msgstr "%(month_name)s %(day)s"
-
-#: lib/python2.7/site-packages/tornado/locale.py:338
-#, python-format
-msgid "%(month_name)s %(day)s at %(time)s"
-msgstr "%(month_name)s %(day)s në %(time)s"
-
-#: lib/python2.7/site-packages/tornado/locale.py:341
-#, python-format
-msgid "%(month_name)s %(day)s, %(year)s"
-msgstr "%(month_name)s %(day)s, %(year)s"
-
-#: lib/python2.7/site-packages/tornado/locale.py:342
-#, python-format
-msgid "%(month_name)s %(day)s, %(year)s at %(time)s"
-msgstr "%(month_name)s %(day)s, %(year)s në %(time)s"
-
-#: lib/python2.7/site-packages/tornado/locale.py:373
-#, python-format
-msgid "%(weekday)s, %(month_name)s %(day)s"
-msgstr "%(weekday)s, %(month_name)s %(day)s"
-
-#: lib/python2.7/site-packages/tornado/locale.py:396
-#, python-format
-msgid "%(commas)s and %(last)s"
-msgstr "%(commas)s dhe %(last)s"
 
 #: travels/forms.py:33
 msgid "Agree"
@@ -8366,63 +7948,63 @@ msgstr "Kyçu / Regjistrohu"
 msgid "logged in as "
 msgstr "i kyçur si   "
 
-#: travels/templates/frontpage.django.html:44
+#: travels/templates/frontpage.django.html:46
 msgid "You Must Login"
 msgstr "Ju Duhet të Kyçeni"
 
-#: travels/templates/frontpage.django.html:50
+#: travels/templates/frontpage.django.html:52
 msgid "All Casts"
 msgstr "Të gjitha Raportet"
 
-#: travels/templates/frontpage.django.html:52
+#: travels/templates/frontpage.django.html:54
 msgid "Map"
 msgstr "Hartë"
 
-#: travels/templates/frontpage.django.html:53
+#: travels/templates/frontpage.django.html:55
 msgid "List"
 msgstr "Listë"
 
-#: travels/templates/frontpage.django.html:54
+#: travels/templates/frontpage.django.html:56
 msgid "Rank"
 msgstr "Rang"
 
-#: travels/templates/frontpage.django.html:62
+#: travels/templates/frontpage.django.html:64
 msgid "Add Cast"
 msgstr "Shto Raport"
 
-#: travels/templates/frontpage.django.html:62
+#: travels/templates/frontpage.django.html:64
 msgid " to This Map"
 msgstr "  në Hartë"
 
-#: travels/templates/frontpage.django.html:69
+#: travels/templates/frontpage.django.html:71
 msgid "The Maps"
 msgstr "Hartat"
 
-#: travels/templates/frontpage.django.html:80
+#: travels/templates/frontpage.django.html:82
 msgid "Most Recent"
 msgstr "Të Fundit"
 
-#: travels/templates/frontpage.django.html:81
+#: travels/templates/frontpage.django.html:83
 msgid "Most Popular"
 msgstr "Më të Popullarizuarat"
 
-#: travels/templates/frontpage.django.html:88
+#: travels/templates/frontpage.django.html:90
 msgid "No Casts On Map"
 msgstr "Nuk ka Raporte në Hartë"
 
-#: travels/templates/frontpage.django.html:95
+#: travels/templates/frontpage.django.html:97
 msgid "Urgency Rank (Top 10)"
 msgstr "Rangu i Urgjencës (Top 10)"
 
-#: travels/templates/frontpage.django.html:125
+#: travels/templates/frontpage.django.html:127
 msgid "Reset"
 msgstr "Reseto"
 
-#: travels/templates/frontpage.django.html:131
+#: travels/templates/frontpage.django.html:133
 msgid "OSM Overlay"
 msgstr "OSM Overlay"
 
-#: travels/templates/frontpage.django.html:144
+#: travels/templates/frontpage.django.html:146
 msgid "Loading"
 msgstr "Duke u shkarkuar"
 
@@ -8563,8 +8145,8 @@ msgid ""
 "enter link to a <a href=\"http://youtube.com\" target=\"new\">YouTube</a> or "
 "<a href=\"http://vimeo.com\" target=\"new\" >Vimeo</a> video"
 msgstr ""
-"shkruaj linkun në <a href=\"http://youtube.com\" target=\"new\">YouTube</a> or "
-"<a href=\"http://vimeo.com\" target=\"new\" >Vimeo</a> video"
+"shkruaj linkun në <a href=\"http://youtube.com\" target=\"new\">YouTube</a> "
+"or <a href=\"http://vimeo.com\" target=\"new\" >Vimeo</a> video"
 
 #: travels/templates/ajax/cast_frontpage.django.html:281
 msgid "This Media Will Be Deleted"
@@ -8572,7 +8154,8 @@ msgstr "Media do të Fshihet"
 
 #: travels/templates/registration/login.html:7
 msgid "Your username and password didn't match. Please try again."
-msgstr "Përdoruesi dhe Fjalëkalimi nuk u përputhën. Ju lutemi provoni përsëri. "
+msgstr ""
+"Përdoruesi dhe Fjalëkalimi nuk u përputhën. Ju lutemi provoni përsëri. "
 
 #: travels/templates/registration/register.django.html:6
 msgid "Register A Mapping Account"
@@ -8585,3 +8168,760 @@ msgstr "Kerkohet"
 #: travels/templates/registration/register.django.html:17
 msgid "OPTIONAL"
 msgstr "OPCIONAL"
+
+#~ msgid "Usernames can only contain letters, digits and @/./+/-/_."
+#~ msgstr ""
+#~ "Emrat e Përdoruesve mund të përmbajnë vetëm shkronja, numra dhe @ /. /"
+#~ "+ /- /_."
+
+#~ msgid "Username can not be used. Please use other username."
+#~ msgstr ""
+#~ "Ky emër përdoruesi nuk mund të përdoret. Ju lutemi përdorni tjetër emër "
+#~ "përdoruesi."
+
+#~ msgid "Password must be a minimum of {0} characters."
+#~ msgstr "Fjalëkalimi duhet të përmbajë së paku {0} shkronja."
+
+#~ msgid "Remember Me"
+#~ msgstr "Më mbaj mend"
+
+#~ msgid "E-mail address"
+#~ msgstr "E-maili"
+
+#~ msgid "E-mail"
+#~ msgstr "Emaili"
+
+#~ msgid "Username or e-mail"
+#~ msgstr "Përdoruesi ose e-maili"
+
+#~ msgctxt "field label"
+#~ msgid "Login"
+#~ msgstr "Kyçuni"
+
+#~ msgid "This account is currently inactive."
+#~ msgstr "Llogaria nuk është aktive momentalisht."
+
+#~ msgid "The e-mail address and/or password you specified are not correct."
+#~ msgstr "Emaili dhe/ose fjalëkalimi nuk është i saktë."
+
+#~ msgid "The username and/or password you specified are not correct."
+#~ msgstr "Përdoruesi dhe/ose fjalëkalimi nuk është i saktë."
+
+#~ msgid "The login and/or password you specified are not correct."
+#~ msgstr "Përdoruesi dhe/ose fjalëkalimi nuk është i saktë."
+
+#~ msgid "E-mail (optional)"
+#~ msgstr "Emaili (opcional)"
+
+#~ msgid "This username is already taken. Please choose another."
+#~ msgstr ""
+#~ "Ky emër përdoruesi nuk është në disponim. Ju lutem zgjedhni një tjetër."
+
+#~ msgid "A user is already registered with this e-mail address."
+#~ msgstr "Një përdoruesi është i regjistruar me këtë email adresë."
+
+#~ msgid "You must type the same password each time."
+#~ msgstr "Duhesh ta përdorësh fjalëkalimin e njejt secilën her."
+
+#~ msgid "This e-mail address is already associated with this account."
+#~ msgstr "Një përdoruesi është i regjistruar me këtë llogari."
+
+#~ msgid "This e-mail address is already associated with another account."
+#~ msgstr "Kjo e-mail adresë është e lidhur me një përdorues tjetër"
+
+#~ msgid "Current Password"
+#~ msgstr "Fjalëkalimi aktual"
+
+#~ msgid "New Password"
+#~ msgstr "Fjalkalimi i ri"
+
+#~ msgid "New Password (again)"
+#~ msgstr "Fjalëkalimi i ri (përsëri)"
+
+#~ msgid "Please type your current password."
+#~ msgstr "Ju lutemi shtypni fjalëkalimin tuaj aktual."
+
+#~ msgid "The e-mail address is not assigned to any user account"
+#~ msgstr "Kjo adresë e-maili nuk i është dhënë asnjë përdoruesi"
+
+#~ msgid "email addresses"
+#~ msgstr "adresat email"
+
+#~ msgid "email confirmation"
+#~ msgstr "konfirmimi i emailit"
+
+#~ msgid "email confirmations"
+#~ msgstr "konfirmimet e emailit"
+
+# Misplaced % sign
+#~ msgid "Confirmation e-mail sent to %(email)s"
+#~ msgstr "emaili konfirmues i është dërguar të %(email)s ave"
+
+#~ msgid "Your account has no password set up."
+#~ msgstr "xhirollogaria juaj nuk ka fjalëkalim të vendosur"
+
+#~ msgid "Your account has no verified e-mail address."
+#~ msgstr "Llogaria juaj nuk ka adresë të verifikuar emaili."
+
+#~ msgid "Invalid response while obtaining request token from \"%s\"."
+#~ msgstr "Përgjigje e pavlefshme duke e marrë kërkesën token nga \"%s\". "
+
+#~ msgid "Invalid response while obtaining access token from \"%s\"."
+#~ msgstr "Përgjigje e pavlefshme duke e marrë qasjen nga \"%s\"."
+
+#~ msgid "No request token saved for \"%s\"."
+#~ msgstr "Nuk ka kërkesë të ruajtur për \"%s\"."
+
+#~ msgid "No access token saved for \"%s\"."
+#~ msgstr "Nuk ka qasje të ruajtur për \"%s\"."
+
+#~ msgid "No access to private resources at \"%s\"."
+#~ msgstr "Nuk ka qasje në resurset private në \"%s\"."
+
+#~ msgid "Account"
+#~ msgstr "Llogaria"
+
+#~ msgid "E-mail Addresses"
+#~ msgstr "Adresat e-mail"
+
+#~ msgid "The following e-mail addresses are associated with your account:"
+#~ msgstr ""
+#~ "Adresat e-mail në vijim nuk janë të bashkëlidhura me llogarinë tuaj: "
+
+#~ msgid "Verified"
+#~ msgstr "E verifikuar"
+
+#~ msgid "Unverified"
+#~ msgstr "E joverifikuar"
+
+#~ msgid "Primary"
+#~ msgstr "Primar(e)"
+
+#~ msgid "Make Primary"
+#~ msgstr "Bëre primar(e)"
+
+#~ msgid "Re-send Verification"
+#~ msgstr "dërgo përsëri Verifikimin"
+
+#~ msgid "Warning:"
+#~ msgstr "Vërejtje:"
+
+#~ msgid ""
+#~ "You currently do not have any e-mail address set up. You should really "
+#~ "add an e-mail address so you can receive notifications, reset your "
+#~ "password, etc."
+#~ msgstr ""
+#~ "Ju aktualisht nuk keni një adresë emaili të krijuar. Ju duhet vërtetë të "
+#~ "shtoni një adresë e-maili, ashtu që të mund të merrni njoftime, të "
+#~ "resetoni fjalëkalimin etj."
+
+#~ msgid "Add E-mail Address"
+#~ msgstr "Shto një adresë E-maili"
+
+#~ msgid "Add E-mail"
+#~ msgstr "Shto një E-mail"
+
+#~ msgid "Do you really want to remove the selected e-mail address?"
+#~ msgstr "Dëshironi ta largoni adresën e zgjedhur të e-mailit?"
+
+#~ msgid "Confirm E-mail Address"
+#~ msgstr "Konfirmo Adresën E-mail"
+
+#~ msgid ""
+#~ "Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-"
+#~ "mail address for user %(user_display)s."
+#~ msgstr ""
+#~ "Ju lutemi konfirmoni se  <a href=\"mailto:%(email)s\">%(email)s</a> është "
+#~ "adresa e-mail e përdoruesit %(user_display)s."
+
+#~ msgid "Confirm"
+#~ msgstr "Konfirmo"
+
+#~ msgid ""
+#~ "This e-mail confirmation link expired or is invalid. Please <a href="
+#~ "\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+#~ msgstr ""
+#~ "Ky link për konfirmim e-maili është i skaduar apo i pavlefshëm. Ju lutemi "
+#~ "<a href=\"%(email_url)s\">procesojeni një kërkesë të re për email "
+#~ "konfirmues</a>."
+
+#~ msgid ""
+#~ "You have confirmed that <a href=\"mailto:%(email)s\">%(email)s</a> is an "
+#~ "e-mail address for user %(user_display)s."
+#~ msgstr ""
+#~ "Ju keni konfirmuar se <a href=\"mailto:%(email)s\">%(email)s</a> është "
+#~ "adresë e-maili për përdoruesin %(user_display)s."
+
+#~ msgid "Sign In"
+#~ msgstr "Kyçu"
+
+#~ msgid ""
+#~ "Please sign in with one\n"
+#~ "of your existing third party accounts. Or, <a href=\"%(signup_url)s"
+#~ "\">sign up</a> \n"
+#~ "for a %(site_name)s account and sign in below:"
+#~ msgstr ""
+#~ "Ju lutemi hyni me njërën/n prej llogarive tuaja ekzistuese të përsonit të "
+#~ "tretë. Ose, <a href=\"%(signup_url)s\">sign up</a>  për llogarinë e "
+#~ "%(site_name)s dhe hyrjen në vijim: "
+
+#~ msgid "Forgot Password?"
+#~ msgstr "Keni harruar Fjalëkalimin?"
+
+#~ msgid "Sign Out"
+#~ msgstr "Dil"
+
+#~ msgid "Are you sure you want to sign out?"
+#~ msgstr "Jeni të sigurtë se dëshironi të dilni?"
+
+#~ msgid "Change Password"
+#~ msgstr "Ndërro Fjalëkalimin"
+
+#~ msgid "Delete Password"
+#~ msgstr "Fshijë Fjalëkalimin"
+
+#~ msgid ""
+#~ "You may delete your password since you are currently logged in using "
+#~ "OpenID."
+#~ msgstr ""
+#~ "Ju mund ta fshini fjalëkalimin tuaj meqë ju aktualisht jeni të kyçur duke "
+#~ "përdorur OpenID (identitet të hapur)"
+
+#~ msgid "delete my password"
+#~ msgstr "fshijë fjalëkalimin tim"
+
+#~ msgid "Password Deleted"
+#~ msgstr "Fjalëkalimi i fshirë"
+
+#~ msgid "Your password has been deleted."
+#~ msgstr "Fjalëkalimi juaj është fshirë"
+
+#~ msgid "Password Reset"
+#~ msgstr "Resetim Fjalëkalimi"
+
+#~ msgid ""
+#~ "Forgotten your password? Enter your e-mail address below, and we'll send "
+#~ "you an e-mail allowing you to reset it."
+#~ msgstr ""
+#~ "Keni harruar fjalëkalimin tuaj? Shtypni adresën tuaj të e-mailit këtu "
+#~ "poshtë, dhe ne do të ju dërgojmë një e-mail që do të ju mundësojë të "
+#~ "resetoni atë."
+
+#~ msgid "Reset My Password"
+#~ msgstr "Reseto Fjalëkalimin tim"
+
+#~ msgid "Please contact us if you have any trouble resetting your password."
+#~ msgstr ""
+#~ "Ju lutemi na kontaktoni nëse keni ndonjë paqartësi rreth resetimit të "
+#~ "fjalëkalimit tuaj."
+
+#~ msgid ""
+#~ "We have sent you an e-mail. Please contact us if you do not receive it "
+#~ "within a few minutes."
+#~ msgstr ""
+#~ "Ne ju kemi dërguar një email. Ju lutemi na kontaktoni nëse nuk e keni "
+#~ "pranuar brenda disa minutash."
+
+#~ msgid "Bad Token"
+#~ msgstr "Token e pavlerë"
+
+#~ msgid ""
+#~ "The password reset link was invalid, possibly because it has already been "
+#~ "used.  Please request a <a href=\"%(passwd_reset_url)s\">new password "
+#~ "reset</a>."
+#~ msgstr ""
+#~ "Linku për resetimin e fjalëkalimit është i pavlefshëm, mbase për shkak se "
+#~ "tashmë është përdorur. Ju lutemi kërkoni <a href=\"%(passwd_reset_url)s"
+#~ "\">resetim i ri i fjalëkalimit</a>"
+
+#~ msgid "change password"
+#~ msgstr "ndërro fjalëkalimin"
+
+#~ msgid "Your password is now changed."
+#~ msgstr "Fjalëkalimi juaj u ndërrua."
+
+#~ msgid "Set Password"
+#~ msgstr "Vendos Fjalëkalimin"
+
+#~ msgid "Signup"
+#~ msgstr "Regjistrohu"
+
+#~ msgid "Sign Up"
+#~ msgstr "Regjistrohu"
+
+#~ msgid ""
+#~ "Already have an account? Then please <a href=\"%(login_url)s\">sign in</"
+#~ "a>."
+#~ msgstr ""
+#~ "Tashmë e keni Llogarinë? Atëherë ju lutemi <a href=\"%(login_url)s"
+#~ "\">kyçuni</a>."
+
+#~ msgid "Sign Up Closed"
+#~ msgstr "Regjistrimi është mbyllur"
+
+#~ msgid "We are sorry, but the sign up is currently closed."
+#~ msgstr "Na vjen keq, por regjistrimi aktualisht është mbyllur."
+
+#~ msgid "Verify Your E-mail Address"
+#~ msgstr "Verifikoni Adresën tuaj të E-mailit"
+
+#~ msgid ""
+#~ "We have sent an e-mail to <a href=\"mailto:%(email)s\">%(email)s</a> for "
+#~ "verification. Follow the link provided to finalize the signup process. "
+#~ "Please contact us if you do not receive it within a few minutes."
+#~ msgstr ""
+#~ "Ne e kemi dërguar një email në <a href=\"mailto:%(email)s\">%(email)s</a> "
+#~ "për verifikim. Përcillni linkun e sugjeruar për të finalizuar procesin e "
+#~ "regjistrimit. Ju lutemi na kontaktoni nëse nuk ju ka ardhur brenda disa "
+#~ "minutash."
+
+#~ msgid ""
+#~ "This part of the site requires us to verify that\n"
+#~ "you are who you claim to be. For this purpose, we require that you\n"
+#~ "verify ownership of your e-mail address. "
+#~ msgstr ""
+#~ "Kjo pjesë e sajtit kërkon që ne të verifikojmë seju jeni ai/ajo që "
+#~ "pretendoni se jeni. Për këtë qëllim, ne kërkojmë që ju të verifikoni "
+#~ "pronësinë tuaj mbi adresën tuaj të e-mailit."
+
+#~ msgid ""
+#~ "We have sent an e-mail to you for\n"
+#~ "verification. Please click on the link inside this e-mail. Please\n"
+#~ "contact us if you do not receive it within a few minutes."
+#~ msgstr ""
+#~ "Ne ju kemi dërguar një e-mail për verifikim. Ju lutemi klikoni në linkun "
+#~ "që është në atë e-mail. Ju lutemi na kontaktoni nëse nuk e keni marrë "
+#~ "brenda disa minutash. "
+
+#~ msgid ""
+#~ "<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change "
+#~ "your e-mail address</a>."
+#~ msgstr ""
+#~ "<strong>Note:</strong>ju ende<a href=\"%(email_url)s\">mund ta ndërroni "
+#~ "adresën tuaj të e-mailit</a>."
+
+#~ msgid ""
+#~ "User %(user_display)s at %(site_name)s has given this as an email "
+#~ "address.\n"
+#~ "\n"
+#~ "To confirm this is correct, go to %(activate_url)s\n"
+#~ msgstr ""
+#~ "Përdoruesi %(user_display)s at %(site_name)s e ka dhënë këtë si adresë e-"
+#~ "maili.Për ta konfirmuar se kjo është korrekte, vijo në %(activate_url)s\n"
+
+# Missing newlines
+#~ msgid ""
+#~ "You're receiving this e-mail because you or someone else has requested a "
+#~ "password for your user account at %(site_domain)s.\n"
+#~ "It can be safely ignored if you did not request a password reset. Click "
+#~ "the link below to reset your password.\n"
+#~ "\n"
+#~ "%(password_reset_url)s\n"
+#~ "\n"
+#~ "In case you forgot, your username is %(username)s.\n"
+#~ "\n"
+#~ "Thanks for using our site!\n"
+#~ msgstr ""
+#~ "Ju e keni marrë këtë e-mail sepse ju ose dikush tjetër ka kërkuar një "
+#~ "fjalëkalim për llogarinë tuaj të përdoruesit në %(site_domain)s.\n"
+#~ "Ju mund ta injoroni këtë kërkesë pa problem nëse ju nuk keni kërkuar "
+#~ "resetim fjalëkalimi. Klikoni në linkun këtu poshtë për ta resetuar "
+#~ "fjlëkalimin tuaj.\n"
+#~ "\n"
+#~ "%(password_reset_url)s\n"
+#~ "\n"
+#~ "Në rast se e keni harruar, emri juaj i përdoruesit është %(username)s.\n"
+#~ "\n"
+#~ "Faleminderit që po e përdorni sajtin tonë!\n"
+
+#~ msgid "Password Reset E-mail"
+#~ msgstr "E-maili për Resetim të Fjalëkalimit"
+
+#~ msgid "You cannot remove your primary e-mail address (%(email)s)."
+#~ msgstr ""
+#~ "Ju nuk mund ta ndërroni adresën tuaj primare të e-mailit (%(email)s)."
+
+#~ msgid "Confirmation e-mail sent to %(email)s."
+#~ msgstr "E-maili i konfirmimit i dërguar në %(email)s."
+
+#~ msgid "You have confirmed %(email)s."
+#~ msgstr "Ju keni konfirmuar %(email)s. "
+
+#~ msgid "Removed e-mail address %(email)s."
+#~ msgstr "Adresa e-mail e mënjanuar %(email)s."
+
+#~ msgid "You have signed out."
+#~ msgstr "Ju keni dalë."
+
+#~ msgid "Password successfully changed."
+#~ msgstr "Fjalëkalimi i ndërruar me sukses."
+
+#~ msgid "Password successfully set."
+#~ msgstr "Fjalëkalimi i vendosur me sukses."
+
+#~ msgid "Primary e-mail address set."
+#~ msgstr "Adresa primare e e-mailit e vendosur."
+
+#~ msgid "Your primary e-mail address must be verified."
+#~ msgstr "Adresa juaj primare e e-mailit duhet të verifikohet."
+
+#~ msgid "Note"
+#~ msgstr "Vërejtje"
+
+#~ msgid "you are already logged in as %(user_display)s."
+#~ msgstr "ju jeni tashmë i kyçur si %(user_display)s."
+
+#~ msgid "OpenID Sign In"
+#~ msgstr "Hyrje me OpenID"
+
+#~ msgid "Account Inactive"
+#~ msgstr "Llogaria joaktive"
+
+#~ msgid "Social Network Login Failure"
+#~ msgstr "Dështim i Kyçjes në Rrjetin Social"
+
+#~ msgid ""
+#~ "An error occurred while attempting to login via your social network "
+#~ "account."
+#~ msgstr ""
+#~ "U shfaq një gabim gjatë përpjekjes së kyçjes suaj përmes llogarisë suaj "
+#~ "të rrjetit social."
+
+#~ msgid "Account Connections"
+#~ msgstr "Lidhjet e Llogarisë"
+
+#~ msgid ""
+#~ "You can sign in to your account using any of the following third party "
+#~ "accounts:"
+#~ msgstr ""
+#~ "Ju mund të hyni në llogarinë tuaj duke përdorur cilëndo prej llogarive të "
+#~ "palës së tretë në vijim: "
+
+#~ msgid ""
+#~ "You currently have no social network accounts connected to this account."
+#~ msgstr ""
+#~ "Ju aktualisht nuk keni llogari të rrjetit social që janë të lidhura me "
+#~ "këtë llogari."
+
+#~ msgid "Add a 3rd Party Account"
+#~ msgstr "Shto një Llogari të palës së tretë"
+
+#~ msgid "Login Cancelled"
+#~ msgstr "Hyrja e Anuluar"
+
+#~ msgid ""
+#~ "You decided to cancel logging in to our site using one of your existing "
+#~ "accounts. If this was a mistake, please proceed to <a href=\"%(login_url)s"
+#~ "\">sign in</a>."
+#~ msgstr ""
+#~ "Ju vendosët të anuloni hyrjen në sajtin tonë duke përdorur njerën prej "
+#~ "llogarive tuaja ekzistuese. Nëse kjo ishte bërë gabimisht, ju lutemi "
+#~ "vijoni në <a href=\"%(login_url)s\">hyr</a>."
+
+#~ msgid ""
+#~ "You are about to use your %(provider_name)s account to login to \n"
+#~ "%(site_name)s. As a final step, please complete the following form:"
+#~ msgstr ""
+#~ "Ju jeni duke dashur të përdorni llogarinë tuaj %(provider_name)s për të "
+#~ "hyrë  %(site_name)s. Si hap të fundit, ju lutemi plotësoni formularin në "
+#~ "vijim:"
+
+#~ msgid "The social account has been connected."
+#~ msgstr "Kjo llogari sociale është e lidhur."
+
+#~ msgid "The social account is already connected to a different account."
+#~ msgstr "Llogaria sociale tashmë është e lidhur në një llogari tjetër."
+
+#~ msgid "The social account has been disconnected."
+#~ msgstr "Llogaria sociale është ndërprerë."
+
+#~ msgid "state"
+#~ msgstr "state"
+
+#~ msgid "ETA"
+#~ msgstr "ETA"
+
+#~ msgid "when"
+#~ msgstr "kur"
+
+#~ msgid "Task detail"
+#~ msgstr "Hollësi e punës"
+
+#~ msgid "Tasks"
+#~ msgstr "Punët"
+
+#~ msgid "UUID"
+#~ msgstr "UUID"
+
+#~ msgid "Revoke selected tasks"
+#~ msgstr "Revoko punët e zgjedhura"
+
+#~ msgid "Terminate selected tasks"
+#~ msgstr "Ndërprejë punët e zgjedhura"
+
+#~ msgid "Kill selected tasks"
+#~ msgstr "Pusho punët e zgjedhura"
+
+#~ msgid "Rate limit selected tasks"
+#~ msgstr "Vlerëso kufizimin e punëve të zgjedhura"
+
+#~ msgid "Rate limit selection"
+#~ msgstr "Vlerëso kufizimin e zgjedhjes"
+
+#~ msgid "Node detail"
+#~ msgstr "Hollësi e nyjes"
+
+#~ msgid "Worker Nodes"
+#~ msgstr "Nyjet e punëtorëve"
+
+#~ msgid "Shutdown selected worker nodes"
+#~ msgstr "Ndal nyjet e zgjedhura të punëtorëve"
+
+#~ msgid "Enable event mode for selected nodes."
+#~ msgstr "Mundëso modin e ngjarjes për nyjet e zgjedhura"
+
+#~ msgid "Disable event mode for selected nodes."
+#~ msgstr "Pa-mundëso modin e ngjarjes për nyjet e zgjedhura"
+
+#~ msgid "Task (registered)"
+#~ msgstr "Punë (e regjistruar)"
+
+#~ msgid "Task (custom)"
+#~ msgstr "Punë (e veçantë)"
+
+#~ msgid "Need name of task"
+#~ msgstr "Kërkohet emri i punës"
+
+#~ msgid "Unable to parse JSON: %s"
+#~ msgstr "Pa-mundëso pars me JSON: %s"
+
+#~ msgid "just now"
+#~ msgstr "mu tash"
+
+#~ msgid "%(seconds)d second ago"
+#~ msgstr "%(seconds)d sekonda parpara"
+
+#~ msgid "%(seconds)d seconds ago"
+#~ msgstr "%(seconds)d sekonda përpara"
+
+#~ msgid "%(minutes)d minute ago"
+#~ msgstr "%(minutes)d minuta përpara"
+
+#~ msgid "%(minutes)d minutes ago"
+#~ msgstr "%(minutes)d minuta përpara"
+
+#~ msgid "%(hours)d hour ago"
+#~ msgstr "%(hours)d orë përpara"
+
+#~ msgid "%(hours)d hours ago"
+#~ msgstr "%(hours)d orë përpara"
+
+#~ msgid "yesterday at %(time)s"
+#~ msgstr " dje në %(time)s"
+
+#~ msgid "years"
+#~ msgstr "vjet"
+
+#~ msgid "months"
+#~ msgstr "muaj"
+
+#~ msgid "weeks"
+#~ msgstr "javë"
+
+#~ msgid "days"
+#~ msgstr "ditë"
+
+#~ msgid "%(number)d %(type)s ago"
+#~ msgstr "%(number)d %(type)s përpara"
+
+#~ msgid "task id"
+#~ msgstr "id e punës"
+
+#~ msgid "done at"
+#~ msgstr "e kryer në"
+
+#~ msgid "traceback"
+#~ msgstr "rishikim"
+
+#~ msgid "meta"
+#~ msgstr "meta"
+
+#~ msgid "task state"
+#~ msgstr "gjendja e punës"
+
+#~ msgid "task states"
+#~ msgstr "gjendjet e punës"
+
+#~ msgid "group id"
+#~ msgstr "id i grupit"
+
+#~ msgid "created at"
+#~ msgstr "krijuar në"
+
+#~ msgid "saved group result"
+#~ msgstr "rezultati i ruajtur i grupit"
+
+#~ msgid "saved group results"
+#~ msgstr "rezultatet e ruajtura të grupit"
+
+#~ msgid "Days"
+#~ msgstr "Ditë"
+
+#~ msgid "Hours"
+#~ msgstr "Orë"
+
+#~ msgid "Minutes"
+#~ msgstr "Minuta"
+
+#~ msgid "Seconds"
+#~ msgstr "Sekonda"
+
+#~ msgid "Microseconds"
+#~ msgstr "Mikrosekonda"
+
+#~ msgid "every"
+#~ msgstr "çdo"
+
+#~ msgid "period"
+#~ msgstr "periodë"
+
+#~ msgid "interval"
+#~ msgstr "interval"
+
+#~ msgid "intervals"
+#~ msgstr "intervale"
+
+#~ msgid "every %(period)s"
+#~ msgstr "çdo %(period)s"
+
+#~ msgid "every %(every)s %(period)s"
+#~ msgstr "çdo %(every)s %(period)s"
+
+#~ msgid "day of week"
+#~ msgstr "ditë e javës"
+
+#~ msgid "day of month"
+#~ msgstr "ditë e muajit"
+
+#~ msgid "month of year"
+#~ msgstr "muaji i vitit"
+
+#~ msgid "crontab"
+#~ msgstr "crontab"
+
+#~ msgid "crontabs"
+#~ msgstr "crontabs"
+
+#~ msgid "Useful description"
+#~ msgstr "Përshkrim i përdorueshëm"
+
+#~ msgid "Use one of interval/crontab"
+#~ msgstr "Përdor njerën nga interval/crontab"
+
+#~ msgid "Arguments"
+#~ msgstr "Argumente"
+
+#~ msgid "JSON encoded positional arguments"
+#~ msgstr "Argumente pozicionale të koduara JSON"
+
+#~ msgid "Keyword arguments"
+#~ msgstr "Argumentet e fjalëve kyçe"
+
+#~ msgid "JSON encoded keyword arguments"
+#~ msgstr "Argumente të fjalëve kyçe të koduara JSON"
+
+#~ msgid "Queue defined in CELERY_QUEUES"
+#~ msgstr "Queue i përcaktuar në CELERY_QUEUES"
+
+#~ msgid "exchange"
+#~ msgstr "këmbim"
+
+#~ msgid "routing key"
+#~ msgstr "routing key"
+
+#~ msgid "expires"
+#~ msgstr "skadon"
+
+#~ msgid "enabled"
+#~ msgstr "i mundësuar"
+
+#~ msgid "description"
+#~ msgstr "përshkrim"
+
+#~ msgid "periodic task"
+#~ msgstr "punë periodike"
+
+#~ msgid "periodic tasks"
+#~ msgstr "punë periodike"
+
+#~ msgid "hostname"
+#~ msgstr "hostname"
+
+#~ msgid "last heartbeat"
+#~ msgstr "e rrahura e fundit e zemrës"
+
+#~ msgid "worker"
+#~ msgstr "punëtor"
+
+#~ msgid "workers"
+#~ msgstr "punëtorë"
+
+#~ msgid "event received at"
+#~ msgstr "ngjarje e pranuar në"
+
+#~ msgid "result"
+#~ msgstr "rezultat"
+
+#~ msgid "execution time"
+#~ msgstr "koha e ekzekutimit"
+
+#~ msgid "in seconds if task successful"
+#~ msgstr "në sekonda nëse puna e suksesshme"
+
+#~ msgid "number of retries"
+#~ msgstr "numri i orvatjeve"
+
+#~ msgid "task"
+#~ msgstr "punë"
+
+#~ msgid "tasks"
+#~ msgstr "punë"
+
+#~ msgid "Rate limit"
+#~ msgstr "Kufiri i vlerësimit"
+
+#~ msgid "1 second ago"
+#~ msgstr "1 sekondë përpara"
+
+#~ msgid "1 minute ago"
+#~ msgstr "1 minutë përpara"
+
+#~ msgid "1 hour ago"
+#~ msgstr "1 orë përpara"
+
+#~ msgid "%(time)s"
+#~ msgstr "%(time)s"
+
+#~ msgid "%(weekday)s"
+#~ msgstr "%(weekday)s"
+
+#~ msgid "%(weekday)s at %(time)s"
+#~ msgstr "%(weekday)s në %(time)s"
+
+#~ msgid "%(month_name)s %(day)s"
+#~ msgstr "%(month_name)s %(day)s"
+
+#~ msgid "%(month_name)s %(day)s at %(time)s"
+#~ msgstr "%(month_name)s %(day)s në %(time)s"
+
+#~ msgid "%(month_name)s %(day)s, %(year)s"
+#~ msgstr "%(month_name)s %(day)s, %(year)s"
+
+#~ msgid "%(month_name)s %(day)s, %(year)s at %(time)s"
+#~ msgstr "%(month_name)s %(day)s, %(year)s në %(time)s"
+
+#~ msgid "%(weekday)s, %(month_name)s %(day)s"
+#~ msgstr "%(weekday)s, %(month_name)s %(day)s"
+
+#~ msgid "%(commas)s and %(last)s"
+#~ msgstr "%(commas)s dhe %(last)s"
