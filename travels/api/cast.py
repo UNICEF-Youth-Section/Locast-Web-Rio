@@ -13,6 +13,8 @@ from locast.auth.decorators import require_http_auth, optional_http_auth
 from travels import models, forms
 from travels.models import Itinerary
 
+from travels.models import TravelsUser
+
 from locast.api import comment as comment_api
 
 from django.db.models import Sum
@@ -133,7 +135,10 @@ class CastAPI(rest.ResourceView):
             itin.related_casts.add(cast)
 
         cast.save()
-        models.UserActivity.objects.create_activity(request.user, cast, 'created')
+
+        user = get_object(models.TravelsUser, request.user.id)        
+
+        models.UserActivity.objects.create_activity(user, cast, 'created')
 
         return APIResponseCreated(content=api_serialize(cast, request), location=cast.get_api_uri())
 
