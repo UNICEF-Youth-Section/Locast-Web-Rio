@@ -27,7 +27,7 @@
         {% endif %}
          </a>
         <ul id="login-options">
-            <li><a id="logout-link" href="{% url 'logout' %}?next={{request.path}}">Logout</a></li>
+            <li><a id="logout-link" href="{% url 'logout' %}?next={{request.path}}">{% trans "Logout" %}</a></li>
         </ul>
     {% endif %}
 {% endblock %}
@@ -128,7 +128,7 @@
 </div>
 
 <form id="map-layer-switcher">
-    <label for="osm-checkbox">Satellite View</label>
+    <label for="osm-checkbox">{% trans "Satellite View" %}</label>
     <input type="checkbox" id="osm-checkbox" value="visible" />
     <label for="pl-checkbox">{% trans 'OSM Overlay' %}</label>
     <input type="checkbox" id="pl-checkbox" value="visible" />

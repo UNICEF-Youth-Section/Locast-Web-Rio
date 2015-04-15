@@ -8925,3 +8925,9 @@ msgstr "OPCIONAL"
 
 #~ msgid "%(commas)s and %(last)s"
 #~ msgstr "%(commas)s dhe %(last)s"
+
+msgid "Logout"
+msgstr ""
+
+msgid "Satellite View"
+msgstr ""

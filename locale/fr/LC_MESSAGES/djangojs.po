@@ -178,3 +178,36 @@ msgstr "Títre:"
 #: travels/templates/admin/map_admin.django.js:97
 msgid "Description:"
 msgstr "Description:"
+
+msgid "Add Cast"
+msgstr ""
+
+msgid "CASTS"
+msgstr ""
+
+msgid "Create Cast"
+msgstr ""
+
+msgid "Event"
+msgstr ""
+
+msgid "Filter map to see Casts that"
+msgstr ""
+
+msgid "Itinerary"
+msgstr ""
+
+msgid "MAPS"
+msgstr ""
+
+msgid "USERS"
+msgstr ""
+
+msgid "Up Next: Add Photos and Videos"
+msgstr ""
+
+msgid "comma-seperated list"
+msgstr ""
+
+msgid "has"
+msgstr ""

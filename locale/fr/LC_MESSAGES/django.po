@@ -386,3 +386,9 @@ msgstr "Obligatoire"
 #: travels/templates/registration/register.django.html:17
 msgid "OPTIONAL"
 msgstr "Optionnel"
+
+msgid "Logout"
+msgstr ""
+
+msgid "Satellite View"
+msgstr ""

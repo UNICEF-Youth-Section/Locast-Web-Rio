@@ -320,3 +320,69 @@ msgstr "Titulli:"
 #: travels/templates/admin/map_admin.django.js:97
 msgid "Description:"
 msgstr "Përshkrimi:"
+
+msgid "Add Cast"
+msgstr ""
+
+msgid "Brief Description"
+msgstr ""
+
+msgid "CASTS"
+msgstr ""
+
+msgid "Casts"
+msgstr ""
+
+msgid "Click The Map To Set Your Cast's Location"
+msgstr ""
+
+msgid "Create Cast"
+msgstr ""
+
+msgid "Event"
+msgstr ""
+
+msgid "Filter map to see Casts that"
+msgstr ""
+
+msgid "Itinerary"
+msgstr ""
+
+msgid "MAPS"
+msgstr ""
+
+msgid "Map Controls on the Left Reposition the Map"
+msgstr ""
+
+msgid "Name Your Cast"
+msgstr ""
+
+msgid "Open"
+msgstr ""
+
+msgid "Results"
+msgstr ""
+
+msgid "Select a Location for Your Cast by Clicking the Map."
+msgstr ""
+
+msgid "Tags"
+msgstr ""
+
+msgid "USERS"
+msgstr ""
+
+msgid "Up Next: Add Photos and Videos"
+msgstr ""
+
+msgid "comma-seperated list"
+msgstr ""
+
+msgid "has"
+msgstr ""
+
+msgid "more casts"
+msgstr ""
+
+msgid "until"
+msgstr ""
