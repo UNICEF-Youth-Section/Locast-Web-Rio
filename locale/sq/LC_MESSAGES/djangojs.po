@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-24 18:27-0300\n"
-"PO-Revision-Date: 2015-01-23 06:42+0200\n"
+"PO-Revision-Date: 2015-05-01 14:46+0200\n"
 "Last-Translator:  <islamilander@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sq\n"
@@ -81,7 +81,7 @@ msgstr "Mënjano të gjitha"
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:80
 #, c-format
 msgid "Click to remove all chosen %s at once."
-msgstr "Klik për të mënjanuar të gjitha %s të zgjedhura menjëherë."
+msgstr "Kliko për të mënjanuar të gjitha %s të zgjedhura menjëherë."
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/actions.js:18
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/actions.min.js:1
@@ -118,7 +118,7 @@ msgid ""
 "button."
 msgstr ""
 "Ju keni zgjedhur një veprim, dhe ju nuk keni bërë asnjë ndryshim në fushat "
-"individuale. Ju mbase po e kërkoni butonin Hec në vend të butonit Ruaj."
+"individuale. Ju mbase po e kërkoni butonin Ec në vend të butonit Ruaj."
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/calendar.js:26
 msgid ""
@@ -130,7 +130,7 @@ msgstr ""
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/calendar.js:27
 msgid "S M T W T F S"
-msgstr "H M M E P S D"
+msgstr "D H M M E P S"
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/collapse.js:8
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/collapse.js:19
@@ -172,7 +172,7 @@ msgstr "Mesditë"
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:204
 #: static/js/frontpage_views.js:470
 msgid "Cancel"
-msgstr "Anullo"
+msgstr "Anulo"
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:144
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:197
@@ -321,68 +321,74 @@ msgstr "Titulli:"
 msgid "Description:"
 msgstr "Përshkrimi:"
 
-msgid "Add Cast"
-msgstr ""
-
-msgid "Brief Description"
-msgstr ""
-
-msgid "CASTS"
-msgstr ""
-
-msgid "Casts"
-msgstr ""
-
-msgid "Click The Map To Set Your Cast's Location"
-msgstr ""
-
-msgid "Create Cast"
-msgstr ""
-
-msgid "Event"
-msgstr ""
-
-msgid "Filter map to see Casts that"
-msgstr ""
-
-msgid "Itinerary"
-msgstr ""
-
-msgid "MAPS"
-msgstr ""
+msgid "comma-seperated list"
+msgstr "Listë e ndarë me presje "
 
 msgid "Map Controls on the Left Reposition the Map"
-msgstr ""
-
-msgid "Name Your Cast"
-msgstr ""
-
-msgid "Open"
-msgstr ""
-
-msgid "Results"
-msgstr ""
-
-msgid "Select a Location for Your Cast by Clicking the Map."
-msgstr ""
-
-msgid "Tags"
-msgstr ""
-
-msgid "USERS"
-msgstr ""
-
-msgid "Up Next: Add Photos and Videos"
-msgstr ""
-
-msgid "comma-seperated list"
-msgstr ""
-
-msgid "has"
-msgstr ""
+msgstr "Kërko Lokacionin Në Hartë "
 
 msgid "more casts"
-msgstr ""
+msgstr "më shumë raporte"
+
+msgid "Add Cast"
+msgstr "Shto Raport"
+
+msgid "Tags"
+msgstr "Shenjo"
+
+#~ msgid "Logout"
+#~ msgstr ""
+
+msgid "CASTS"
+msgstr "RAPORTET"
+
+msgid "has"
+msgstr "ka"
 
 msgid "until"
-msgstr ""
+msgstr "Deri "
+
+msgid "Click The Map To Set Your Cast's Location"
+msgstr "Kliko në Hartë Lokacionin e Raportit Tuaj"
+
+msgid "Select a Location for Your Cast by Clicking the Map."
+msgstr "Kliko në Hartë Lokacionin Ku Doni Të Raportoni"
+
+msgid "Casts"
+msgstr "Raportet"
+
+msgid "Filter map to see Casts that"
+msgstr "Filtro Hartën për të siquar Raportet të cilat"
+
+msgid "Itinerary"
+msgstr "itinerari"
+
+msgid "Name Your Cast"
+msgstr "Emërto Raportin Tënd"
+
+msgid "USERS"
+msgstr "Përdoruesit"
+
+msgid "Brief Description"
+msgstr "Përshkruaj Shkurtë"
+
+#~ msgid "Satellite View"
+#~ msgstr ""
+
+msgid "Results"
+msgstr "Rezultatet"
+
+msgid "MAPS"
+msgstr "HARTAT"
+
+msgid "Create Cast"
+msgstr "Krijo Raportin"
+
+msgid "Up Next: Add Photos and Videos"
+msgstr "Kliko \"Krijo Raportin\" për të shtuar Foto ose Video"
+
+msgid "Open"
+msgstr "Hap"
+
+msgid "Event"
+msgstr "Ngjarja"
