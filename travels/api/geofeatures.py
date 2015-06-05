@@ -87,24 +87,37 @@ def get_geofeatures(request):
     return APIResponseOK(content=features_dict)
 
 def get_user_new_casts(request, cache_key):
-    return [
-        dict(
-            geometry=dict(type="Point", coordinates= [0, 0.28564334798311]),
-            type="Feautre",
-            id= 999,
-            properties=dict(
-                author=dict(
-                    display_name="Injected User",
-                    id= 666
-                ),
-                title="Injected Report",
-                official=False,
-                urgency_level= 0,
-                id= 523,
-                preview_image=None
-            )
-        )
-    ]
+    query = request.GET.copy()
+
+    cache_time = int(cache_key) * 60 * 10 # last cache generation time
+
+    # FIXME: the cast could appear twice on the map if the user modifies
+    # the cast after the cache was created - ie, adding a picture
+    # Until the next cache invalidation (up to 10 minutes), the map will
+    # show both the old version of the cast and the new one with all the
+    # changes. We should look for duplicates when merging user_casts with
+    # the cached_casts
+
+    # search only casts modified _after_ the cache creation
+    base_query = Q(modified__gte=datetime.fromtimestamp(cache_time))
+
+    cast_base_query = models.Cast.get_privacy_q(request) & base_query
+
+    q = qstranslate.QueryTranslator(models.Cast, CastAPI.ruleset, cast_base_query)
+
+    try:
+      casts = q.filter(query).select_related('author').prefetch_related('media_set').prefetch_related('tags')
+    except qstranslate.InvalidParameterException, e:
+      raise exceptions.APIBadRequest(e.message)
+
+    cast_arr = []
+
+    for c in casts:
+      if c.location:
+          s = geojson_serialize(c, c.location, request)
+          cast_arr.append(s)
+
+    return cast_arr
 
 def add_user_casts(cache_val, user_new_casts):
     cache_val['user_casts'] = dict(type='FeatureCollection', features=user_new_casts)
