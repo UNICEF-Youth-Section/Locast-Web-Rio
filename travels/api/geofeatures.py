@@ -120,7 +120,7 @@ def get_user_new_casts(request, cache_key):
     return cast_arr
 
 def add_user_casts(cache_val, user_new_casts):
-    cache_val['user_casts'] = dict(type='FeatureCollection', features=user_new_casts)
+    cache_val['casts']['features'].extend(user_new_casts)
 
 def _generate_cache_key(request):
     cache_slot = int(time.time() / (60*10)) # change cache key every ten minutes (60 * 10)
