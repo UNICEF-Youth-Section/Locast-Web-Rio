@@ -278,6 +278,10 @@ function map_refresh(disable_async) {
 }
 
 function map_refresh_cb(data) {
+    if(data["user_casts"]) {
+        var current_casts = data["casts"]["features"];
+        current_casts.push.apply(current_casts, data["user_casts"]["features"])
+    }
     main_map.clearFeatures();
     main_map.renderFeatures(data);
     if ( ITIN_ID_FILTER ) {

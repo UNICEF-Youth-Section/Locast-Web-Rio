@@ -11,10 +11,16 @@ from travels import cache_control, models
 from travels.api.cast import CastAPI
 from time import time
 
+import time
+
 def get_geofeatures(request):
     cache_key = _generate_cache_key(request)
     cache_val = cache.get(cache_key, cache_control.GEOFEATURES_CACHE_GROUP)
+
     if cache_val:
+        user_new_casts = get_user_new_casts(request, cache_key)
+        add_user_casts(cache_val, user_new_casts)
+
         return APIResponseOK(content=cache_val)
 
     bounds_param = get_param(request.GET, 'within')
@@ -80,17 +86,29 @@ def get_geofeatures(request):
 
     return APIResponseOK(content=features_dict)
 
-# Should vary on the authenticated user and the query string
+def get_user_new_casts(request, cache_key):
+    return [
+        dict(
+            geometry=dict(type="Point", coordinates= [0, 0.28564334798311]),
+            type="Feautre",
+            id= 999,
+            properties=dict(
+                author=dict(
+                    display_name="Injected User",
+                    id= 666
+                ),
+                title="Injected Report",
+                official=False,
+                urgency_level= 0,
+                id= 523,
+                preview_image=None
+            )
+        )
+    ]
+
+def add_user_casts(cache_val, user_new_casts):
+    cache_val['user_casts'] = dict(type='FeatureCollection', features=user_new_casts)
+
 def _generate_cache_key(request):
-    qd = request.GET.copy()
-
-    # Removing the client cache parameter
-    if '_' in qd:
-        del qd['_']
-    key = qd.urlencode() + '_'
-
-    if request.user.is_authenticated():
-        key = key + str(request.user.id)
-
-    return key
-
+    cache_slot = int(time.time() / (60*10)) # change cache key every ten minutes (60 * 10)
+    return str(cache_slot)
