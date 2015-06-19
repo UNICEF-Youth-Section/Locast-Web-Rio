@@ -89,7 +89,9 @@ def get_geofeatures(request):
 def get_user_new_casts(request, cache_key):
     query = request.GET.copy()
 
-    cache_time = int(cache_key) * 60 * 10 # last cache generation time
+    cache_timestamp = cache_key.split('@')[1]
+
+    cache_time = int(cache_timestamp) * 60 * 10 # last cache generation time
 
     # FIXME: the cast could appear twice on the map if the user modifies
     # the cast after the cache was created - ie, adding a picture
@@ -123,5 +125,8 @@ def add_user_casts(cache_val, user_new_casts):
     cache_val['casts']['features'].extend(user_new_casts)
 
 def _generate_cache_key(request):
+    itinerary = "all-casts"
+    if 'itinerary' in request.GET:
+        itinerary = str(request.GET['itinerary'])
     cache_slot = int(time.time() / (60*10)) # change cache key every ten minutes (60 * 10)
-    return str(cache_slot)
+    return str(itinerary) + "@" + str(cache_slot)
