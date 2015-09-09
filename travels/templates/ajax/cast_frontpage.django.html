@@ -32,11 +32,11 @@
 
         <span class="title cast-title">
             {{cast.title}}
-            {% if allowed_edit %} 
+            {% if allowed_edit %}
                 <a class="edit-toggle regular-link" href="#!">{% trans "Edit Title" %}</a>
             {% endif %}
         </span>
-        
+
         {% if allowed_edit %}
             <form id="title-form-cast_{{cast.id}}" class="cast-title-edit" method="post">
                 {% csrf_token %}
@@ -57,7 +57,17 @@
     </div>
 
     <script>
-        window.twttr.widgets.load()
+        // Hide Facebook share button if script failed to load due to service being blocked
+        if (typeof(FB) === 'undefined') {
+            $('.facebook_share_button').hide();
+        }
+
+        // Hide Twitter share button if script failed to load due to service being blocked
+        if (typeof(window.twttr.widgets) === 'undefined') {
+            $('.twitter-share-button').hide();
+        } else {
+            window.twttr.widgets.load();
+        }
     </script>
 
     <hr class="cast-ruler" />
@@ -69,7 +79,7 @@
     </div>
     {% endif %}
 
-        
+
         <div id="actions-cast_{{cast.id}}" class="cast-actions">
             <div id="favorite-cast_{{cast.id}}" class="favorite-cast {% if is_favorited %}favorited{% endif %}">
                 <p>{% trans "favorite" %}</p>
