@@ -518,6 +518,7 @@ body.full-width .content {
 .social-settings {
   padding-top: 16px;
   padding-right: 48px;
+  display: none;
 }
 
 .my-account-form label {

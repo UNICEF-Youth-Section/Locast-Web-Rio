@@ -16,7 +16,7 @@
 {% endblock actionbar %}
 
 {% block content %}
-	
+
 	<form method="post" action="{% url 'social:disconnect' "facebook" %}" id="disconnect-facebook">{% csrf_token %}</form>
 	<form method="post" action="{% url 'social:disconnect' "twitter" %}" id="disconnect-twitter">{% csrf_token %}</form>
 
@@ -30,25 +30,25 @@
 		<br/>
 		<br/>
 		<label>First Name</label>
-		<br/>		
+		<br/>
 		<input id='{{form.first_name.id_for_label}}' name='{{form.first_name.html_name}}' class="my-account-textbox" type="text" placeholder="Name" value='{{form.first_name.value}}'></input> {{ form.first_name.errors }}
 		<br/>
 		<br/>
 		<label>Last name</label>
-		<br/>		
+		<br/>
 		<input id='{{form.last_name.id_for_label}}' name='{{form.last_name.html_name}}' class="my-account-textbox" type="text" placeholder="Last name" value='{{form.last_name.value}}'></input> {{ form.last_name.errors }}
 		<br/>
 		<br/>
 		<label>Password</label>
-		<br/>		
+		<br/>
 		<input id='{{form.password.id_for_label}}' name='{{form.password.html_name}}' class="my-account-textbox" type="password" placeholder="Password"></input> {{ form.password.errors }}
 		<br/>
-		<br/>			
+		<br/>
 		<label>Confirm password</label>
-		<br/>		
+		<br/>
 		<input id='{{form.password_verify.id_for_label}}' name='{{form.password_verify.html_name}}' class="my-account-textbox" type="password" placeholder="Confirm password"></input> {{ form.password_verify.errors }}
 		<br/>
-		<br/>		
+		<br/>
 
 		<input type="submit" class='btn blue left' value="Save"></input>
 
@@ -58,12 +58,12 @@
 
 		<div class="full-width my-account-form-separator"></div>
 
-		<div class="social-settings left">
+		<div class="social-settings left facebook-credentials">
 			<div class="subtitle">Facebook credentials</div>
-			
+
 			{% if facebook_username %}
 				Connected to Facebook account <i>{{ facebook_username }}</i>
-				<br/>			    
+				<br/>
 				<button class="btn left" id="disconnect-facebook-anchor">Disconnect</a>
 				<script type="text/javascript">
 			      $(function () {
@@ -82,16 +82,16 @@
 			              window.location = '{%url "social:begin" "facebook"%}'
 			          });
 			      });
-			    </script>	
+			    </script>
 			{% endif%}
 		</div>
 
-		<div class="social-settings left">
+		<div class="social-settings left twitter-credentials">
 			<div class="subtitle">Twitter credentials</div>
 
 			{% if twitter_username %}
 				Connected to Twitter account <i>{{ twitter_username }}</i>
-				<br/>			    
+				<br/>
 				<button id="disconnect-twitter-anchor" class="btn left">Disconnect</a>
 				<script type="text/javascript">
 			      $(function () {
@@ -110,10 +110,28 @@
 			              window.location = '{%url "social:begin" "twitter"%}'
 			          });
 			      });
-			    </script>	
-			{% endif%}	
+			    </script>
+			{% endif%}
 		</div>
-				
+
+		<script>
+		// Social buttons start hidden, and are shown only when the associated scripts load
+		// This ensures that if the service is inaccessible, the option will not be shown to the user
+		var fbhandle = window.setInterval(function() {
+			if (typeof(FB) !== 'undefined') {
+				$('.facebook-credentials').show();
+				window.clearInterval(fbhandle);
+			}
+		}, 500);
+
+		var twhandle = window.setInterval(function() {
+			if (typeof(window.twttr.widgets) !== 'undefined') {
+				$('.twitter-credentials').show();
+				window.clearInterval(twhandle);
+			}
+		}, 500);
+		</script>
+
 		<br />
 
 	</form>
