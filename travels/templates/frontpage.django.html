@@ -127,12 +127,23 @@
     <a id="map-reset" href="#">{% trans "Reset"%}</a>
 </div>
 
-<form id="map-layer-switcher">
-    <label for="osm-checkbox">{% trans "Satellite View" %}</label>
-    <input type="checkbox" id="osm-checkbox" value="visible" />
-    <label for="pl-checkbox">{% trans 'OSM Overlay' %}</label>
-    <input type="checkbox" id="pl-checkbox" value="visible" />
-</form>
+<div id="map-layer-switcher-container">
+    <form id="map-layer-switcher">
+        <label for="osm-checkbox">{% trans "Satellite View" %}</label>
+        <input type="checkbox" id="osm-checkbox" value="visible" />
+        <label for="pl-checkbox">{% trans 'OSM Overlay' %}</label>
+        <input type="checkbox" id="pl-checkbox" value="visible" checked="checked" />
+    </form>
+</div>
+
+<script>
+    // Show layer switcher only if GMaps is loaded
+    $(function() {
+        if (typeof(G_API_VERSION) !== "undefined") {
+            $('#map-layer-switcher-container').show();
+        }
+    });
+</script>
 
 <div id="map-key">
 </div>

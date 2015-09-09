@@ -721,13 +721,17 @@ a.locast-icon.large.favorite:hover{background-position:0px -18px;}
 #map-layer-switcher{
     color:#fff;
     line-height:1.1;
+    text-align:right;
+    padding:4px 4px 4px 8px;
+    width:95px;
+}
+
+#map-layer-switcher-container{
+    display: none;
     position:absolute;
     z-index:1400;
-    width:95px;
     top:138px;
-    text-align:right;
     right:5px;
-    padding:4px 4px 4px 8px;
 }
 
 #map-key {

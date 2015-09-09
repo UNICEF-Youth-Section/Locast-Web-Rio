@@ -434,26 +434,29 @@ self.init = function(div) {
 
     // LAYERS
 
-    self.gterrainLayer = new OpenLayers.Layer.Google('Google Terrain', {
-        type: G_PHYSICAL_MAP,
-        sphericalMercator: true,
-        maxZoomLevel: 20,
-        minZoomLevel: 10,
-    });
+    // Only create Google Maps layers if script was successfully loaded
+    if (typeof(G_API_VERSION) !== "undefined") {
+        self.gterrainLayer = new OpenLayers.Layer.Google('Google Terrain', {
+            type: G_PHYSICAL_MAP,
+            sphericalMercator: true,
+            maxZoomLevel: 20,
+            minZoomLevel: 10,
+        });
 
-    self.gstreetLayer = new OpenLayers.Layer.Google('Google Streets', {
-        type: G_NORMAL_MAP,
-        sphericalMercator: true,
-        maxZoomLevel: 20,
-        minZoomLevel: 10,
-    });
+        self.gstreetLayer = new OpenLayers.Layer.Google('Google Streets', {
+            type: G_NORMAL_MAP,
+            sphericalMercator: true,
+            maxZoomLevel: 20,
+            minZoomLevel: 10,
+        });
 
-    self.gsatelliteLayer = new OpenLayers.Layer.Google('Google Streets', {
-        type: G_SATELLITE_MAP,
-        sphericalMercator: true,
-        maxZoomLevel: 20,
-        minZoomLevel: 10,
-    });
+        self.gsatelliteLayer = new OpenLayers.Layer.Google('Google Streets', {
+            type: G_SATELLITE_MAP,
+            sphericalMercator: true,
+            maxZoomLevel: 20,
+            minZoomLevel: 10,
+        });
+    }
 
     self.osmLayer = new OpenLayers.Layer.OSM(
         "Open Street Map",
@@ -730,10 +733,10 @@ self.init = function(div) {
 
     // SETUP
 
-    self.gstreetLayer.events.on({moveend: self.baseLayerSwitcher});
-    self.gterrainLayer.events.on({moveend: self.baseLayerSwitcher});
+    if (self.gstreetLayer)  self.gstreetLayer.events.on({moveend: self.baseLayerSwitcher});
+    if (self.gterrainLayer) self.gterrainLayer.events.on({moveend: self.baseLayerSwitcher});
 
-    self.map.addLayers([self.osmLayer, self.gterrainLayer, self.gstreetLayer, self.gsatelliteLayer]);
+    self.map.addLayers($.grep([self.osmLayer, self.gterrainLayer, self.gstreetLayer, self.gsatelliteLayer], function(l) { return l; }));
     self.map.addLayers([self.tmsOverlay, self.itineraryLayer, self.castLayer, self.eventLayer, self.boundryLayer, self.addCastLayer, self.openCastLayer]);
 
     self.map.addControls([self.addCastControl, self.highlightCtrl, self.selectCast, self.selectEvent, self.selectItinerary]);
@@ -763,7 +766,7 @@ self.osmLayerSwitcher = function(on){
         self.map.setBaseLayer(self.gsatelliteLayer);
         fix_openlayers_zoombar();
     }
-    else{
+    else if (self.gterrainLayer) {
         self.map.setBaseLayer(self.gterrainLayer);
         fix_openlayers_zoombar();
         //self.baseLayerSwitcher();
@@ -775,7 +778,7 @@ self.tmsOverlayVisible = function(on) {
         self.map.setBaseLayer(self.osmLayer);
         fix_openlayers_zoombar();
     }
-    else{
+    else if (self.gterrainLayer) {
         self.map.setBaseLayer(self.gterrainLayer);
         fix_openlayers_zoombar();
         //self.baseLayerSwitcher();
