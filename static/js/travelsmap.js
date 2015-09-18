@@ -440,28 +440,29 @@ self.init = function(div) {
             type: G_PHYSICAL_MAP,
             sphericalMercator: true,
             maxZoomLevel: 20,
-            minZoomLevel: 10,
+            minZoomLevel: defaults['zoomOffset'],
         });
 
         self.gstreetLayer = new OpenLayers.Layer.Google('Google Streets', {
             type: G_NORMAL_MAP,
             sphericalMercator: true,
             maxZoomLevel: 20,
-            minZoomLevel: 10,
+            minZoomLevel: defaults['zoomOffset'],
         });
 
         self.gsatelliteLayer = new OpenLayers.Layer.Google('Google Streets', {
             type: G_SATELLITE_MAP,
             sphericalMercator: true,
             maxZoomLevel: 20,
-            minZoomLevel: 10,
+            minZoomLevel: defaults['zoomOffset'],
         });
     }
 
+    var resolutions = [156543.0339, 78271.51695, 39135.758475, 19567.8792375, 9783.93961875, 4891.969809375, 2445.9849046875, 1222.99245234375, 611.496226171875, 305.7481130859375, 152.87405654296876, 76.43702827148438, 38.21851413574219, 19.109257067871095, 9.554628533935547, 4.777314266967774, 2.388657133483887,1.1943285667419434, 0.597164283]
     self.osmLayer = new OpenLayers.Layer.OSM(
         "Open Street Map",
         "",
-        {zoomOffset: 8, resolutions: [611.496226171875, 305.7481130859375, 152.87405654296876, 76.43702827148438, 38.21851413574219, 19.109257067871095, 9.554628533935547, 4.777314266967774, 2.388657133483887,1.1943285667419434, 0.597164283]}
+        {zoomOffset: defaults['zoomOffset'], resolutions: resolutions.slice(defaults['zoomOffset'])}
     );
 
     self.tmsOverlay = new OpenLayers.Layer.TMS( 'TMS Overlay', '',{
