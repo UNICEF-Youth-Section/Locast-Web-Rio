@@ -106,7 +106,7 @@ AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
     'locast.auth.backends.LocastEmailBackend',
     'locast.auth.backends.LocastUsernameBackend',
-    'social.backends.twitter.TwitterOAuth',    
+    'social.backends.twitter.TwitterOAuth',
     'social.backends.facebook.FacebookOAuth2',
 )
 
@@ -227,6 +227,7 @@ DEFAULT_PRIVACY = 2
 DEFAULT_LON = 0.0
 DEFAULT_LAT = 0.0
 DEFAULT_ZOOM = 0
+ZOOM_OFFSET = 8
 
 GOOGLE_MAPS_KEY = ''
 
@@ -240,6 +241,7 @@ CONTEXT_VARIABLES = (
     'DEFAULT_LON',
     'DEFAULT_LAT',
     'DEFAULT_ZOOM',
+    'ZOOM_OFFSET',
     'PRODUCTION',
     'VOY_BRANDING',
 )
