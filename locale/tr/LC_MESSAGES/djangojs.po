@@ -1,0 +1,303 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-29 12:26-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:45
+#, c-format
+msgid "Available %s"
+msgstr ""
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:46
+#, c-format
+msgid ""
+"This is the list of available %s. You may choose some by selecting them in "
+"the box below and then clicking the \"Choose\" arrow between the two boxes."
+msgstr ""
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:53
+#, c-format
+msgid "Type into this box to filter down the list of available %s."
+msgstr ""
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:57
+msgid "Filter"
+msgstr ""
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:61
+msgid "Choose all"
+msgstr ""
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:61
+#, c-format
+msgid "Click to choose all %s at once."
+msgstr ""
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:67
+msgid "Choose"
+msgstr ""
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:69
+msgid "Remove"
+msgstr ""
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:75
+#, c-format
+msgid "Chosen %s"
+msgstr ""
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:76
+#, c-format
+msgid ""
+"This is the list of chosen %s. You may remove some by selecting them in the "
+"box below and then clicking the \"Remove\" arrow between the two boxes."
+msgstr ""
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:80
+msgid "Remove all"
+msgstr ""
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:80
+#, c-format
+msgid "Click to remove all chosen %s at once."
+msgstr ""
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/actions.js:18
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/actions.min.js:1
+msgid "%(sel)s of %(cnt)s selected"
+msgid_plural "%(sel)s of %(cnt)s selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/actions.js:109
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/actions.min.js:5
+msgid ""
+"You have unsaved changes on individual editable fields. If you run an "
+"action, your unsaved changes will be lost."
+msgstr ""
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/actions.js:121
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/actions.min.js:5
+msgid ""
+"You have selected an action, but you haven't saved your changes to "
+"individual fields yet. Please click OK to save. You'll need to re-run the "
+"action."
+msgstr ""
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/actions.js:123
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/actions.min.js:6
+msgid ""
+"You have selected an action, and you haven't made any changes on individual "
+"fields. You're probably looking for the Go button rather than the Save "
+"button."
+msgstr ""
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/calendar.js:26
+msgid ""
+"January February March April May June July August September October November "
+"December"
+msgstr ""
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/calendar.js:27
+msgid "S M T W T F S"
+msgstr ""
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/collapse.js:8
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/collapse.js:19
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/collapse.min.js:1
+msgid "Show"
+msgstr ""
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/collapse.js:15
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/collapse.min.js:1
+msgid "Hide"
+msgstr ""
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:49
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:85
+msgid "Now"
+msgstr ""
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:53
+msgid "Clock"
+msgstr ""
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:81
+msgid "Choose a time"
+msgstr ""
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:86
+msgid "Midnight"
+msgstr ""
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:87
+msgid "6 a.m."
+msgstr ""
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:88
+msgid "Noon"
+msgstr ""
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:92
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:204
+#: static/js/frontpage_views.js:478
+msgid "Cancel"
+msgstr ""
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:144
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:197
+msgid "Today"
+msgstr ""
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:148
+msgid "Calendar"
+msgstr ""
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:195
+#: static/js/prettyDate.js:26
+msgid "Yesterday"
+msgstr ""
+
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js:199
+msgid "Tomorrow"
+msgstr ""
+
+#: static/js/frontpage.js:336 static/js/frontpage.js.c:708
+msgid "No Casts on Map"
+msgstr ""
+
+#: static/js/frontpage.js:539
+msgid "search for maps, casts or people"
+msgstr ""
+
+#: static/js/frontpage.js:807
+msgid ""
+"The Location you Selected is Outside Abruzzo! Select a Location in Abruzzo."
+msgstr ""
+
+#: static/js/frontpage.js:810
+msgid "Enter a Title for Your Cast"
+msgstr ""
+
+#: static/js/frontpage.js:822
+msgid "Click the Map to Select a Location for Your Cast"
+msgstr ""
+
+#: static/js/frontpage.js:942
+msgid "Invalid file type!"
+msgstr ""
+
+#: static/js/frontpage.js:956
+msgid "Uploading: "
+msgstr ""
+
+#: static/js/frontpage.js:963
+msgid "Done!"
+msgstr ""
+
+#: static/js/frontpage.js:973
+msgid "File too large."
+msgstr ""
+
+#: static/js/frontpage_views.js:51
+msgid "All Casts"
+msgstr ""
+
+#: static/js/frontpage_views.js:182
+msgid "flagged"
+msgstr ""
+
+#: static/js/frontpage_views.js:221
+msgid "Show Comments"
+msgstr ""
+
+#: static/js/frontpage_views.js:221
+msgid "Hide Comments"
+msgstr ""
+
+#: static/js/frontpage_views.js:257
+msgid "Are you sure you want to flag this cast as inappropriate ?"
+msgstr ""
+
+#: static/js/frontpage_views.js:476
+msgid "Choose a New Location for This Cast by Clicking the Map"
+msgstr ""
+
+#: static/js/frontpage_views.js:479
+msgid "Save New Location"
+msgstr ""
+
+#: static/js/frontpage_views.js:1014
+msgid "Casts Created by"
+msgstr ""
+
+#: static/js/frontpage_views.js:1019
+msgid "Casts Favorited by"
+msgstr ""
+
+#: static/js/frontpage_views.js:1105
+msgid "Casts Tagged"
+msgstr ""
+
+#: static/js/prettyDate.js:21
+msgid "just now"
+msgstr ""
+
+#: static/js/prettyDate.js:22
+msgid "1 minute ago"
+msgstr ""
+
+#: static/js/prettyDate.js:23
+msgid " minutes ago"
+msgstr ""
+
+#: static/js/prettyDate.js:25
+msgid " hours ago"
+msgstr ""
+
+#: static/js/prettyDate.js:27
+msgid " days ago"
+msgstr ""
+
+#: static/js/prettyDate.js:28
+msgid " weeks ago"
+msgstr ""
+
+#: travels/templates/admin/map_admin.django.js:31
+msgid "Move Map"
+msgstr ""
+
+#: travels/templates/admin/map_admin.django.js:40
+msgid "Create New Path"
+msgstr ""
+
+#: travels/templates/admin/map_admin.django.js:49
+msgid "Set Location"
+msgstr ""
+
+#: travels/templates/admin/map_admin.django.js:58
+msgid "Edit Existing Points"
+msgstr ""
+
+#: travels/templates/admin/map_admin.django.js:96
+msgid "Title:"
+msgstr ""
+
+#: travels/templates/admin/map_admin.django.js:97
+msgid "Description:"
+msgstr ""
