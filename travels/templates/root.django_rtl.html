@@ -1,0 +1,137 @@
+
+{% load i18n %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+    <head>
+    <title>{% block title %}{% endblock %}{{ project_settings.window_title }}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta http-equiv="content-language" content="EN, PT" />
+    <meta name="description" content="{% block meta-description %}{% trans "This project explores tools to help youth in Rio de Janeiro build impactful, communicative digital maps using mobile and web technologies" %}{% endblock %}" />
+    <meta name="keywords" content="locast, mit" />
+    <meta name="author" content="MIT Mobile Experience Lab" />
+    <meta name="robots" content="index,follow" />
+    <meta name="revisit-after" content="3 days" />
+    <meta name="distribution" content="global" />
+    <!-- Force IE to render in standards mode -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="index" title="TRAVELS" href="{{BASE_URL}}" />
+    <link rel="shortcut icon" href="{{STATIC_URL}}img/favicon.ico" type="image/x-icon" />
+    {% block style %}
+    {% endblock style %}
+    <link type="text/css" href="{{STATIC_URL}}js/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" media="screen, projection" />
+    <link type="text/css" href="{{STATIC_URL}}css/main.css" rel="stylesheet" media="screen, projection" />
+
+    <script type="text/javascript" src="{{STATIC_URL}}js/jquery.min.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/jquery.mousewheel.pack.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/jquery.tooltip.min.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/jquery.xfader.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/jquery.quickpager.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/jquery.pager.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/plupload/plupload.min.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/plupload/plupload.html5.min.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/plupload/plupload.flash.min.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/flowplayer/flowplayer-3.2.6.min.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/prettyDate.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/json2.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/mustache.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/sammy.js"></script>
+
+    <script type="text/javascript" src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=true&amp;key={{GOOGLE_MAPS_KEY}}"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/OpenLayers.js"></script>
+
+    <script type="text/javascript" src="{% url 'django.views.i18n.javascript_catalog' %}"></script>
+    <script type="text/javascript" src="{{BASE_URL}}/templates.js"></script>
+    <script type="text/javascript" src="{{BASE_URL}}/travels.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/unicef-gis.js"></script>
+    <script type="text/javascript" src="{{STATIC_URL}}js/travelsmap.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.4/angular.min.js"></script>
+    {% block script %}
+    {% endblock %}
+    {% if PRODUCTION %}
+        {% include "google_analytics.django.html" %}
+    {% endif %}
+</head>
+<body style="text-align:right;" class="{% block body-class %}{% endblock %}{% if VOY_BRANDING %} voy{% endif %}" {% block bodyattrs %}{% endblock %}>
+    <!-- Share on Facebook -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=595431223850883";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    {% if VOY_BRANDING %}
+    <div id="footer" class="footer-voy">
+      {% else %}
+      <div id="footer">
+        {% endif %}
+
+        <a href="{{FULL_BASE_URL}}/#!">
+          {% if VOY_BRANDING %}
+          <div class="logo" id="voy-logo"></div>
+          {% else %}
+          <div class="logo" id="unicef-logo"></div>
+          {% endif %}
+        </a>
+
+        <a href="http://mobile.mit.edu" target="_blank">
+          {% if VOY_BRANDING %}
+          <div class="logo" id="mel-logo-white"></div>
+          {% else %}
+          <div class="logo" id="mel-logo"></div>
+          {% endif %}
+
+        </a>
+        <p id="mel-credit"><a href="http://locast.mit.edu" target="_blank">Built on Locast</a><a href="http://mobile.mit.edu" target="_blank"> by the MIT Mobile Experience Lab </a></p>
+
+        <div id="navbar">
+          <a id="home-link" class="navbar-link" href="/#!">{% trans "Home" %}</a>
+
+          {% if request.user.is_authenticated %}
+          <div style="color:white;" class="navbar-link" id="user-profile-info">
+            <a href="{% url 'my_account' %}">{% trans "My account" %}</a>
+          </div>
+          {% endif %}
+
+          <div style="color:white;border-right:none;" class="navbar-link" id="gallery">
+            <a href="{% url 'gallery' %}">{% trans "Gallery" %}</a>
+          </div>
+
+          <div id="language-selector">
+            {% get_available_languages as languages %}
+            {% for lang in languages %}
+            <a href="{% url 'set_language' %}?language={{ lang.0 }}&next={{ request.path }}" id="lang-{{ lang.0 }}" class="language-select">
+              {% get_language_info for lang.0 as li %}
+              {{li.name_local|capfirst}}
+            </a>
+            {% endfor %}
+          </div>
+        </div>
+      </div><!-- end footer -->
+{% block body %}
+{% endblock %}
+
+{% if request.user.is_authenticated %}
+    <script>
+    TRAVELS_USER = {{ request.user.id }};
+    </script>
+{% endif %}
+
+<!-- Share on Twitter -->
+<script>
+    window.twttr = (function (d,s,id) {
+      var t, js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+      js.src="https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+      return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+    }(document, "script", "twitter-wjs"));
+</script>
+</body>
+</html>
+
