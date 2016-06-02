@@ -12,3 +12,8 @@ Steps to add a new language translation
 ```./managepy schemamigration travels --auto```
 6. Migrate the DB
 ```./managepy migrate travels```
+7. Remind the translators to make a user and submit TRANSLATIONS, not SUGGESTIONS. They'll need permission for that
+8. Extract the files from Pootle
+9. Paste them in the existing locale folder
+10. Compile translations. This compiles both .po
+```./managepy compilemessages```
