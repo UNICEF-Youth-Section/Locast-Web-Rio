@@ -61,7 +61,7 @@ msgstr "Kaldır"
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:75
 #, c-format
 msgid "Chosen %s"
-msgstr "Seçili %ler"
+msgstr "Seçili %s"
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:76
 #, c-format
@@ -69,7 +69,7 @@ msgid ""
 "This is the list of chosen %s. You may remove some by selecting them in the "
 "box below and then clicking the \"Remove\" arrow between the two boxes."
 msgstr ""
-"Bu seçili %lerin listesidir. Aşağıdaki kutudan bazılarını seçebilir ve iki "
+"Bu seçili %s listesidir. Aşağıdaki kutudan bazılarını seçebilir ve iki "
 "kutu arasındaki \"Kaldır\" okuna tıklayıp kaldırabilirsiniz."
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:80
@@ -79,7 +79,7 @@ msgstr "Hepsini kaldır"
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:80
 #, c-format
 msgid "Click to remove all chosen %s at once."
-msgstr "Bütün %leri tek seferde kaldırmak için tıklayın."
+msgstr "Bütün %s tek seferde kaldırmak için tıklayın."
 
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/actions.js:18
 #: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/actions.min.js:1
@@ -313,3 +313,70 @@ msgstr "Başlık:"
 #: travels/templates/admin/map_admin.django.js:97
 msgid "Description:"
 msgstr "Tanım:"
+
+
+msgid "comma-seperated list"
+msgstr "virgülle ayrılmış listesi"
+
+msgid "more casts"
+msgstr "daha fazla kast"
+
+msgid "Add Cast"
+msgstr "Kast Ekle"
+
+msgid "Tags"
+msgstr "Etiket"
+
+msgid "CASTS"
+msgstr "Kast"
+
+msgid "has"
+msgstr "sahip olmak"
+
+msgid "until"
+msgstr "kadar"
+
+msgid "Click The Map To Set Your Cast's Location"
+msgstr "Kast en konumunu ayarlamak için Haritası'nı tıklayın"
+
+msgid "Select a Location for Your Cast by Clicking the Map."
+msgstr "Harita tıklanması göre Kast için Konum Seçin"
+
+msgid "Casts"
+msgstr "Kast"
+
+msgid "Filter map to see Casts that"
+msgstr "Filtre"
+
+msgid "Itinerary"
+msgstr "Çalışma programı"
+
+msgid "Name Your Cast"
+msgstr "Ad"
+
+msgid "USERS"
+msgstr "kullanıcılar"
+
+msgid "Brief Description"
+msgstr "Tanım:"
+
+#~ msgid "Satellite View"
+#~ msgstr "Uydu Görünümü"
+
+msgid "Results"
+msgstr "Sonuçlar"
+
+msgid "MAPS"
+msgstr "Haritalar"
+
+msgid "Create Cast"
+msgstr "Oyuncu Ekle"
+
+msgid "Up Next: Add Photos and Videos"
+msgstr ""
+
+msgid "Open"
+msgstr "Açmak"
+
+msgid "Event"
+msgstr "Etkinlik"

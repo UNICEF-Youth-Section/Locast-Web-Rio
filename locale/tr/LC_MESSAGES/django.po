@@ -333,7 +333,7 @@ msgstr "Klasik Çince"
 #: lib/python2.7/site-packages/django/contrib/admin/actions.py:48
 #, python-format
 msgid "Successfully deleted %(count)d %(items)s."
-msgstr "Başarıyla silindi %(count) %(items)s."
+msgstr "Başarıyla silindi %(count)d %(items)s."
 
 #: lib/python2.7/site-packages/django/contrib/admin/actions.py:60
 #: lib/python2.7/site-packages/django/contrib/admin/options.py:1380
@@ -400,7 +400,7 @@ msgid ""
 "Please enter the correct %(username)s and password for a staff account. Note "
 "that both fields may be case-sensitive."
 msgstr ""
-"Personal hesabı için lütfen doğru %(username) ve parolayı giriniz. İki "
+"Personal hesabı için lütfen doğru %(username)s ve parolayı giriniz. İki "
 "alanın da büyük-küçük harfe duyarlı olduğunu unutmayınız."
 
 #: lib/python2.7/site-packages/django/contrib/admin/forms.py:19
@@ -502,7 +502,7 @@ msgstr "Hiçbir alan değiştirilmedi"
 msgid ""
 "The %(name)s \"%(obj)s\" was added successfully. You may edit it again below."
 msgstr ""
-"%(name)ler %(obj)ler başarıyla eklendi. Alt kısımda yeniden "
+"%(name)s %(obj)s başarıyla eklendi. Alt kısımda yeniden "
 "düzenleyebilirsiniz."
 
 #: lib/python2.7/site-packages/django/contrib/admin/options.py:868
@@ -511,7 +511,7 @@ msgid ""
 "The %(name)s \"%(obj)s\" was added successfully. You may add another "
 "%(name)s below."
 msgstr ""
-"%(name)ler %(obj)ler başarıyla eklendi. Alt kısımda bir %(name) daha "
+"%(name)s %(obj)s başarıyla eklendi. Alt kısımda bir %(name)s daha "
 "ekleyebilirsiniz."
 
 #: lib/python2.7/site-packages/django/contrib/admin/options.py:872
@@ -525,7 +525,7 @@ msgid ""
 "The %(name)s \"%(obj)s\" was changed successfully. You may edit it again "
 "below."
 msgstr ""
-"%(name)ler \"%(obj)ler başarıyla değiştirildi. Aşağıdan yeniden "
+"%(name)s \"%(obj)s başarıyla değiştirildi. Aşağıdan yeniden "
 "düzenleyebilirsiniz."
 
 #: lib/python2.7/site-packages/django/contrib/admin/options.py:900
@@ -534,7 +534,7 @@ msgid ""
 "The %(name)s \"%(obj)s\" was changed successfully. You may add another "
 "%(name)s below."
 msgstr ""
-"%(name)s \"%(obj)s\" başarıyla değiştirildi. Aşağıdan bir %(isim) daha "
+"%(name)s \"%(obj)s\" başarıyla değiştirildi. Aşağıdan bir %(name)s daha "
 "ekleyebilirsiniz."
 
 #: lib/python2.7/site-packages/django/contrib/admin/options.py:906
@@ -556,13 +556,13 @@ msgstr "Hiçbir işlem seçilmedi."
 #: lib/python2.7/site-packages/django/contrib/admin/options.py:1083
 #, python-format
 msgid "Add %s"
-msgstr "%ler ekle"
+msgstr "%s ekle"
 
 #: lib/python2.7/site-packages/django/contrib/admin/options.py:1107
 #: lib/python2.7/site-packages/django/contrib/admin/options.py:1352
 #, python-format
 msgid "%(name)s object with primary key %(key)r does not exist."
-msgstr "birincil anahtarlı nesne %(name)ler %(key) yok."
+msgstr "birincil anahtarlı nesne %(name)s %(key)r yok."
 
 #: lib/python2.7/site-packages/django/contrib/admin/options.py:1173
 #, python-format
@@ -577,20 +577,20 @@ msgstr "Veritabanı hatası"
 #, python-format
 msgid "%(count)s %(name)s was changed successfully."
 msgid_plural "%(count)s %(name)s were changed successfully."
-msgstr[0] "Tekil%(count)lar %(name)lar başarıyla değiştirildi."
-msgstr[1] "Çoğul%(count)lar %(name)lar başarıyla değiştirildi."
+msgstr[0] "Tekil%(count)s %(name)s başarıyla değiştirildi."
+msgstr[1] "Çoğul%(count)s %(name)s başarıyla değiştirildi."
 
 #: lib/python2.7/site-packages/django/contrib/admin/options.py:1313
 #, python-format
 msgid "%(total_count)s selected"
 msgid_plural "All %(total_count)s selected"
-msgstr[0] "Tekil%(total_count)lar seçildi"
-msgstr[1] "ÇoğulBütün %(total_count)lar seçildi"
+msgstr[0] "Tekil%(total_count)s seçildi"
+msgstr[1] "ÇoğulBütün %(total_count)s seçildi"
 
 #: lib/python2.7/site-packages/django/contrib/admin/options.py:1318
 #, python-format
 msgid "0 of %(cnt)s selected"
-msgstr "%(cnt)ların 0 tanesi seçildi."
+msgstr "%(cnt)s 0 tanesi seçildi."
 
 #: lib/python2.7/site-packages/django/contrib/admin/options.py:1368
 #, python-format
@@ -718,7 +718,7 @@ msgstr "Tüm sayfalardaki nesneleri seçmek için buraya tıklayın"
 #: lib/python2.7/site-packages/django/contrib/admin/templates/admin/actions.html:11
 #, python-format
 msgid "Select all %(total_count)s %(module_name)s"
-msgstr "Bütün %(total_count)lar %(module_name)ler seçin"
+msgstr "Bütün %(total_count)s %(module_name)s seçin"
 
 #: lib/python2.7/site-packages/django/contrib/admin/templates/admin/actions.html:13
 msgid "Clear selection"
@@ -728,7 +728,7 @@ msgstr "Seçimi sıfırla"
 #: lib/python2.7/site-packages/django/contrib/admin/templates/admin/index.html:21
 #, python-format
 msgid "%(name)s"
-msgstr "%(isim)ler"
+msgstr "%(name)s"
 
 #: lib/python2.7/site-packages/django/contrib/admin/templates/admin/base.html:28
 msgid "Welcome,"
@@ -801,7 +801,7 @@ msgstr[1] "ÇoğulLütfen aşağıdaki hataları düzeltiniz."
 #: lib/python2.7/site-packages/django/contrib/admin/templates/admin/change_list.html:58
 #, python-format
 msgid "Add %(name)s"
-msgstr "%(name)ler ekle"
+msgstr "%(name)s ekle"
 
 #: lib/python2.7/site-packages/django/contrib/admin/templates/admin/change_list.html:78
 msgid "Filter"
@@ -814,7 +814,7 @@ msgstr "Sıralamadan çıkar"
 #: lib/python2.7/site-packages/django/contrib/admin/templates/admin/change_list_results.html:18
 #, python-format
 msgid "Sorting priority: %(priority_number)s"
-msgstr "Sıralama önceliği: %(öncelik_sayı)lar"
+msgstr "Sıralama önceliği: %(priority_number)s"
 
 #: lib/python2.7/site-packages/django/contrib/admin/templates/admin/change_list_results.html:19
 msgid "Toggle sorting"
@@ -835,7 +835,7 @@ msgid ""
 "related objects, but your account doesn't have permission to delete the "
 "following types of objects:"
 msgstr ""
-"%(object_name)ler %(escaped_object)ler silmek ilintili nesneleri de "
+"%(object_name)s %(escaped_object)s silmek ilintili nesneleri de "
 "silecektir ama hesabınız şu tür nesneleri silmeye izin vermiyor:"
 
 #: lib/python2.7/site-packages/django/contrib/admin/templates/admin/delete_confirmation.html:26
@@ -844,7 +844,7 @@ msgid ""
 "Deleting the %(object_name)s '%(escaped_object)s' would require deleting the "
 "following protected related objects:"
 msgstr ""
-"%(object_name)ler %(escaoed_object)ler silmek şu ilintili nesneleri de "
+"%(object_name)s %(escaped_object)s silmek şu ilintili nesneleri de "
 "silmeyi gerektiriyor:"
 
 #: lib/python2.7/site-packages/django/contrib/admin/templates/admin/delete_confirmation.html:34
@@ -853,7 +853,7 @@ msgid ""
 "Are you sure you want to delete the %(object_name)s \"%(escaped_object)s\"? "
 "All of the following related items will be deleted:"
 msgstr ""
-"%(object_name)ler %(escaped_object)ler silmek istediğinize emin misiniz? Tüm "
+"%(object_name)s %(escaped_object)s silmek istediğinize emin misiniz? Tüm "
 "ilintili öğeler silinecektir:"
 
 #: lib/python2.7/site-packages/django/contrib/admin/templates/admin/delete_confirmation.html:39
@@ -872,7 +872,7 @@ msgid ""
 "objects, but your account doesn't have permission to delete the following "
 "types of objects:"
 msgstr ""
-"%(object_name)ler silmek ilintili nesneleri de silecektir ama hesabınız şu "
+"%(objects_name)s silmek ilintili nesneleri de silecektir ama hesabınız şu "
 "tür nesneleri silmeye izin vermiyor:"
 
 #: lib/python2.7/site-packages/django/contrib/admin/templates/admin/delete_selected_confirmation.html:25
@@ -880,7 +880,7 @@ msgstr ""
 msgid ""
 "Deleting the selected %(objects_name)s would require deleting the following "
 "protected related objects:"
-msgstr "%(object_name)ler silmek şu ilintili nesneleri de silmeyi gerektiriyor:"
+msgstr "%(objects_name)s silmek şu ilintili nesneleri de silmeyi gerektiriyor:"
 
 #: lib/python2.7/site-packages/django/contrib/admin/templates/admin/delete_selected_confirmation.html:33
 #, python-format
@@ -888,18 +888,18 @@ msgid ""
 "Are you sure you want to delete the selected %(objects_name)s? All of the "
 "following objects and their related items will be deleted:"
 msgstr ""
-"%(object_name)ler silmek istediğinize emin misiniz? Tüm ilintili öğeler "
+"%(objects_name)s silmek istediğinize emin misiniz? Tüm ilintili öğeler "
 "silinecektir:"
 
 #: lib/python2.7/site-packages/django/contrib/admin/templates/admin/filter.html:2
 #, python-format
 msgid " By %(filter_title)s "
-msgstr "%(filter_title)leri"
+msgstr "%(filter_title)s"
 
 #: lib/python2.7/site-packages/django/contrib/admin/templates/admin/index.html:20
 #, python-format
 msgid "Models in the %(name)s application"
-msgstr "Başvuru %(name)lerinde modeller"
+msgstr "Başvuru %(name)s modeller"
 
 #: lib/python2.7/site-packages/django/contrib/admin/templates/admin/index.html:39
 #: lib/python2.7/site-packages/django/forms/widgets.py:337
@@ -981,8 +981,8 @@ msgstr "Ara"
 #, python-format
 msgid "%(counter)s result"
 msgid_plural "%(counter)s results"
-msgstr[0] "Tekil%(sayım)lar sonuç"
-msgstr[1] "Çoğul%(sayım)lar sonuçlar"
+msgstr[0] "Tekil%(counter)s sonuç"
+msgstr[1] "Çoğul%(counter)s sonuçlar"
 
 #: lib/python2.7/site-packages/django/contrib/admin/templates/admin/search_form.html:9
 #, python-format
@@ -1174,7 +1174,7 @@ msgid ""
 "You're receiving this email because you requested a password reset for your "
 "user account at %(site_name)s."
 msgstr ""
-"Bu e-postayı %(site_name)'ndaki şifrenizi sıfırlamak istediğiniz için "
+"Bu e-postayı %(site_name)s'ndaki şifrenizi sıfırlamak istediğiniz için "
 "aldınız."
 
 #: lib/python2.7/site-packages/django/contrib/admin/templates/registration/password_reset_email.html:4
@@ -1254,12 +1254,12 @@ msgstr "App %r bulunamadı"
 #: lib/python2.7/site-packages/django/contrib/admindocs/views.py:196
 #, python-format
 msgid "Model %(model_name)r not found in app %(app_label)r"
-msgstr "app %(app_label)r içinde model %(model_name) bulunamadı"
+msgstr "app %(app_label)r içinde model %(model_name)r bulunamadı"
 
 #: lib/python2.7/site-packages/django/contrib/admindocs/views.py:208
 #, python-format
 msgid "the related `%(app_label)s.%(data_type)s` object"
-msgstr "ilgili '%(app_label)leri. %(data_type)ler' nesne"
+msgstr "ilgili '%(app_label)s. %(data_type)s' nesne"
 
 #: lib/python2.7/site-packages/django/contrib/admindocs/views.py:208
 #: lib/python2.7/site-packages/django/contrib/admindocs/views.py:227
@@ -1274,24 +1274,24 @@ msgstr "model:"
 #: lib/python2.7/site-packages/django/contrib/admindocs/views.py:255
 #, python-format
 msgid "related `%(app_label)s.%(object_name)s` objects"
-msgstr "ilgili '%(app_label)leri. %(object_name)ler' nesneler"
+msgstr "ilgili '%(app_label)s. %(object_name)s' nesneler"
 
 #: lib/python2.7/site-packages/django/contrib/admindocs/views.py:227
 #: lib/python2.7/site-packages/django/contrib/admindocs/views.py:260
 #, python-format
 msgid "all %s"
-msgstr "tüm %ler"
+msgstr "tüm %s"
 
 #: lib/python2.7/site-packages/django/contrib/admindocs/views.py:232
 #: lib/python2.7/site-packages/django/contrib/admindocs/views.py:265
 #, python-format
 msgid "number of %s"
-msgstr "%ler sayısı"
+msgstr "%s sayısı"
 
 #: lib/python2.7/site-packages/django/contrib/admindocs/views.py:270
 #, python-format
 msgid "Fields on %s objects"
-msgstr "%ler nesneler üzerine alanlar"
+msgstr "%s nesneler üzerine alanlar"
 
 #: lib/python2.7/site-packages/django/contrib/admindocs/views.py:362
 #, python-format
@@ -1394,7 +1394,7 @@ msgstr "Boolean (Doğru veya Yanlış)"
 #: lib/python2.7/site-packages/django/db/models/fields/__init__.py:76
 #, python-format
 msgid "Field of type: %(field_type)s"
-msgstr "Türün alanı: %(field_type)ler"
+msgstr "Türün alanı: %(field_type)s"
 
 #: lib/python2.7/site-packages/django/contrib/auth/admin.py:42
 msgid "Personal info"
@@ -1415,7 +1415,7 @@ msgstr "Şifre başarıyla değiştirildi."
 #: lib/python2.7/site-packages/django/contrib/auth/admin.py:143
 #, python-format
 msgid "Change password: %s"
-msgstr "Şifre değiştir : %ler"
+msgstr "Şifre değiştir : %s"
 
 #: lib/python2.7/site-packages/django/contrib/auth/forms.py:31
 #: lib/python2.7/site-packages/django/contrib/auth/tests/forms.py:261
@@ -1475,7 +1475,7 @@ msgid ""
 "Please enter a correct %(username)s and password. Note that both fields may "
 "be case-sensitive."
 msgstr ""
-"Lütfen doğru bir %(username) ve şifre giriniz. İki alanın da büyük/küçük "
+"Lütfen doğru bir %(username)s ve şifre giriniz. İki alanın da büyük/küçük "
 "harfe duyarlı olduğunu unutmayınız."
 
 #: lib/python2.7/site-packages/django/contrib/auth/forms.py:153
@@ -1483,7 +1483,7 @@ msgid ""
 "Your Web browser doesn't appear to have cookies enabled. Cookies are "
 "required for logging in."
 msgstr ""
-"Web tarayıcınızın çerez(cookie)leri etkin gözükmüyor. Giriş yapmanız için "
+"Web tarayıcınızın çerez(cookie)s etkin gözükmüyor. Giriş yapmanız için "
 "çerezlerin etkin olması gerekmektedir. "
 
 #: lib/python2.7/site-packages/django/contrib/auth/forms.py:155
@@ -1684,7 +1684,7 @@ msgstr "Çıkış yapıldı"
 #: lib/python2.7/site-packages/django/contrib/auth/templates/registration/password_reset_subject.txt:2
 #, python-format
 msgid "Password reset on %(site_name)s"
-msgstr "%(site_name)'nda şifre sıfırlandı"
+msgstr "%(site_name)s'nda şifre sıfırlandı"
 
 #: lib/python2.7/site-packages/django/contrib/comments/admin.py:25
 msgid "Content"
@@ -1730,18 +1730,18 @@ msgstr "Seçilen yorumları kaldır"
 #, python-format
 msgid "1 comment was successfully %(action)s."
 msgid_plural "%(count)s comments were successfully %(action)s."
-msgstr[0] "Tekil 1 yorum başarıyla %(action)"
-msgstr[1] "Çoğul%(count) yorum başarıyla %(action)"
+msgstr[0] "Tekil 1 yorum başarıyla %(action)s"
+msgstr[1] "Çoğul%(count)s yorum başarıyla %(action)s"
 
 #: lib/python2.7/site-packages/django/contrib/comments/feeds.py:14
 #, python-format
 msgid "%(site_name)s comments"
-msgstr "%(site_name)ler yorumlar"
+msgstr "%(site_name)s yorumlar"
 
 #: lib/python2.7/site-packages/django/contrib/comments/feeds.py:20
 #, python-format
 msgid "Latest comments on %(site_name)s"
-msgstr "%(site_name)'nda son yorumlar"
+msgstr "%(site_name)s'nda son yorumlar"
 
 #: lib/python2.7/site-packages/django/contrib/comments/forms.py:96
 msgid "Name"
@@ -1862,8 +1862,8 @@ msgid ""
 "\n"
 "http://%(domain)s%(url)s"
 msgstr ""
-"%(date)inde %(user) tarafından gönderilmiştir\n"
-"%(comment)lar\n"
+"%(date)s inde %(user)s tarafından gönderilmiştir\n"
+"%(comment)s\n"
 "\n"
 "http://%(domain)s%(url)s"
 
@@ -1991,12 +1991,12 @@ msgstr "İçerik türü %(ct_id)s nesneye iliştirimiş model yok"
 #: lib/python2.7/site-packages/django/contrib/contenttypes/views.py:21
 #, python-format
 msgid "Content type %(ct_id)s object %(obj_id)s doesn't exist"
-msgstr "İçerik türü %(ct_id)s nesne %(obj_id) yok"
+msgstr "İçerik türü %(ct_id)s nesne %(obj_id)s yok"
 
 #: lib/python2.7/site-packages/django/contrib/contenttypes/views.py:27
 #, python-format
 msgid "%(ct_name)s objects don't have a get_absolute_url() method"
-msgstr "%(ct_name)ler nesnelerin get_absolute_url metodu yok"
+msgstr "%(ct_name)s nesnelerin get_absolute_url metodu yok"
 
 #: lib/python2.7/site-packages/django/contrib/flatpages/admin.py:10
 msgid "Advanced options"
@@ -2028,7 +2028,7 @@ msgstr "URL'de son kesme işareti eksik."
 #: lib/python2.7/site-packages/django/contrib/flatpages/forms.py:38
 #, python-format
 msgid "Flatpage with url %(url)s already exists for site %(site)s"
-msgstr "%(site)ler için url %(url) li sabit sayfa zaten var"
+msgstr "%(site)s için url %(url)s li sabit sayfa zaten var"
 
 #: lib/python2.7/site-packages/django/contrib/flatpages/models.py:12
 #: lib/python2.7/site-packages/modeltranslation/tests.py:26
@@ -2209,43 +2209,43 @@ msgstr "rd"
 #, python-format
 msgid "%(value).1f million"
 msgid_plural "%(value).1f million"
-msgstr[0] "Tekil%(value). 1f milyon"
-msgstr[1] "Çoğul%(value). 1f milyon"
+msgstr[0] "Tekil%(value).1f milyon"
+msgstr[1] "Çoğul%(value).1f milyon"
 
 #: lib/python2.7/site-packages/django/contrib/humanize/templatetags/humanize.py:55
 #, python-format
 msgid "%(value)s million"
 msgid_plural "%(value)s million"
-msgstr[0] "Tekil%(value)ler milyon"
-msgstr[1] "Çoğul%(value)ler milyon"
+msgstr[0] "Tekil%(value)s milyon"
+msgstr[1] "Çoğul%(value)s milyon"
 
 #: lib/python2.7/site-packages/django/contrib/humanize/templatetags/humanize.py:58
 #, python-format
 msgid "%(value).1f billion"
 msgid_plural "%(value).1f billion"
-msgstr[0] "Tekil%(value). 1f milyar"
-msgstr[1] "Çoğul%(value). 1f milyar"
+msgstr[0] "Tekil%(value).1f milyar"
+msgstr[1] "Çoğul%(value).1f milyar"
 
 #: lib/python2.7/site-packages/django/contrib/humanize/templatetags/humanize.py:59
 #, python-format
 msgid "%(value)s billion"
 msgid_plural "%(value)s billion"
-msgstr[0] "Tekil%(value)ler milyar"
-msgstr[1] "Çoğul%(value)ler milyar"
+msgstr[0] "Tekil%(value)s milyar"
+msgstr[1] "Çoğul%(value)s milyar"
 
 #: lib/python2.7/site-packages/django/contrib/humanize/templatetags/humanize.py:62
 #, python-format
 msgid "%(value).1f trillion"
 msgid_plural "%(value).1f trillion"
-msgstr[0] "Tekil%(value). 1f trilyon"
-msgstr[1] "Çoğul%(value). 1f trilyon"
+msgstr[0] "Tekil%(value).1f trilyon"
+msgstr[1] "Çoğul%(value).1f trilyon"
 
 #: lib/python2.7/site-packages/django/contrib/humanize/templatetags/humanize.py:63
 #, python-format
 msgid "%(value)s trillion"
 msgid_plural "%(value)s trillion"
-msgstr[0] "Tekil%(value)ler trilyon"
-msgstr[1] "Çoğul%(value)ler trilyon"
+msgstr[0] "Tekil%(value)s trilyon"
+msgstr[1] "Çoğul%(value)s trilyon"
 
 #: lib/python2.7/site-packages/django/contrib/humanize/templatetags/humanize.py:66
 #, python-format
@@ -2399,7 +2399,7 @@ msgstr "dokuz"
 #, python-format
 msgctxt "naturaltime"
 msgid "%(delta)s ago"
-msgstr "%(delta) önce"
+msgstr "%(delta)s önce"
 
 #: lib/python2.7/site-packages/django/contrib/humanize/templatetags/humanize.py:193
 #: lib/python2.7/site-packages/django/contrib/humanize/templatetags/humanize.py:215
@@ -2411,21 +2411,21 @@ msgstr "şimdi"
 msgid "a second ago"
 msgid_plural "%(count)s seconds ago"
 msgstr[0] "Tekilbir saniye önce"
-msgstr[1] "Çoğul%(count) saniye önce"
+msgstr[1] "Çoğul%(count)s saniye önce"
 
 #: lib/python2.7/site-packages/django/contrib/humanize/templatetags/humanize.py:201
 #, python-format
 msgid "a minute ago"
 msgid_plural "%(count)s minutes ago"
 msgstr[0] "Tekilbir dakika önce"
-msgstr[1] "Çoğul%(count) dakika önce"
+msgstr[1] "Çoğul%(count)s dakika önce"
 
 #: lib/python2.7/site-packages/django/contrib/humanize/templatetags/humanize.py:206
 #, python-format
 msgid "an hour ago"
 msgid_plural "%(count)s hours ago"
 msgstr[0] "Tekilbir saat önce"
-msgstr[1] "Çoğul%(count) saat önce"
+msgstr[1] "Çoğul%(count)s saat önce"
 
 #: lib/python2.7/site-packages/django/contrib/humanize/templatetags/humanize.py:212
 #, python-format
@@ -2438,21 +2438,21 @@ msgstr ""
 msgid "a second from now"
 msgid_plural "%(count)s seconds from now"
 msgstr[0] "Tekilşu andan itibaren bir saniye"
-msgstr[1] "Çoğuşu andan itibaren %(count) saniye"
+msgstr[1] "Çoğuşu andan itibaren %(count)s saniye"
 
 #: lib/python2.7/site-packages/django/contrib/humanize/templatetags/humanize.py:223
 #, python-format
 msgid "a minute from now"
 msgid_plural "%(count)s minutes from now"
 msgstr[0] "Tekilşu andan itibaren bir dakika"
-msgstr[1] "Çoğuşu andan itibaren %(count) dakika"
+msgstr[1] "Çoğuşu andan itibaren %(count)s dakika"
 
 #: lib/python2.7/site-packages/django/contrib/humanize/templatetags/humanize.py:228
 #, python-format
 msgid "an hour from now"
 msgid_plural "%(count)s hours from now"
 msgstr[0] "Tekilşu andan itibaren bir saat"
-msgstr[1] "Çoğulşu andan itibaren %(count) saat"
+msgstr[1] "Çoğulşu andan itibaren %(count)s saat"
 
 #: lib/python2.7/site-packages/django/contrib/localflavor/ar/forms.py:32
 msgid "Enter a postal code in the format NNNN or ANNNNAAA."
@@ -6157,7 +6157,7 @@ msgstr "Sadece virgüllerle ayrılmış rakamlar girin."
 #: lib/python2.7/site-packages/django/core/validators.py:157
 #, python-format
 msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
-msgstr "Bu değerin %(limit_value) (%(show_value)ler) olduğundan emin olun."
+msgstr "Bu değerin %(limit_value)s (%(show_value)s) olduğundan emin olun."
 
 #: lib/python2.7/site-packages/django/core/validators.py:176
 #: lib/python2.7/site-packages/django/forms/fields.py:210
@@ -6165,7 +6165,7 @@ msgstr "Bu değerin %(limit_value) (%(show_value)ler) olduğundan emin olun."
 #, python-format
 msgid "Ensure this value is less than or equal to %(limit_value)s."
 msgstr ""
-"Bu değerin %(limit_value)lerden düşük veya ona eşit olduğundan emin olun."
+"Bu değerin %(limit_value)s düşük veya ona eşit olduğundan emin olun."
 
 #: lib/python2.7/site-packages/django/core/validators.py:182
 #: lib/python2.7/site-packages/django/forms/fields.py:211
@@ -6173,7 +6173,7 @@ msgstr ""
 #, python-format
 msgid "Ensure this value is greater than or equal to %(limit_value)s."
 msgstr ""
-"Bu değerin %(limit_value)lerden yüksek veya ona eşit olduğundan emin olun."
+"Bu değerin %(limit_value)s yüksek veya ona eşit olduğundan emin olun."
 
 #: lib/python2.7/site-packages/django/core/validators.py:189
 #, python-format
@@ -6181,8 +6181,8 @@ msgid ""
 "Ensure this value has at least %(limit_value)d characters (it has "
 "%(show_value)d)."
 msgstr ""
-"Bu değerin en az %(limit_value) karakteri olduğundan emin olun (%"
-"(show_value)"
+"Bu değerin en az %(limit_value)d karakteri olduğundan emin olun (%"
+"(show_value)d"
 
 #: lib/python2.7/site-packages/django/core/validators.py:196
 #, python-format
@@ -6190,8 +6190,8 @@ msgid ""
 "Ensure this value has at most %(limit_value)d characters (it has "
 "%(show_value)d)."
 msgstr ""
-"Bu değerin en fazla %(limit_value) karakteri olduğundan emin olun (%"
-"(show_value)"
+"Bu değerin en fazla %(limit_value)d karakteri olduğundan emin olun (%"
+"(show_value)d"
 
 #: lib/python2.7/site-packages/django/db/models/base.py:866
 #, python-format
@@ -6202,7 +6202,7 @@ msgstr ""
 #: lib/python2.7/site-packages/django/db/models/fields/__init__.py:70
 #, python-format
 msgid "%(model_name)s with this %(field_label)s already exists."
-msgstr "bu %(field_label)nde %(model_name) zaten var."
+msgstr "bu %(field_label)s %(model_name)s zaten var."
 
 #: lib/python2.7/site-packages/django/db/models/fields/__init__.py:67
 #, python-format
@@ -6236,7 +6236,7 @@ msgstr "%s'in değeri Doğru veya Yanlış olmalıdır."
 #: lib/python2.7/site-packages/django/db/models/fields/__init__.py:623
 #, python-format
 msgid "String (up to %(max_length)s)"
-msgstr "Sicim (%(max_length)a kadar)"
+msgstr "Sicim (%(max_length)s kadar)"
 
 #: lib/python2.7/site-packages/django/db/models/fields/__init__.py:651
 msgid "Comma-separated integers"
@@ -6332,7 +6332,7 @@ msgstr "Pozitif küçük tam sayı"
 #: lib/python2.7/site-packages/django/db/models/fields/__init__.py:1178
 #, python-format
 msgid "Slug (up to %(max_length)s)"
-msgstr "Slug (%(max_length)a kadar)"
+msgstr "Slug (%(max_length)s kadar)"
 
 #: lib/python2.7/site-packages/django/db/models/fields/__init__.py:1196
 msgid "Small integer"
@@ -6373,7 +6373,7 @@ msgstr "Görüntü"
 #: lib/python2.7/site-packages/django/db/models/fields/related.py:985
 #, python-format
 msgid "Model %(model)s with pk %(pk)r does not exist."
-msgstr "%(pk)r pk'li model %(model)ler yok"
+msgstr "%(pk)r pk'li model %(model)s yok"
 
 #: lib/python2.7/site-packages/django/db/models/fields/related.py:987
 msgid "Foreign Key (type determined by related field)"
@@ -6449,7 +6449,7 @@ msgstr "Gönderilen dosya boş. "
 msgid ""
 "Ensure this filename has at most %(max)d characters (it has %(length)d)."
 msgstr ""
-"bu dosya adının en fazla %(max)d karakter (%(length))a sahip olduğundan emin "
+"bu dosya adının en fazla %(max)d karakter (%(length)d) sahip olduğundan emin "
 "olun."
 
 #: lib/python2.7/site-packages/django/forms/fields.py:479
@@ -6473,7 +6473,7 @@ msgstr "Geçerli bir URL girin."
 #: lib/python2.7/site-packages/django/forms/fields.py:746
 #, python-format
 msgid "Select a valid choice. %(value)s is not one of the available choices."
-msgstr "Geçerli bir seçim yapın. %(value)ler uygun seçimlerden biri değil."
+msgstr "Geçerli bir seçim yapın. %(value)s uygun seçimlerden biri değil."
 
 #: lib/python2.7/site-packages/django/forms/fields.py:747
 #: lib/python2.7/site-packages/django/forms/fields.py:835
@@ -6489,13 +6489,13 @@ msgstr ""
 #: lib/python2.7/site-packages/django/forms/models.py:587
 #, python-format
 msgid "Please correct the duplicate data for %(field)s."
-msgstr "Lütfen %(field)lar için doğru bir yedekleme verisi girin."
+msgstr "Lütfen %(field)s için doğru bir yedekleme verisi girin."
 
 #: lib/python2.7/site-packages/django/forms/models.py:591
 #, python-format
 msgid "Please correct the duplicate data for %(field)s, which must be unique."
 msgstr ""
-"Lütfen %(alan)lar için yedekleme verisini düzeltin. Özgün bir değer "
+"Lütfen %(field)s için yedekleme verisini düzeltin. Özgün bir değer "
 "olmalıdır."
 
 #: lib/python2.7/site-packages/django/forms/models.py:597
@@ -6879,7 +6879,7 @@ msgstr "Aralık"
 #, python-format
 msgctxt "String to return when truncating text"
 msgid "%(truncated_text)s..."
-msgstr "%(truncated_text)ler..."
+msgstr "%(truncated_text)s..."
 
 #: lib/python2.7/site-packages/django/utils/text.py:239
 msgid "or"
@@ -6933,7 +6933,7 @@ msgstr "dakikalar"
 #: lib/python2.7/site-packages/django/utils/timesince.py:49
 #, python-format
 msgid "%(number)d %(type)s"
-msgstr "%(number) %(type)ler"
+msgstr "%(number)d %(type)s"
 
 #: lib/python2.7/site-packages/django/utils/timesince.py:55
 #, python-format
@@ -6947,12 +6947,12 @@ msgstr "Dosya dizinleri burada geçerli değildir."
 #: lib/python2.7/site-packages/django/views/static.py:58
 #, python-format
 msgid "\"%(path)s\" does not exist"
-msgstr "%(path)lar mevcut değil"
+msgstr "%(path)s mevcut değil"
 
 #: lib/python2.7/site-packages/django/views/static.py:98
 #, python-format
 msgid "Index of %(directory)s"
-msgstr "%(directory)ler indeksi"
+msgstr "%(directory)s indeksi"
 
 #: lib/python2.7/site-packages/django/views/generic/dates.py:42
 msgid "No year specified"
@@ -6974,7 +6974,7 @@ msgstr "Hafta belirtilmedi"
 #: lib/python2.7/site-packages/django/views/generic/dates.py:393
 #, python-format
 msgid "No %(verbose_name_plural)s available"
-msgstr "Hiçbir %(verbose_name_plural) uygun değil"
+msgstr "Hiçbir %(verbose_name_plural)s uygun değil"
 
 #: lib/python2.7/site-packages/django/views/generic/dates.py:646
 #, python-format
@@ -6982,7 +6982,7 @@ msgid ""
 "Future %(verbose_name_plural)s not available because %(class_name)s."
 "allow_future is False."
 msgstr ""
-"Gelecek %(verbose_name_plural) uygun değil çünkü %(class_name).allow_future "
+"Gelecek %(verbose_name_plural)s uygun değil çünkü %(class_name)s.allow_future "
 "Yanlış."
 
 #: lib/python2.7/site-packages/django/views/generic/dates.py:678
@@ -6993,7 +6993,7 @@ msgstr "Geçersiz tarih sicimi '%(datestr)s' verili formatı '%(format)s'"
 #: lib/python2.7/site-packages/django/views/generic/detail.py:54
 #, python-format
 msgid "No %(verbose_name)s found matching the query"
-msgstr "Aramaya uygun hiçbir %(verbose_name) bulunamadı"
+msgstr "Aramaya uygun hiçbir %(verbose_name)s bulunamadı"
 
 #: lib/python2.7/site-packages/django/views/generic/list.py:51
 msgid "Page is not 'last', nor can it be converted to an int."
@@ -7002,12 +7002,12 @@ msgstr "Sayfa 'sonuncu' değil ve bir int'e dönüştürülemez."
 #: lib/python2.7/site-packages/django/views/generic/list.py:56
 #, python-format
 msgid "Invalid page (%(page_number)s): %(message)s"
-msgstr "Geçersiz sayfa (%(page_number)ları: %(message)lar"
+msgstr "Geçersiz sayfa (%(page_number)s: %(message)s"
 
 #: lib/python2.7/site-packages/django/views/generic/list.py:137
 #, python-format
 msgid "Empty list and '%(class_name)s.allow_empty' is False."
-msgstr "Boş liste ve '%(class_name)ları.allow_empty Yanlış."
+msgstr "Boş liste ve '%(class_name)s.allow_empty Yanlış."
 
 #: lib/python2.7/site-packages/kombu/transport/qpid.py:1295
 #, python-format
