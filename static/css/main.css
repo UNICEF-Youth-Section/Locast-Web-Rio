@@ -1961,6 +1961,11 @@ form input.locast-button{
     top:187px;
 }
 
+
+#map-controls-container.rtl {
+    top: 215px;
+}
+
 #map-controls-container #map-reset{
     position:relative;
     top:8px;

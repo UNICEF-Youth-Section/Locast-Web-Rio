@@ -15,3 +15,5 @@ Steps to add a new language translation
 
 7. Ask for superuser permissions in Instedd's Pootle to set up the translation there (lang.instedd.org)
 8. Upload the two files in the LC_MESSAGES folder
+9. ```./manage.py compilemessages```
+10. Review errors, fix, and compile again

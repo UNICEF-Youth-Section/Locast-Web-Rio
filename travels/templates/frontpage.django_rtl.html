@@ -1,0 +1,160 @@
+{% extends "base.django.html" %}
+{% load i18n %}
+{% block body-class %}home{% endblock %}
+
+{% block search %}
+        <form class="locast-search">
+            <input class="locast-textfield" id="search-input" type="text" AUTOCOMPLETE="off"></input>
+        </form>
+{% endblock %}
+
+{% block login %}
+    {% if not request.user.is_authenticated %}
+        <div class="logins">
+            <a id="login-link" class="locast-login">{% trans "Login / Register" %}</a>
+        </div>
+    {% else %}
+
+        <a href="#!user/{{request.user.id}}/" class="cleared" id="login-info" >
+        {% if request.user.user_image %}
+            <div class="image-frame user-image"><img src="{{MEDIA_URL}}{{request.user.user_image}}" /></div>
+        {% endif %}
+        <span class="message">{% trans "logged in as "%}</span>
+        {% if request.user.display_name %}
+            <span class="name">{{ request.user.display_name }}</span>
+        {% else %}
+            <span class="name">{{ request.user.first_name }} {{ request.user.last_name }}</span>
+        {% endif %}
+         </a>
+        <ul id="login-options">
+            <li><a id="logout-link" href="{% url 'logout' %}?next={{request.path}}">{% trans "Logout" %}</a></li>
+        </ul>
+    {% endif %}
+{% endblock %}
+
+
+{% block main-content %}
+<div id="content-details" class="locast-content-details"></div>
+
+<div id="flowplayer-container" class="hidden" onClick="$('#flowplayer-container').addClass('hidden')" >
+    <div id="flowplayer-wrapper">
+     <a id="flowplayer-close" href="#" >[X]</a>
+     <div id="flowplayer-player" style="width: 320px; height: 240px;"></div>
+    </div>
+</div>
+
+<div id="login-alert"><h3 class="alert">{% trans "You Must Login" %}</h3></div>
+
+<div style="" id="user-profile-info"></div>
+
+<div id="map-title">
+
+    <div id="current-map" ><div id="map-list-dropdown" class="cleared"><h4>{% trans "All Casts" %}</h4><div class="arrow right"></div></div></div>
+    <div id="view-switcher">
+        <a href="" id="view-switch-map" style="display:none;" class="map selected locast-button">{% trans "Map" %}</a>
+        <a href="" id="view-switch-list" style="display:none;" class="list locast-button">{% trans "List" %}</a>
+        <a href="" id="view-switch-urgency-rank" class="urgency-rank selected locast-button">{% trans "Rank" %}</a>
+    </div>
+
+</div>
+
+<div id="map-list"></div>
+
+<div id="add-cast-button-container">
+    <div id="add-cast-button" class="locast-button cast-add-button">+ {% trans "Add Cast" %}<span id="add-cast-itin">{% trans " to This Map" %}</span></div>
+</div>
+
+<div id="intro-page-container">
+    <div id="intro-page-content">
+        <h1 class="intro-message">{{ project_settings.project_title }}</h1>
+        <p class="sub-head"> {{ project_settings.project_description }}
+        <h2 class="map-list-header">{% trans "The Maps"%}</h2>
+        <div id="intro-map-list"></div>
+    </div>
+</div>
+
+<div id="change-location-container"></div>
+
+<div id="map-info-container" class="locast-map-overlay cleared">
+    <div id="map-cast-list-title">
+        <h4 class="list-title">
+            <div id="cast-list-sort">
+                <a id="cast-list-sort_-created" class="selected">{% trans "Most Recent"%}</a>
+                <a id="cast-list-sort_popularity">{% trans "Most Popular"%}</a>
+                <div id="map-cast-list-pager"></div>
+            </div>
+        </h4>
+
+    </div>
+    <div id="map-cast-list">
+        <span class="list-content"><h3>{% trans "No Casts On Map" %}</h3></span>
+    </div>
+
+</div>
+
+<div ng-app id="urgency-rank-view" style="bottom:50px;overflow-y:scroll;height:100%;background-color:white;">
+    <div id="urgency-rank-controlled" ng-controller="UrgencyRankController">
+        <h3 id="urgency-rank-title">{% trans "Urgency Rank (Top 10)" %}</h3>
+        {% verbatim %}
+        <div ng-repeat="cast in casts">
+            <a ng-href="#!cast/{{cast.id}}/">
+                <div class="urgency-rank-item">
+                    <img class="urgency-rank-item-image" height="42" width="42" ng-src="{{cast.thumbnail}}"></img>
+                    <div class="urgency-rank-item-info">
+                        <div style="margin-bottom:5px;">
+                            <span>{{cast.rank}} {{cast.title}}</span>
+                            <span style="font-size:10px;font-weight:normal;">{{cast.created}}</span>
+                        </div>
+                        <span style="color:gray;font-weight:normal;font-size:12px;">
+                            {{ cast.category }} &rarr;
+                        </span>
+                        <span ng-repeat="tag in cast.tags" class="urgency-rank-tag">
+                            {{ tag }}
+                        </span>
+                    </div>
+                    <div style="clear: both;"></div>
+                </div>
+            </a>
+            <hr style="margin:0; border: 0; height: 0; border-top: 1px solid rgba(0, 0, 0, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.3);" />
+        </div>
+        {% endverbatim %}
+        <div style="height:45px"></div>
+    </div>
+</div>
+
+<div id="map-controls-container" class="rtl" style="height:295px;">
+    <div id="map-controls"></div>
+    <a id="map-reset" href="#">{% trans "Reset"%}</a>
+</div>
+
+<div id="map-layer-switcher-container">
+    <form id="map-layer-switcher">
+        <label for="osm-checkbox">{% trans "Satellite View" %}</label>
+        <input type="checkbox" id="osm-checkbox" value="visible" />
+        <br/>
+        <label for="pl-checkbox">{% trans 'OSM Overlay' %}</label>
+        <input type="checkbox" id="pl-checkbox" value="visible" checked="checked" />
+    </form>
+</div>
+
+<script>
+    // Show layer switcher only if GMaps is loaded
+    $(function() {
+        if (typeof(G_API_VERSION) !== "undefined") {
+            $('#map-layer-switcher-container').show();
+        }
+    });
+</script>
+
+<div id="map-key">
+</div>
+
+<div id="cast-add-container" class="closed"></div>
+
+<div style="height: 480px; width: 640px;" id="main-map"></div>
+
+</div>
+
+<div id="map-loader"><h3 id="loader-message" >{% trans "Loading" %}</h3></div>
+{% endblock main-content %}
+
