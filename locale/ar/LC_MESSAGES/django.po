@@ -1,0 +1,287 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-30 11:26-0300\n"
+"PO-Revision-Date: 2016-08-23 02:01+0200\n"
+"Last-Translator:  <info@voicesofyouth.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Pootle 2.0.1\n"
+
+#: travels/forms.py:83
+msgid "First Name"
+msgstr "الإسم الأول"
+
+#: travels/forms.py:84
+msgid "Last Name"
+msgstr "إسم العائلة"
+
+#: travels/forms.py:90 travels/forms.py:145
+msgid "Verify Password"
+msgstr "تحقق من كلمة السر"
+
+# Translation based on media references that follows
+#: travels/models.py:231
+msgid "cast"
+msgstr "تقرير"
+
+#: travels/models.py:393 travels/templates/ajax/cast_frontpage.django.html:129
+msgid "video"
+msgstr "فيديو"
+
+#: travels/models.py:412 travels/templates/ajax/cast_frontpage.django.html:164
+msgid "photo"
+msgstr "صورة"
+
+#: travels/models.py:456
+msgid "link"
+msgstr "رابط الكتروني"
+
+#: travels/templates/base.django.html:23
+msgid "Login to Your Account"
+msgstr "تسجيل الدخول الى حسابك"
+
+#: travels/templates/base.django.html:23
+msgid "Close"
+msgstr "اغلاق"
+
+#: travels/templates/base.django.html:33
+#: travels/templates/registration/login.html:28
+msgid "Register</a> a new account if you don't have one"
+msgstr "تسجيل حساب جديد إذا لم يكن لديك واحد"
+
+#: travels/templates/frontpage.django.html:14
+msgid "Login / Register"
+msgstr "تسجيل الدخول"
+
+#: travels/templates/frontpage.django.html:22
+msgid "logged in as "
+msgstr "تم تسجيل دخولك بإسم"
+
+#: travels/templates/frontpage.django.html:30
+msgid "Logout"
+msgstr "تسجيل الخروج"
+
+#: travels/templates/frontpage.django.html:46
+msgid "You Must Login"
+msgstr "يجب أن تقوم بتسجيل الدخول"
+
+#: travels/templates/frontpage.django.html:52
+msgid "All Casts"
+msgstr "جميع التقارير"
+
+#: travels/templates/frontpage.django.html:54
+msgid "Map"
+msgstr "خريطة"
+
+#: travels/templates/frontpage.django.html:55
+msgid "List"
+msgstr "قائمة"
+
+#: travels/templates/frontpage.django.html:56
+msgid "Rank"
+msgstr "مرتبة"
+
+#: travels/templates/frontpage.django.html:64
+msgid "Add Cast"
+msgstr "أضف تقريرًا"
+
+#: travels/templates/frontpage.django.html:64
+msgid " to This Map"
+msgstr "الى هذه الخريطة"
+
+#: travels/templates/frontpage.django.html:71
+msgid "The Maps"
+msgstr "الخرائط"
+
+#: travels/templates/frontpage.django.html:82
+msgid "Most Recent"
+msgstr "الأحدث"
+
+#: travels/templates/frontpage.django.html:83
+msgid "Most Popular"
+msgstr "الأكثر شعبية"
+
+#: travels/templates/frontpage.django.html:90
+msgid "No Casts On Map"
+msgstr "لا يوجد أي تقارير على الخريطة"
+
+#: travels/templates/frontpage.django.html:97
+msgid "Urgency Rank (Top 10)"
+msgstr "المرتبة حسب الإلحاح ( العشرة الأولى)"
+
+#: travels/templates/frontpage.django.html:127
+msgid "Reset"
+msgstr "إعادة الضبط"
+
+#: travels/templates/frontpage.django.html:132
+msgid "Satellite View"
+msgstr "المنظر من القمر الصناعي"
+
+#: travels/templates/frontpage.django.html:134
+msgid "OSM Overlay"
+msgstr "تراكب خرائط الشوارع المفتوحة"
+
+#: travels/templates/frontpage.django.html:157
+msgid "Loading"
+msgstr "يجري التحميل"
+
+#: travels/templates/root.django.html:98
+msgid "My account"
+msgstr "حسابي"
+
+#: travels/templates/root.django.html:103
+msgid "Gallery"
+msgstr "المعرض"
+
+#: travels/templates/ajax/cast_frontpage.django.html:16
+msgid ""
+"Your Cast is Waiting to be Approved by a Moderator and is Not Visible to the "
+"Public"
+msgstr "تقريرك بإنتظار موافقة المشرف وهو غير ظاهر للجمهور "
+
+#: travels/templates/ajax/cast_frontpage.django.html:24
+msgid "Will Be Deleted! This Cannot be Undone!"
+msgstr "سيتم الحذف! هذا الإجراء لا يمكن التراجع عنه!"
+
+#: travels/templates/ajax/cast_frontpage.django.html:25
+#: travels/templates/ajax/cast_frontpage.django.html:240
+#: travels/templates/ajax/cast_frontpage.django.html:292
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: travels/templates/ajax/cast_frontpage.django.html:36
+msgid "Edit Title"
+msgstr "حرر العنوان"
+
+#: travels/templates/ajax/cast_frontpage.django.html:43
+msgid "Edit Cast Title"
+msgstr "حرر عنوان التقرير"
+
+#: travels/templates/ajax/cast_frontpage.django.html:45
+#: travels/templates/ajax/cast_frontpage.django.html:218
+msgid "update"
+msgstr "تحديث"
+
+#: travels/templates/ajax/cast_frontpage.django.html:77
+msgid "Delete Cast"
+msgstr "إحذف التقرير"
+
+#: travels/templates/ajax/cast_frontpage.django.html:78
+msgid "Change Cast Location"
+msgstr "غيّر موقع التقرير"
+
+#: travels/templates/ajax/cast_frontpage.django.html:85
+msgid "favorite"
+msgstr "مفضلة"
+
+#: travels/templates/ajax/cast_frontpage.django.html:114
+msgid "of"
+msgstr "عن"
+
+#: travels/templates/ajax/cast_frontpage.django.html:118
+msgid "+ add media"
+msgstr "+أضف وسائط إعلام"
+
+#: travels/templates/ajax/cast_frontpage.django.html:138
+msgid "Video is Processing"
+msgstr "يجري تجهيز الفيديو"
+
+#: travels/templates/ajax/cast_frontpage.django.html:150
+msgid "linked video"
+msgstr "الفيديو المرتبط الكترونيًا"
+
+#: travels/templates/ajax/cast_frontpage.django.html:173
+msgid "Show Comments"
+msgstr "أظهر التعليقات"
+
+#: travels/templates/ajax/cast_frontpage.django.html:184
+msgid "Login to comment!"
+msgstr "قم بتسجيل الدخول للتعليق!"
+
+#: travels/templates/ajax/cast_frontpage.django.html:194
+#: travels/templates/ajax/cast_frontpage.django.html:199
+msgid "Add Tags"
+msgstr "أضف أوسمة"
+
+#: travels/templates/ajax/cast_frontpage.django.html:201
+msgid "seperate tags with a comma"
+msgstr "قم بفصل الأوسمة بوضع فاصلة"
+
+#: travels/templates/ajax/cast_frontpage.django.html:210
+#: travels/templates/ajax/cast_frontpage.django.html:216
+msgid "Edit Description"
+msgstr "حرر الوصف"
+
+#: travels/templates/ajax/cast_frontpage.django.html:222
+msgid "Mapped On"
+msgstr "تم التحديد على الخريطة"
+
+#: travels/templates/ajax/cast_frontpage.django.html:222
+msgid " (click on a map below to change)"
+msgstr "(قم بالنقر على الخريطة أدناه للتغيير)"
+
+#: travels/templates/ajax/cast_frontpage.django.html:241
+msgid "Add Media to Cast"
+msgstr "أضف وسائط إعلامية للتقرير"
+
+#: travels/templates/ajax/cast_frontpage.django.html:245
+msgid "+ Add A Photo"
+msgstr "+ أضف صورة"
+
+#: travels/templates/ajax/cast_frontpage.django.html:251
+#: travels/templates/ajax/cast_frontpage.django.html:269
+msgid "Title"
+msgstr "العنوان"
+
+#: travels/templates/ajax/cast_frontpage.django.html:253
+#: travels/templates/ajax/cast_frontpage.django.html:271
+msgid "Description"
+msgstr "الوصف"
+
+#: travels/templates/ajax/cast_frontpage.django.html:263
+msgid "+ Add A Video"
+msgstr "+ أضف فيديو"
+
+#: travels/templates/ajax/cast_frontpage.django.html:281
+msgid "Link To A Video"
+msgstr "أضف رابطًا إلكترونيًا لفيديو"
+
+#: travels/templates/ajax/cast_frontpage.django.html:283
+msgid ""
+"enter link to a <a href=\"http://youtube.com\" target=\"new\">YouTube</a> or "
+"<a href=\"http://vimeo.com\" target=\"new\" >Vimeo</a> video"
+msgstr ""
+"أضف رابطا إلكترونيًا الى <a href=\"http://youtube.com\" target=\"new\">فيديو "
+"يوتيوب</a> أو <a href=\"http://vimeo.com\" target=\"new\" >فيميو</a>"
+
+#: travels/templates/ajax/cast_frontpage.django.html:291
+msgid "This Media Will Be Deleted"
+msgstr "سيتم حذف وسائط الإعلام هذه"
+
+#: travels/templates/registration/login.html:7
+msgid "Your username and password didn't match. Please try again."
+msgstr "لا يتطابق اسم المستخدم الخاص بك وكلمة السر. الرجاء المحاولة مرة أخرى."
+
+#: travels/templates/registration/register.django.html:8
+msgid "Register A Mapping Account"
+msgstr "قم بتسجيل حساب خاص بالخرائط"
+
+#: travels/templates/registration/register.django.html:13
+msgid "REQUIRED"
+msgstr "مطلوب"
+
+#: travels/templates/registration/register.django.html:19
+msgid "OPTIONAL"
+msgstr "اختياري"

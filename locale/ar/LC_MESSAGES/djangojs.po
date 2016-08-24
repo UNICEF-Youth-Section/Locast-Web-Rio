@@ -1,0 +1,289 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-10 16:16-0300\n"
+"PO-Revision-Date: 2016-08-23 02:03+0200\n"
+"Last-Translator:  <info@voicesofyouth.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Pootle 2.0.1\n"
+
+#: admin/js/SelectFilter2.js:45
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:45
+#, c-format
+msgid "Available %s"
+msgstr "النسب %s المتوفرة"
+
+#: admin/js/SelectFilter2.js:46
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:46
+#, c-format
+msgid ""
+"This is the list of available %s. You may choose some by selecting them in "
+"the box below and then clicking the \"Choose\" arrow between the two boxes."
+msgstr ""
+"هذة القائمة بالنسب %s المتوفرة. يمكنك إختيار بعضها بتحديدها في الصندوق أدناه "
+"ومن ثم النقر على سهم \"إختيار\" بين الصندوقين."
+
+#: admin/js/SelectFilter2.js:53
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:53
+#, c-format
+msgid "Type into this box to filter down the list of available %s."
+msgstr "قم بالكتابة في هذا الصندوق لتصفية قائمة النسب %s المتوفرة."
+
+#: admin/js/SelectFilter2.js:57
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:57
+msgid "Filter"
+msgstr "مرشح (فلتر)"
+
+#: admin/js/SelectFilter2.js:61
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:61
+msgid "Choose all"
+msgstr "إختر الكل"
+
+#: admin/js/SelectFilter2.js:61
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:61
+#, c-format
+msgid "Click to choose all %s at once."
+msgstr "%s إنقر لإختيار جميع النسب المئوية في آن واحد."
+
+#: admin/js/SelectFilter2.js:67
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:67
+msgid "Choose"
+msgstr "إختار"
+
+#: admin/js/SelectFilter2.js:69
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:69
+msgid "Remove"
+msgstr "إحذف"
+
+#: admin/js/SelectFilter2.js:75
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:75
+#, c-format
+msgid "Chosen %s"
+msgstr "النسب %s المُختارة"
+
+#: admin/js/SelectFilter2.js:76
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:76
+#, c-format
+msgid ""
+"This is the list of chosen %s. You may remove some by selecting them in the "
+"box below and then clicking the \"Remove\" arrow between the two boxes."
+msgstr ""
+"هذة قائمة النسب %s المُختارة. يمكنك حذف بعضها بتحديدها في الصندوق أدناه ومن "
+"ثم النقر على سهم \"حذف\" بين الصندوقين."
+
+#: admin/js/SelectFilter2.js:80
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:80
+msgid "Remove all"
+msgstr "إحذف الكل"
+
+#: admin/js/SelectFilter2.js:80
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/SelectFilter2.js:80
+#, c-format
+msgid "Click to remove all chosen %s at once."
+msgstr "إنقر لحذف جميع النسب %s المُختارة في آن واحد."
+
+#: admin/js/calendar.js:26
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/calendar.js:26
+msgid ""
+"January February March April May June July August September October November "
+"December"
+msgstr ""
+"يناير فبراير مارس أبريل مايو يونيو يوليو أغسطس سبتمبر أكتوبر نوفمبر ديسمبر"
+
+#: admin/js/calendar.js:27
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/calendar.js:27
+msgid "S M T W T F S"
+msgstr "أحد إثنين ثلاثاء أربعاء خميس جمعة سبت"
+
+#: admin/js/collapse.js:8 admin/js/collapse.js.c:19 admin/js/collapse.min.js:1
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/collapse.js:8
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/collapse.js:19
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/collapse.min.js:1
+msgid "Show"
+msgstr "أظهار"
+
+#: admin/js/collapse.js:15 admin/js/collapse.min.js:1
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/collapse.js:15
+#: lib/python2.7/site-packages/django/contrib/admin/static/admin/js/collapse.min.js:1
+msgid "Hide"
+msgstr "إخفاء"
+
+#: js/frontpage.js:336 js/frontpage.js.c:708 static/js/frontpage.js:336
+#: static/js/frontpage.js.c:708
+msgid "No Casts on Map"
+msgstr "لايوجد تقارير على الخريطة"
+
+#: js/frontpage.js:539 static/js/frontpage.js:539
+msgid "search for maps, casts or people"
+msgstr "إبحث عن الخرائط، أو التقارير، أو الناس"
+
+#: js/frontpage.js:807 static/js/frontpage.js:807
+msgid ""
+"The Location you Selected is Outside Abruzzo! Select a Location in Abruzzo."
+msgstr "الموقع الذي إخترته خارج أبروزو! إختر موقعًا في أبروزو."
+
+#: js/frontpage.js:810 static/js/frontpage.js:810
+msgid "Enter a Title for Your Cast"
+msgstr "أدخل عنوانًا لتقريرك"
+
+#: js/frontpage.js:822 static/js/frontpage.js:822
+msgid "Click the Map to Select a Location for Your Cast"
+msgstr "إنقر على الخريطة لإختيار موقع تقريرك"
+
+#: js/frontpage.js:942 static/js/frontpage.js:942
+msgid "Invalid file type!"
+msgstr "نوع الملف غير صحيح!"
+
+#: js/frontpage.js:956 static/js/frontpage.js:956
+msgid "Uploading: "
+msgstr "يجري التحميل:"
+
+#: js/frontpage.js:963 static/js/frontpage.js:963
+msgid "Done!"
+msgstr "تم!"
+
+#: js/frontpage.js:973 static/js/frontpage.js:973
+msgid "File too large."
+msgstr "الملف كبير جدًا."
+
+#: js/frontpage_views.js:51 static/js/frontpage_views.js:51
+msgid "All Casts"
+msgstr "جميع التقارير"
+
+#: js/frontpage_views.js:182 static/js/frontpage_views.js:182
+msgid "flagged"
+msgstr "تم وضع علامة عليه"
+
+#: js/frontpage_views.js:221 static/js/frontpage_views.js:221
+msgid "Show Comments"
+msgstr "أظهر التعليقات"
+
+#: js/frontpage_views.js:221 static/js/frontpage_views.js:221
+msgid "Hide Comments"
+msgstr "أخفي التعليقات"
+
+#: js/frontpage_views.js:257 static/js/frontpage_views.js:257
+msgid "Are you sure you want to flag this cast as inappropriate ?"
+msgstr "هل أنت متأكد من أنك تريد وضع علامة على هذا البث بأنه غير ملائم؟"
+
+#: js/frontpage_views.js:476 static/js/frontpage_views.js:476
+msgid "Choose a New Location for This Cast by Clicking the Map"
+msgstr "إختر موقعًا جديدا لهذا التقرير بالنقر على الخريطة"
+
+#: js/frontpage_views.js:479 static/js/frontpage_views.js:479
+msgid "Save New Location"
+msgstr "إحفظ الموقع الجديد"
+
+#: js/frontpage_views.js:1014 static/js/frontpage_views.js:1014
+msgid "Casts Created by"
+msgstr "أنشئ التقرير من قبل"
+
+#: js/frontpage_views.js:1019 static/js/frontpage_views.js:1019
+msgid "Casts Favorited by"
+msgstr "تم إختيار التقرير كمفضل من قبل"
+
+#: js/frontpage_views.js:1105 static/js/frontpage_views.js:1105
+msgid "Casts Tagged"
+msgstr "التقرير الذي وضع عليه وسم"
+
+#: travels/templates/admin/map_admin.django.js:31
+msgid "Move Map"
+msgstr "إنقل الخريطة"
+
+#: travels/templates/admin/map_admin.django.js:40
+msgid "Create New Path"
+msgstr "أنشئ مسارًا جديدًا"
+
+#: travels/templates/admin/map_admin.django.js:49
+msgid "Set Location"
+msgstr "حدد الموقع"
+
+#: travels/templates/admin/map_admin.django.js:58
+msgid "Edit Existing Points"
+msgstr "حرر النقاط الموجودة"
+
+#: travels/templates/admin/map_admin.django.js:96
+msgid "Title:"
+msgstr "العنوان:"
+
+#: travels/templates/admin/map_admin.django.js:97
+msgid "Description:"
+msgstr "الوصف:"
+
+msgid "Add Cast"
+msgstr "أضف تقريرًا"
+
+msgid "CASTS"
+msgstr "التقارير"
+
+msgid "Create Cast"
+msgstr "أنشئ تقريرًا"
+
+msgid "Event"
+msgstr "حدث"
+
+msgid "Filter map to see Casts that"
+msgstr "قم بتصفية الخريطة لرؤية التقارير التي"
+
+msgid "Itinerary"
+msgstr "مسار الرحلة"
+
+msgid "MAPS"
+msgstr "الخرائط"
+
+msgid "USERS"
+msgstr "المستخدمين"
+
+msgid "Up Next: Add Photos and Videos"
+msgstr "الخطوة القادمة: أضف صورًا وفيديوهات"
+
+msgid "comma-seperated list"
+msgstr "قائمة مفرقة بإستخدام الفاصلة"
+
+msgid "has"
+msgstr "لديه"
+
+msgid "Map Controls on the Left Reposition the Map"
+msgstr "أدوات التحكم بالخريطة على اليسار غير موقع الخريطة"
+
+msgid "more casts"
+msgstr "المزيد من التقارير"
+
+msgid "Tags"
+msgstr "الأوسمة"
+
+msgid "until"
+msgstr "الى حين"
+
+msgid "Click The Map To Set Your Cast's Location"
+msgstr "إنقر على الخريطة لتحديد موقع تقريرك"
+
+msgid "Select a Location for Your Cast by Clicking the Map."
+msgstr "إختر موقعًا لتقريرك بالنقر على الخريطة"
+
+msgid "Casts"
+msgstr "التقارير"
+
+msgid "Name Your Cast"
+msgstr "قم بتسمية تقريرك"
+
+msgid "Brief Description"
+msgstr "وصف مختصر"
+
+msgid "Results"
+msgstr "النتائج"
+
+msgid "Open"
+msgstr "افتح"

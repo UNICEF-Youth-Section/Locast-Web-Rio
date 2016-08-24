@@ -571,11 +571,24 @@ a.locast-icon.large.favorite:hover{background-position:0px -18px;}
     border:none;
 }
 
+#content-details a.delete-cast.rtl,
+#content-details a.change-location.rtl {
+    background-position: top right;
+    padding-left:0;
+    padding-right:20px;
+    float:right;
+}
+
 #content-details a.change-location:hover,
 #content-details a.delete-cast:hover,
 #content-details a.delete-media:hover {
-     background-position:0px -18px;
+    background-position:0px -18px;
     background-color:transparent;
+}
+
+#content-details a.change-location.rtl:hover,
+#content-details a.delete-cast.rtl:hover {
+    background-position: bottom right;
 }
 
 #content-details a.delete-tag{
@@ -1177,6 +1190,10 @@ a#logout-link{
     cursor: pointer;
 }
 
+.close-cast-popup.rtl {
+    float:left;
+}
+
 .cast-location{
     display:none;
 }
@@ -1412,6 +1429,15 @@ a#logout-link{
     right:14px;
 }
 
+.locast-open-cast .cast-media #media-last.rtl{
+    right:16px;
+    left: auto;
+}
+
+.locast-open-cast .cast-media #media-next.rtl{
+    left:14px;
+}
+
 #no-media-message{
     width:96%;
     margin-left: 2%;
@@ -1479,6 +1505,10 @@ a#logout-link{
     float:left;
     margin-right:12px;
     position:relative;
+}
+
+.locast-open-cast .cast-content .cast-description .cast-tags li.rtl {
+    float:right;
 }
 
 .locast-open-cast .cast-content .cast-description a.delete-tag{
@@ -1929,6 +1959,11 @@ form input.locast-button{
     z-index:1500;
     right:5px;
     top:187px;
+}
+
+
+#map-controls-container.rtl {
+    top: 215px;
 }
 
 #map-controls-container #map-reset{

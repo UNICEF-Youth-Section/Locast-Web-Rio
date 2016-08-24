@@ -31,7 +31,8 @@ LANGUAGES = (
      ('en', 'English'),
      ('fr', 'Francais'),
      ('sq', 'Shqip'),
-     ('tr', 'Turkce')
+     ('tr', 'Turkce'),
+     ('ar', 'Arabic')
  )
 
 #SITE_ID = 1
