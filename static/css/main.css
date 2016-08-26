@@ -85,6 +85,7 @@ a img {border:none;}
     overflow:hidden;
     background:url('../img/castPlaceholder.png') no-repeat transparent -30px 0px;
     position:relative;
+    text-align: initial;
 }
 
 .image-frame img{
@@ -1381,6 +1382,10 @@ a#logout-link{
     border: 0px;
     cursor: pointer;
     margin-top: 8px;
+}
+
+.locast-open-cast .cast-content .cast-media .media-list li {
+    display:none;
 }
 
 .locast-open-cast .cast-content .cast-media .media-list li:first-child {
